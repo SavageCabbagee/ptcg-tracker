@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  body {
+    background: #09090b;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .field-label {
+    @apply flex flex-col gap-1.5 text-sm font-medium text-zinc-300;
+  }
+
+  .field-input {
+    @apply min-h-10 w-full rounded-md border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100 outline-none transition placeholder:text-zinc-500 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20;
+  }
+
+  .primary-button {
+    @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-md bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-950;
+  }
+
+  .secondary-button {
+    @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm font-semibold text-zinc-100 transition hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-950;
+  }
+
+  .icon-button {
+    @apply inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-700 bg-zinc-950 text-zinc-200 transition hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-950;
+  }
+
+  .danger-button {
+    @apply inline-flex h-10 w-10 items-center justify-center rounded-md border border-red-900 bg-red-950 text-red-300 transition hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-zinc-950;
+  }
+
+  .count-button {
+    @apply inline-flex h-10 w-10 items-center justify-center bg-zinc-950 text-zinc-200 transition hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500;
+  }
+
+  .list-button {
+    @apply flex w-full items-center justify-between gap-2 rounded-md border border-transparent px-3 py-2 text-left text-sm font-semibold text-zinc-300 transition hover:bg-zinc-800 lg:gap-3;
+  }
+
+  .list-button-active {
+    @apply border-emerald-500/40 bg-emerald-500/10 text-emerald-100;
+  }
+
+  .card-tile {
+    @apply min-w-0 rounded-lg border border-zinc-800 bg-zinc-900 p-1.5 shadow-sm transition hover:-translate-y-0.5 hover:border-zinc-700 hover:shadow-md sm:p-2;
+  }
+
+  .image-action {
+    @apply inline-flex h-7 w-7 items-center justify-center rounded-md bg-zinc-950/95 text-zinc-100 shadow-sm transition hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 sm:h-8 sm:w-8;
+  }
+
+  .image-danger-action {
+    @apply inline-flex h-7 w-7 items-center justify-center rounded-md bg-red-950/95 text-red-300 shadow-sm transition hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-red-500 sm:h-8 sm:w-8;
+  }
+
+  .floating-add-button {
+    @apply fixed z-30 inline-flex h-14 w-14 items-center justify-center rounded-full bg-emerald-600 text-white shadow-lg shadow-black/30 transition hover:bg-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-zinc-950;
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    right: max(1rem, env(safe-area-inset-right));
+  }
+}

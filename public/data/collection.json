@@ -1,0 +1,57 @@
+{
+  "lists": [
+    {
+      "id": "main",
+      "name": "Main Collection"
+    },
+    {
+      "id": "wishlist",
+      "name": "Wishlist"
+    },
+    {
+      "id": "trade",
+      "name": "Trades"
+    }
+  ],
+  "cards": [
+    {
+      "id": "sv3pt5-001",
+      "listId": "main",
+      "name": "Bulbasaur",
+      "set": "Scarlet & Violet - 151",
+      "pokedexNumber": 1,
+      "number": "001/165",
+      "count": 2,
+      "variant": "normal",
+      "language": "JP",
+      "imageUrl": "https://images.pokemontcg.io/sv3pt5/1_hires.png",
+      "notes": "Starter binder copy"
+    },
+    {
+      "id": "sv3pt5-004",
+      "listId": "main",
+      "name": "Charmander",
+      "set": "Scarlet & Violet - 151",
+      "pokedexNumber": 4,
+      "number": "004/165",
+      "count": 1,
+      "variant": "foil",
+      "language": "JP",
+      "imageUrl": "https://images.pokemontcg.io/sv3pt5/4_hires.png",
+      "notes": ""
+    },
+    {
+      "id": "sv3pt5-007",
+      "listId": "wishlist",
+      "name": "Squirtle",
+      "set": "Scarlet & Violet - 151",
+      "pokedexNumber": 7,
+      "number": "007/165",
+      "count": 1,
+      "variant": "reverse",
+      "language": "JP",
+      "imageUrl": "https://images.pokemontcg.io/sv3pt5/7_hires.png",
+      "notes": ""
+    }
+  ]
+}
