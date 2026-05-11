@@ -28,7 +28,7 @@ export function App() {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [isListMenuOpen, setIsListMenuOpen] = useState(false);
   const [query, setQuery] = useState('');
-  const [sortKey, setSortKey] = useState<SortKey>('set');
+  const [sortKey, setSortKey] = useState<SortKey>('number');
   const [status, setStatus] = useState('Loading collection.json...');
   const [error, setError] = useState('');
 

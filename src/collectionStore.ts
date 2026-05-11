@@ -23,6 +23,13 @@ const normalizeList = (list: Partial<CardList>): CardList => ({
   name: list.name?.trim() || 'Untitled List',
 });
 
+const sortLists = (lists: CardList[]) =>
+  [...lists].sort((a, b) => {
+    if (a.id === 'wishlist') return 1;
+    if (b.id === 'wishlist') return -1;
+    return 0;
+  });
+
 const normalizeCard = (draft: CardDraft, fallbackListId: string): CollectionCard => ({
   id: draft.id?.trim() || crypto.randomUUID(),
   listId: draft.listId?.trim() || fallbackListId,
@@ -45,7 +52,7 @@ export const useCollectionStore = create<CollectionState>((set) => ({
   isLoaded: false,
   loadCollection: (collection) =>
     set(() => {
-      const lists = collection.lists.length > 0 ? collection.lists.map(normalizeList) : [defaultList];
+      const lists = sortLists(collection.lists.length > 0 ? collection.lists.map(normalizeList) : [defaultList]);
       const fallbackListId = lists[0].id;
 
       return {
