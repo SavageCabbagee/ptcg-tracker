@@ -25,7 +25,19 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridP
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(96px,1fr))] gap-3 sm:grid-cols-[repeat(auto-fill,minmax(128px,1fr))] md:gap-4 xl:grid-cols-[repeat(auto-fill,minmax(160px,1fr))]">
       {cards.map((card) => (
-        <article className="card-tile group" key={card.id}>
+        <article
+          className="card-tile group cursor-pointer"
+          key={card.id}
+          role="button"
+          tabIndex={0}
+          onClick={() => onEdit(card)}
+          onKeyDown={(event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              onEdit(card);
+            }
+          }}
+        >
           <div className="relative aspect-[2.5/3.5] overflow-hidden rounded-md bg-zinc-800">
             {card.imageUrl ? (
               <img
@@ -44,13 +56,24 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridP
               x{card.count}
             </div>
             <div className="absolute inset-x-0 bottom-0 flex justify-end gap-1 bg-gradient-to-t from-black/75 to-transparent p-1.5 opacity-100 sm:p-2 sm:opacity-0 sm:transition sm:group-hover:opacity-100">
-              <button className="image-action" type="button" onClick={() => onEdit(card)} title={`Edit ${card.name}`}>
+              <button
+                className="image-action"
+                type="button"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onEdit(card);
+                }}
+                title={`Edit ${card.name}`}
+              >
                 <Edit3 size={16} />
               </button>
               <button
                 className="image-danger-action"
                 type="button"
-                onClick={() => onDelete(card.id)}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onDelete(card.id);
+                }}
                 title={`Delete ${card.name}`}
               >
                 <Trash2 size={16} />

@@ -22,9 +22,13 @@ export function CardFormModal({
   onClose,
 }: CardFormModalProps) {
   return (
-    <div className="fixed inset-0 z-40 flex items-end bg-black/70 p-3 sm:items-center sm:justify-center">
+    <div
+      className="fixed inset-0 z-40 flex items-end bg-black/70 p-3 sm:items-center sm:justify-center"
+      onClick={onClose}
+    >
       <form
         className="max-h-[92vh] w-full overflow-y-auto rounded-lg border border-zinc-800 bg-zinc-900 p-4 shadow-xl sm:max-w-xl"
+        onClick={(event) => event.stopPropagation()}
         onSubmit={onSubmit}
       >
         <div className="mb-4 flex items-center justify-between gap-3">
