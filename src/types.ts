@@ -26,6 +26,14 @@ export type CollectionFile = {
   cards: CollectionCard[];
 };
 
+export type CollectionManifestEntry = CardList & {
+  file: string;
+};
+
+export type CollectionManifestFile = {
+  collections: CollectionManifestEntry[];
+};
+
 export type CardDraft = Omit<CollectionCard, 'id'> & {
   id?: string;
 };

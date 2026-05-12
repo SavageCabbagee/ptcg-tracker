@@ -1,4 +1,11 @@
-import { type CardList, type CollectionCard, type CollectionFile, type DexEntry } from './types';
+import {
+  type CardList,
+  type CollectionCard,
+  type CollectionFile,
+  type CollectionManifestEntry,
+  type CollectionManifestFile,
+  type DexEntry,
+} from './types';
 import { DEFAULT_LANGUAGE } from './constants';
 
 const legacyDefaultList: CardList = {
@@ -7,13 +14,19 @@ const legacyDefaultList: CardList = {
 };
 
 export async function loadSeedCollection(): Promise<CollectionFile> {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/collection.json`);
+  const response = await fetch(dataUrl('collection.json'));
 
   if (!response.ok) {
     throw new Error(`Could not load collection.json (${response.status})`);
   }
 
-  return parseCollection(await response.json());
+  const input = await response.json();
+
+  if (isCollectionManifest(input)) {
+    return loadManifestCollection(input);
+  }
+
+  return parseCollection(input);
 }
 
 export async function loadDex(): Promise<DexEntry[]> {
@@ -40,6 +53,43 @@ export function parseCollection(input: unknown): CollectionFile {
     lists,
     cards: (input as CollectionFile).cards.map((card) => parseCard(card, fallbackListId, lists)),
   };
+}
+
+async function loadManifestCollection(input: CollectionManifestFile): Promise<CollectionFile> {
+  const collections = input.collections.map(parseManifestEntry);
+
+  if (collections.length === 0) {
+    throw new Error('Collection manifest must contain at least one collection.');
+  }
+
+  const cardsByCollection = await Promise.all(
+    collections.map(async (collection) => {
+      const response = await fetch(dataUrl(collection.file));
+
+      if (!response.ok) {
+        throw new Error(`Could not load ${collection.file} (${response.status})`);
+      }
+
+      return parseCollectionSubset(await response.json(), collection);
+    }),
+  );
+
+  return {
+    lists: collections.map(({ id, name }) => ({ id, name })),
+    cards: cardsByCollection.flat(),
+  };
+}
+
+function parseCollectionSubset(input: unknown, list: CardList): CollectionCard[] {
+  if (Array.isArray(input)) {
+    return input.map((card) => parseCard(card, list.id, [list]));
+  }
+
+  if (input && typeof input === 'object' && Array.isArray((input as Partial<CollectionFile>).cards)) {
+    return (input as CollectionFile).cards.map((card) => parseCard(card, list.id, [list]));
+  }
+
+  throw new Error(`${list.name} must be a card array.`);
 }
 
 export function exportCollection(collection: CollectionFile) {
@@ -82,6 +132,39 @@ function parseList(input: unknown): CardList {
     id: stringValue(list.id) || crypto.randomUUID(),
     name: stringValue(list.name) || 'Untitled List',
   };
+}
+
+function parseManifestEntry(input: unknown): CollectionManifestEntry {
+  const collection = input as Partial<CollectionManifestEntry>;
+
+  if (!collection || typeof collection !== 'object') {
+    throw new Error('Each collection must be an object.');
+  }
+
+  const id = stringValue(collection.id);
+  const file = stringValue(collection.file);
+
+  if (!id) {
+    throw new Error('Each collection must have an id.');
+  }
+
+  if (!file) {
+    throw new Error(`Collection ${id} must have a file.`);
+  }
+
+  return {
+    id,
+    name: stringValue(collection.name) || 'Untitled Collection',
+    file,
+  };
+}
+
+function isCollectionManifest(input: unknown): input is CollectionManifestFile {
+  return Boolean(input && typeof input === 'object' && Array.isArray((input as CollectionManifestFile).collections));
+}
+
+function dataUrl(path: string) {
+  return `${import.meta.env.BASE_URL}data/${path.replace(/^\/+/, '')}`;
 }
 
 function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): CollectionCard {

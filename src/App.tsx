@@ -40,14 +40,14 @@ export function App() {
   const [query, setQuery] = useState('');
   const [sortKey, setSortKey] = useState<SortKey>('number');
   const [dexEntries, setDexEntries] = useState<DexEntry[]>([]);
-  const [status, setStatus] = useState('Loading collection.json...');
+  const [status, setStatus] = useState('Loading collection data...');
   const [error, setError] = useState('');
 
   useEffect(() => {
     loadSeedCollection()
       .then((collection) => {
         loadCollection(collection);
-        setStatus(`Loaded ${collection.cards.length} cards from collection.json`);
+        setStatus(`Loaded ${collection.cards.length} cards from collection data`);
       })
       .catch((reason: unknown) => {
         setError(reason instanceof Error ? reason.message : 'Could not load collection.json.');
