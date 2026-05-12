@@ -1,6 +1,6 @@
-import { Menu } from 'lucide-react';
-import { ListNav } from './ListNav';
-import type { CardList } from '../types';
+import { Menu, Plus } from "lucide-react";
+import { ListNav } from "./ListNav";
+import type { CardList } from "../types";
 
 type MobileHeaderProps = {
   title: string;
@@ -10,6 +10,7 @@ type MobileHeaderProps = {
   listCounts: Map<string, number>;
   onToggle: () => void;
   onChooseList: (listId: string) => void;
+  onAddList: () => void;
 };
 
 export function MobileHeader({
@@ -20,15 +21,23 @@ export function MobileHeader({
   listCounts,
   onToggle,
   onChooseList,
+  onAddList,
 }: MobileHeaderProps) {
   return (
     <header className="mb-2 rounded-lg border border-zinc-800 bg-zinc-900 p-3 shadow-sm lg:hidden">
       <div className="flex items-center justify-between gap-3">
         <div className="min-w-0">
-          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-400">Pokemon cards</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-400">
+            Pokemon cards
+          </p>
           <h1 className="truncate text-xl font-semibold">{title}</h1>
         </div>
-        <button className="icon-button" type="button" onClick={onToggle} title="Choose list">
+        <button
+          className="icon-button"
+          type="button"
+          onClick={onToggle}
+          title="Choose list"
+        >
           <Menu size={20} />
         </button>
       </div>
@@ -41,6 +50,14 @@ export function MobileHeader({
             listCounts={listCounts}
             onChooseList={onChooseList}
           />
+          <button
+            className="secondary-button mt-3 w-full"
+            type="button"
+            onClick={onAddList}
+          >
+            <Plus size={17} />
+            Add List
+          </button>
         </div>
       )}
     </header>

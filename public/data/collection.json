@@ -18,7 +18,6 @@
       "pokedexNumber": 1,
       "number": "001",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/7d/27/64/7d27643808b03f872ab30d3484408501020b46386410bfb0d0fc2ed7d425f86a.jpg",
       "notes": ""
@@ -31,7 +30,6 @@
       "pokedexNumber": 2,
       "number": "002",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ac/e8/d6/ace8d66352662a5a628b59f520e3cf6a4ad067cfad40adb592f62fa2b506caf8.jpg",
       "notes": ""
@@ -44,7 +42,6 @@
       "pokedexNumber": 3,
       "number": "003",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/dd/12/ec/dd12ec7a4e9ccd5e82e156570413d0179cb50c21a5996e51b1396fbdfa0f713c.jpg",
       "notes": ""
@@ -57,7 +54,6 @@
       "pokedexNumber": 4,
       "number": "004",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/23/22/f6/2322f6c8d2b4b94e368c0a09e58fe1c61fa8923f985ffdcff97c64584e92a7c7.jpg",
       "notes": ""
@@ -70,7 +66,6 @@
       "pokedexNumber": 5,
       "number": "005",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/16/6c/df/166cdf086e674b6956fec9d1b1722acade510101c6f4623c63dd5466e6298216.jpg",
       "notes": ""
@@ -83,7 +78,6 @@
       "pokedexNumber": 6,
       "number": "006",
       "count": 0,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8e/40/88/8e4088feac274f152f050116b685af4e18bb9a4de47dd5291ca935f879c5d5bf.jpg",
       "notes": ""
@@ -96,7 +90,6 @@
       "pokedexNumber": 7,
       "number": "007",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a6/a5/cf/a6a5cfdab37776eb85124effee4837988a403cb2c94271680df9627dc6ef9860.jpg",
       "notes": ""
@@ -109,7 +102,6 @@
       "pokedexNumber": 8,
       "number": "008",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/75/4b/ca/754bca676c63e7f7c0893cfebfeaf5cb10f0d989746f29701db2b480451ca78d.jpg",
       "notes": ""
@@ -122,7 +114,6 @@
       "pokedexNumber": 9,
       "number": "009",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/45/95/39/4595396807ad4dcb5a878e23f98999f1b6714fa914b5f1eefde14bc299fa2ead.jpg",
       "notes": ""
@@ -135,7 +126,6 @@
       "pokedexNumber": 10,
       "number": "010",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/73/08/d1/7308d1dfbade3e5e09f654f7848f5d2854a5884ed04c49c12113ec0865655b2d.jpg",
       "notes": ""
@@ -148,7 +138,6 @@
       "pokedexNumber": 11,
       "number": "011",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f5/3b/6e/f53b6ebe537bee517e9bf3408c49321922c7662535f27eb120cd15b8d4c02d1f.jpg",
       "notes": ""
@@ -161,7 +150,6 @@
       "pokedexNumber": 12,
       "number": "012",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bf/fc/52/bffc52e8bc67aaa707e5c664097080564179afc71fc264950b7312c69c277d3e.jpg",
       "notes": ""
@@ -174,7 +162,6 @@
       "pokedexNumber": 13,
       "number": "013",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/b0/fd/9d/b0fd9d01c86402e4c781b993f02d3806201bb9d0de1db20aaa0758a10c077900.jpg",
       "notes": ""
@@ -187,7 +174,6 @@
       "pokedexNumber": 14,
       "number": "014",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/48/e7/ea/48e7ea6c874221036b600b29d3909231e8b2c143f481ee17a500e6d594739699.jpg",
       "notes": ""
@@ -200,7 +186,6 @@
       "pokedexNumber": 15,
       "number": "015",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/b6/f8/de/b6f8dee5c21c93f29fe065855347a13d7151e567f7e7dc4c94667faf41849bcc.jpg",
       "notes": ""
@@ -213,7 +198,6 @@
       "pokedexNumber": 16,
       "number": "016",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f0/d8/7d/f0d87de776cd0759d873d3419c444d19f6fc442db942d040efe2fea90ab9ad37.jpg",
       "notes": ""
@@ -226,7 +210,6 @@
       "pokedexNumber": 17,
       "number": "017",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bd/c9/41/bdc94180235414ac3e418d82964a93cc09c9723dd1a3a3b49b402ba0654f260b.jpg",
       "notes": ""
@@ -239,7 +222,6 @@
       "pokedexNumber": 18,
       "number": "018",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bb/a9/14/bba914d0da72b9c6219e95ed47698b22967bc0e1a6c5f9736584836a971f489d.jpg",
       "notes": ""
@@ -252,7 +234,6 @@
       "pokedexNumber": 19,
       "number": "019",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/93/a1/3c/93a13c230a5ff5656f0179503095ecd6d239de0fec809afae75561865a0c175a.jpg",
       "notes": ""
@@ -265,7 +246,6 @@
       "pokedexNumber": 20,
       "number": "020",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/fd/81/bb/fd81bbbf1cc7303b71908f8cd386c15d581b76c34bcb76258ca54fc611e1531a.jpg",
       "notes": ""
@@ -278,7 +258,6 @@
       "pokedexNumber": 21,
       "number": "021",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/92/a3/f0/92a3f0a84950d548f9b189c7f0216470c2d79bd67de8af02a166060c255d4904.jpg",
       "notes": ""
@@ -291,7 +270,6 @@
       "pokedexNumber": 22,
       "number": "022",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/5a/25/54/5a2554666cac778c7cb397ca2d295b3f4ec58f40de8c298c74a40b612cc1af11.jpg",
       "notes": ""
@@ -304,7 +282,6 @@
       "pokedexNumber": 23,
       "number": "023",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/83/92/43/839243b150e2e7edf35f80ad46b5f1ac780b28c5c61d53f739de80b9a48473f2.jpg",
       "notes": ""
@@ -317,7 +294,6 @@
       "pokedexNumber": 24,
       "number": "024",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f0/ee/8c/f0ee8c8d3495ac4ffd1c03c893886cd8be8df49c7e01b282c09cb125d77fc8b8.jpg",
       "notes": ""
@@ -330,7 +306,6 @@
       "pokedexNumber": 25,
       "number": "025",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/14/24/5a/14245a48be9e3fd17420601aa6b9c94f21f93809b0be8684747c9b89f3237f1e.jpg",
       "notes": ""
@@ -343,7 +318,6 @@
       "pokedexNumber": 26,
       "number": "026",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/67/52/64/6752643bdca17010a320f98faedd2db4774b1a572e7ab3fd5d27e60772512ee9.jpg",
       "notes": ""
@@ -356,7 +330,6 @@
       "pokedexNumber": 27,
       "number": "027",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/10/bd/bb/10bdbbc9b67615df1d63d68251873f6cb79f57d0f3e86a3a04585e33bfb31d71.jpg",
       "notes": ""
@@ -369,7 +342,6 @@
       "pokedexNumber": 28,
       "number": "028",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e5/70/a3/e570a3030cf2499c1c592f701c4afa638bdb09a73fc7fb6969d729dc4b9cb550.jpg",
       "notes": ""
@@ -382,7 +354,6 @@
       "pokedexNumber": 29,
       "number": "029",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/78/b0/d2/78b0d276df2d76307bb1df6b1d93a37d10b559e9516bf055c340ef36808a24a6.jpg",
       "notes": ""
@@ -395,7 +366,6 @@
       "pokedexNumber": 30,
       "number": "030",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c1/73/04/c173042d9dda290339ec782390485187b63e72c2fccbaabe9d0fa9f29dfbfad5.jpg",
       "notes": ""
@@ -408,7 +378,6 @@
       "pokedexNumber": 31,
       "number": "031",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8a/dd/d3/8addd32b134339d4215ac2f4fec78556e83ae1c556fb6034a5dfd9706fca35aa.jpg",
       "notes": ""
@@ -421,7 +390,6 @@
       "pokedexNumber": 32,
       "number": "032",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/81/8d/11/818d1193a72fbd73a43eda59449cca63135d4ce6e5bd7bebc3f7fcc98072ff2c.jpg",
       "notes": ""
@@ -434,7 +402,6 @@
       "pokedexNumber": 33,
       "number": "033",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/16/5d/25/165d259017fbfecb20ee894ff3282a775ffb069a24c75dd4a81aa958e6bac2c8.jpg",
       "notes": ""
@@ -447,7 +414,6 @@
       "pokedexNumber": 34,
       "number": "034",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/04/67/cf/0467cf716b171a4af367b64a0657bcfe5ae2dfb27874655837d6db2e3013ae39.jpg",
       "notes": ""
@@ -460,7 +426,6 @@
       "pokedexNumber": 35,
       "number": "035",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/83/93/d8/8393d88f9ca4c55144e18bb5e5735200575ab44edcf7fbe8b43e44590362cc08.jpg",
       "notes": ""
@@ -473,7 +438,6 @@
       "pokedexNumber": 36,
       "number": "036",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d6/68/1c/d6681cb103c017479e05ac9f030b00e7a22c5a133c011a8ada78ed2dcd9a9426.jpg",
       "notes": ""
@@ -486,7 +450,6 @@
       "pokedexNumber": 37,
       "number": "037",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f3/d2/df/f3d2df119bb153e705da92636f8cdc1f22973e6fc85831d5aa9ca6c3f74a4761.jpg",
       "notes": ""
@@ -499,7 +462,6 @@
       "pokedexNumber": 38,
       "number": "038",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d2/d3/e5/d2d3e5c236314c76af249490fef65455f2b5b68141a429beddd364d67e6cb213.jpg",
       "notes": ""
@@ -512,7 +474,6 @@
       "pokedexNumber": 39,
       "number": "039",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/31/ff/13/31ff13b5ddd86c2ed1da2412ad48551ae7de03215937f99c90e99fdd1319dfac.jpg",
       "notes": ""
@@ -525,7 +486,6 @@
       "pokedexNumber": 40,
       "number": "040",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/5a/c3/47/5ac3477e56f963a4d55b02bc479a68d18232bde92fbd5943a4ad121a744576eb.jpg",
       "notes": ""
@@ -538,7 +498,6 @@
       "pokedexNumber": 41,
       "number": "041",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4e/ec/97/4eec9726e1c2a4eac9afc1eaecf099d6e1bf2b96f22e892a81300e36157eae2e.jpg",
       "notes": ""
@@ -551,7 +510,6 @@
       "pokedexNumber": 42,
       "number": "042",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/07/2d/d9/072dd99c1ec5c66f057a5e2642d245efc977032afe36bb8f3c75b99b49a9812d.jpg",
       "notes": ""
@@ -564,7 +522,6 @@
       "pokedexNumber": 43,
       "number": "043",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e9/cb/75/e9cb75dcfc82232502cd0f1e80e4c7664b52735e0ce1074f62dad79a0ec8062b.jpg",
       "notes": ""
@@ -577,7 +534,6 @@
       "pokedexNumber": 44,
       "number": "044",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/93/75/59/937559fc5318d3678b4ec23729fec9d1e4d5886aa97dabaa4026a477a70811e0.jpg",
       "notes": ""
@@ -590,7 +546,6 @@
       "pokedexNumber": 45,
       "number": "045",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bf/60/82/bf6082baeb5a649e00a3732c89e947e5006c36376478582b40ff9755f8f420f6.jpg",
       "notes": ""
@@ -603,7 +558,6 @@
       "pokedexNumber": 46,
       "number": "046",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/88/a4/95/88a495dcc88388f70a1fbc6402f142ca86b4a50e583f85277ad798d69fc377b3.jpg",
       "notes": ""
@@ -616,7 +570,6 @@
       "pokedexNumber": 47,
       "number": "047",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/84/72/ac/8472acbf1ff40678b0ca2e7edb92798401a6a90ab7228f0e57064cbc887e0853.jpg",
       "notes": ""
@@ -629,7 +582,6 @@
       "pokedexNumber": 48,
       "number": "048",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/75/6e/cf/756ecf297e0452a74ce282a56831664fe8a988769b5be04a52b97d938c03d9e8.jpg",
       "notes": ""
@@ -642,7 +594,6 @@
       "pokedexNumber": 49,
       "number": "049",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4f/14/f1/4f14f159b75be7a9f19f78ba336ef16341259bd4d2aeb0e8bbde7f7446fd5f0d.jpg",
       "notes": ""
@@ -655,7 +606,6 @@
       "pokedexNumber": 50,
       "number": "050",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/33/eb/a5/33eba5bfc845c9dfaf87bda53e3063a70fcd92eadaa2a6d0e03fa2ae3fe6a4dc.jpg",
       "notes": ""
@@ -668,7 +618,6 @@
       "pokedexNumber": 51,
       "number": "051",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d3/a4/0b/d3a40bc5abb304d0f708de4c0bec25e9ba1ad4d34eb915d20b66925ea9c94493.jpg",
       "notes": ""
@@ -681,7 +630,6 @@
       "pokedexNumber": 52,
       "number": "052",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e4/01/ae/e401ae3805b797bdb28ec6e06cb712c8198e637c02e2efe9480af830f4157bbd.jpg",
       "notes": ""
@@ -694,7 +642,6 @@
       "pokedexNumber": 53,
       "number": "053",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/20/4a/84/204a8428a0c4efefa779a5cb47c013822f90fafcfbd4b9c99c3c9a98c6a80fb7.jpg",
       "notes": ""
@@ -707,7 +654,6 @@
       "pokedexNumber": 54,
       "number": "054",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/41/19/23/4119234ff6048fd2d98aeedbcb6cfba934e9e64b3249d301fa9e43295fda6ab5.jpg",
       "notes": ""
@@ -720,7 +666,6 @@
       "pokedexNumber": 55,
       "number": "055",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/38/a4/04/38a404b9866caf1208d0f79dd0ce15bff9d217495669b5e11f306bbe64ea6622.jpg",
       "notes": ""
@@ -733,7 +678,6 @@
       "pokedexNumber": 56,
       "number": "056",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/95/4c/76/954c765ff83bb5f820b072658a4c59453113fea9564b756d8eb27e4bd72f0263.jpg",
       "notes": ""
@@ -746,7 +690,6 @@
       "pokedexNumber": 57,
       "number": "057",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/64/b0/33/64b03385f8e33e0e389d2d9ee697ff7cdc7485ef7a33a6e310d2dab974862536.jpg",
       "notes": ""
@@ -759,7 +702,6 @@
       "pokedexNumber": 58,
       "number": "058",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/83/1f/9e/831f9ee0a4f4abf4728f0d917643032d435e6786e8229a0463c80da152905e7e.jpg",
       "notes": ""
@@ -772,7 +714,6 @@
       "pokedexNumber": 59,
       "number": "059",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8f/65/27/8f65271f8f3cae96934a838da7b94af129ffdac3b3d7baf2146a7ef57c3bf48d.jpg",
       "notes": ""
@@ -785,7 +726,6 @@
       "pokedexNumber": 60,
       "number": "060",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/78/6b/c5/786bc55a479278dc42f846ae00971b19fd836f064c511abee7aacf46a7ee975a.jpg",
       "notes": ""
@@ -798,7 +738,6 @@
       "pokedexNumber": 61,
       "number": "061",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/6b/5e/7c/6b5e7c63c24995445b63d45408135fd7cbc30898d66af287702846a9e1783719.jpg",
       "notes": ""
@@ -811,7 +750,6 @@
       "pokedexNumber": 62,
       "number": "062",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/fa/f4/dc/faf4dc9a2847a5c575db68ceb22350d4e09408b7780daf5b02f873f2133e096c.jpg",
       "notes": ""
@@ -824,7 +762,6 @@
       "pokedexNumber": 63,
       "number": "063",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/1a/8e/af/1a8eaf156ee63d39603909d55250d42ae9abfe3efe8e6dbeb1ebcc3fdbaf215d.jpg",
       "notes": ""
@@ -837,7 +774,6 @@
       "pokedexNumber": 64,
       "number": "064",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/43/c8/dd/43c8ddb3916d0b953316c33cd78503a6d1c6c91bc086bd859e88d0cee000bc8c.jpg",
       "notes": ""
@@ -850,7 +786,6 @@
       "pokedexNumber": 65,
       "number": "065",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/b6/e6/49/b6e6491ccddff13319dc9f27e3de27c31ba32d2457fc0b4538c7b7ada291d0fb.jpg",
       "notes": ""
@@ -863,7 +798,6 @@
       "pokedexNumber": 66,
       "number": "066",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f0/dd/0f/f0dd0f7793c4e8ab5f3aa233623c9fd2022be2216f246dcaa038dbbe51e7e3cd.jpg",
       "notes": ""
@@ -876,7 +810,6 @@
       "pokedexNumber": 67,
       "number": "067",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a2/f5/6b/a2f56ba30b0d8843a6e5b84f10236495cfa7bab82dbe2f272b3215a68543f0b1.jpg",
       "notes": ""
@@ -889,7 +822,6 @@
       "pokedexNumber": 68,
       "number": "068",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/39/ee/72/39ee72df40936cec0e13cf00f19a6b6d2e4e3702871dd7d60652e9baccfe0e70.jpg",
       "notes": ""
@@ -902,7 +834,6 @@
       "pokedexNumber": 69,
       "number": "069",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/92/51/92/925192fd244b542de4bd872b0a77a916fb7bfa9b28e8d4ecb4dc61c02c60a705.jpg",
       "notes": ""
@@ -915,7 +846,6 @@
       "pokedexNumber": 70,
       "number": "070",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a3/d8/e3/a3d8e37a95776317effd631a1fa6b11f4ed8711498c4e83161f52d0a5f2ba899.jpg",
       "notes": ""
@@ -928,7 +858,6 @@
       "pokedexNumber": 71,
       "number": "071",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8d/c4/6e/8dc46e8783277e3d1d630940dddac50f7a1ef9f0af4a5293917cf047f71b4c3f.jpg",
       "notes": ""
@@ -941,7 +870,6 @@
       "pokedexNumber": 72,
       "number": "072",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/69/7d/d2/697dd2f925e7a2e7f6fb478ece6cc625361ab7a8a68b3e6921f52274665d289d.jpg",
       "notes": ""
@@ -954,7 +882,6 @@
       "pokedexNumber": 73,
       "number": "073",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ae/4b/3a/ae4b3a34b39806fe64a2f7554ceef420481a355d79ebfb640af97948011f9cba.jpg",
       "notes": ""
@@ -967,7 +894,6 @@
       "pokedexNumber": 74,
       "number": "074",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/17/28/7b/17287be120c22075825f60cd8113162621a825319be0e0e964165b4e4cb60ac7.jpg",
       "notes": ""
@@ -980,7 +906,6 @@
       "pokedexNumber": 75,
       "number": "075",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/29/3c/48/293c483975573a3d01ce1710966167cb4769a50659dd3fe6571764a62eb7e021.jpg",
       "notes": ""
@@ -993,7 +918,6 @@
       "pokedexNumber": 76,
       "number": "076",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/29/0b/61/290b61164a77e612c8e588228588f488a20764f661144528951a981717f45317.jpg",
       "notes": ""
@@ -1006,7 +930,6 @@
       "pokedexNumber": 77,
       "number": "077",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/37/b4/0c/37b40c0a8ec0355095fb052e5eb4f65b40ff41222dee4a2ddc81f76361570955.jpg",
       "notes": ""
@@ -1019,7 +942,6 @@
       "pokedexNumber": 78,
       "number": "078",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ae/c9/e8/aec9e8e607c0de813a3b25091f8e5dc92a0ce1c75babe3c01e4aa865dc2791a4.jpg",
       "notes": ""
@@ -1032,7 +954,6 @@
       "pokedexNumber": 79,
       "number": "079",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ea/43/0f/ea430f9e56d189ad1cb37b7ac4404803afd433459ef09ac262e57ef846261b4f.jpg",
       "notes": ""
@@ -1045,7 +966,6 @@
       "pokedexNumber": 80,
       "number": "080",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/42/19/9f/42199fe9d41ec9647bd6ce132768ae3625bb86082bfc3a34da81522b7d40ddee.jpg",
       "notes": ""
@@ -1058,7 +978,6 @@
       "pokedexNumber": 81,
       "number": "081",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d4/f0/f4/d4f0f433be37e0da8ac8bdb79e515dfc1c6410b51e39026925916c040bb494fd.jpg",
       "notes": ""
@@ -1071,7 +990,6 @@
       "pokedexNumber": 82,
       "number": "082",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/85/f2/b3/85f2b3a38e81eb0a4657b76c4c251b35e63350bf669c1c7459ecdf0fb9d1269f.jpg",
       "notes": ""
@@ -1084,7 +1002,6 @@
       "pokedexNumber": 83,
       "number": "083",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8c/4d/dc/8c4ddca1b335505c898e461cc52171a6582aa227cb32e153230a1b954385173b.jpg",
       "notes": ""
@@ -1097,7 +1014,6 @@
       "pokedexNumber": 84,
       "number": "084",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/95/46/8d/95468d2f671e56be0c6e711522c865c36665af357b8d42a51bce4d3d16ff6332.jpg",
       "notes": ""
@@ -1110,7 +1026,6 @@
       "pokedexNumber": 85,
       "number": "085",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/24/a0/87/24a08783de0c0ba6a367153f6f08c4031197bf959f1397a3eeb1dfbb8d80e2a4.jpg",
       "notes": ""
@@ -1123,7 +1038,6 @@
       "pokedexNumber": 86,
       "number": "086",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/32/ea/eb/32eaebb0efd5901b272742023cb7f5b8c7d73af4c81a4dd1543d4f77aa7d595f.jpg",
       "notes": ""
@@ -1136,7 +1050,6 @@
       "pokedexNumber": 87,
       "number": "087",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/cb/f0/83/cbf083810fa587cad523945ff0139212e64e4f0472a93c6b1e8f12d236dc9cfc.jpg",
       "notes": ""
@@ -1149,7 +1062,6 @@
       "pokedexNumber": 88,
       "number": "088",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/7b/cb/61/7bcb6199fe008b1ac17a2a00119705507bbfa338f7e1b9c7abd5b2d75b484778.jpg",
       "notes": ""
@@ -1162,7 +1074,6 @@
       "pokedexNumber": 89,
       "number": "089",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ea/cb/18/eacb18d983c97d8c90949361245e6ed6a357a0f56348eb188f391fb44a28d4f9.jpg",
       "notes": ""
@@ -1175,7 +1086,6 @@
       "pokedexNumber": 90,
       "number": "090",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a0/84/f5/a084f5d5dfc2191c1ac902055c217f0286ea503726e4f471d74f535abc70ab5a.jpg",
       "notes": ""
@@ -1188,7 +1098,6 @@
       "pokedexNumber": 91,
       "number": "091",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ef/94/bf/ef94bf7b684be42407f2fd89cb32c558a234b9fa74829912dc9df582417ce53b.jpg",
       "notes": ""
@@ -1201,7 +1110,6 @@
       "pokedexNumber": 92,
       "number": "092",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/84/ed/f7/84edf7a2cace35dd9f77b6d37344d6841e6dc1d5291223eb05031090fbf7089a.jpg",
       "notes": ""
@@ -1214,7 +1122,6 @@
       "pokedexNumber": 93,
       "number": "093",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4f/24/5f/4f245f997068b22f4f4a8eda7fabd60c3e1862fc58aa9af3b8e1f9e0ff670a06.jpg",
       "notes": ""
@@ -1227,7 +1134,6 @@
       "pokedexNumber": 94,
       "number": "094",
       "count": 0,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/1f/68/df/1f68df3ac0e391341a4eb51b7f2eb87d6272e639f85807f4d6bb4036a2866509.jpg",
       "notes": ""
@@ -1240,7 +1146,6 @@
       "pokedexNumber": 95,
       "number": "095",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/b2/c6/42/b2c64286c0a37c8d4d26f69a060f7d8d7e2bfb1be27fc4fc166fb61b94d14dd6.jpg",
       "notes": ""
@@ -1253,7 +1158,6 @@
       "pokedexNumber": 96,
       "number": "096",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ce/59/13/ce5913e371e935c48edcde828eac8f917b756d0757785b05171d1fb39b85f633.jpg",
       "notes": ""
@@ -1266,7 +1170,6 @@
       "pokedexNumber": 97,
       "number": "097",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/95/b4/4b/95b44b3f716c5b66e31bef8eed798fb673a3e00ac9ea7964254ac1655aa1df00.jpg",
       "notes": ""
@@ -1279,7 +1182,6 @@
       "pokedexNumber": 98,
       "number": "098",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/af/b9/d9/afb9d9be8cccce2e661b49d6943e88798c17a4f8678e5eb6fbf04431e0d4ec15.jpg",
       "notes": ""
@@ -1292,7 +1194,6 @@
       "pokedexNumber": 99,
       "number": "099",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/41/a1/08/41a108efea869ccf9c346c6fcafdc0fd67546fbe98570efe031e52b5a4f95ec0.jpg",
       "notes": ""
@@ -1305,7 +1206,6 @@
       "pokedexNumber": 100,
       "number": "100",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8e/c4/ec/8ec4ec1ce887c204e45a2b4c42c48dd2d647f6904631f1e9f7330c1d95c9bdd8.jpg",
       "notes": ""
@@ -1318,7 +1218,6 @@
       "pokedexNumber": 101,
       "number": "101",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ff/e6/61/ffe661e13bf56e16027d42c5fd4c96fd5387e9571a56aa6609eca36d251f4697.jpg",
       "notes": ""
@@ -1331,7 +1230,6 @@
       "pokedexNumber": 102,
       "number": "102",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/df/2c/b1/df2cb1693cec03f3413fa524dbd3d108d7ecc8957b906ee6735ad35e9f5cc299.jpg",
       "notes": ""
@@ -1344,7 +1242,6 @@
       "pokedexNumber": 103,
       "number": "103",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/26/52/cc/2652cc0cd6b69b234b14db6cebdaa877b6c143afd278c95aabd6e016c7c4f58b.jpg",
       "notes": ""
@@ -1357,7 +1254,6 @@
       "pokedexNumber": 104,
       "number": "104",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f8/d2/00/f8d200a898479b5b0352684bc314c376985024316daa5f4eb3c349e37b5683d7.jpg",
       "notes": ""
@@ -1370,7 +1266,6 @@
       "pokedexNumber": 105,
       "number": "105",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/68/23/f3/6823f39b4f82a82fb6bc15040f4e4747fb5be0a122e45ebd359dc0b39d25ff74.jpg",
       "notes": ""
@@ -1383,7 +1278,6 @@
       "pokedexNumber": 106,
       "number": "106",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/40/3f/ee/403fee2c6e2a91d17f2b4153255845d795b52cd2393808ce5c09b7f06acae0f5.jpg",
       "notes": ""
@@ -1396,7 +1290,6 @@
       "pokedexNumber": 107,
       "number": "107",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/56/a8/34/56a834ca21c30c80dccb7a9411d39b8c62b63f9858575731be3d8c057aa4e9a7.jpg",
       "notes": ""
@@ -1409,7 +1302,6 @@
       "pokedexNumber": 108,
       "number": "108",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a5/16/54/a5165475fc5899db2f0ee64e47af398d73ad569d3bf63c4d138a7f99eff6d6cb.jpg",
       "notes": ""
@@ -1422,7 +1314,6 @@
       "pokedexNumber": 109,
       "number": "109",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/67/8e/b4/678eb4990a1baf7a14efb81b4c22b431d517022537b0f24888f42ab0bbd6ae35.jpg",
       "notes": ""
@@ -1435,7 +1326,6 @@
       "pokedexNumber": 110,
       "number": "110",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/37/01/3f/37013fe656d502f281c6259ba2c0d459695b97bc2faf4c9e128ef287e9c3326e.jpg",
       "notes": ""
@@ -1448,7 +1338,6 @@
       "pokedexNumber": 111,
       "number": "111",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/68/38/a5/6838a53f9599ddf94a0e9db54660316a848883a931b4cf494cc736c9949dd9a0.jpg",
       "notes": ""
@@ -1461,7 +1350,6 @@
       "pokedexNumber": 112,
       "number": "112",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/6e/07/fa/6e07faee6c457b8474168c25bd786f84dfbf44805bf41b4d0b07dffc0f086a69.jpg",
       "notes": ""
@@ -1474,7 +1362,6 @@
       "pokedexNumber": 113,
       "number": "113",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/66/e0/4a/66e04ac53a4c02870db319dc8f56a58465cdb7809c3f0c0dae6547b5408a7968.jpg",
       "notes": ""
@@ -1487,7 +1374,6 @@
       "pokedexNumber": 114,
       "number": "114",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ea/74/46/ea74460468706b4bd0e89d18c48d9cf30bdf019c3426d592a91323a2c21f16a3.jpg",
       "notes": ""
@@ -1500,7 +1386,6 @@
       "pokedexNumber": 115,
       "number": "115",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/71/f9/74/71f9745900ee5bdf433ff9939e65fac84b515e49eb544a867edc0bd4f933ef4e.jpg",
       "notes": ""
@@ -1513,7 +1398,6 @@
       "pokedexNumber": 116,
       "number": "116",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/17/c2/86/17c2869219a6076ad91f58c0f2a417ee2d83c6e058f0174afc7d5823ab8736f5.jpg",
       "notes": ""
@@ -1526,7 +1410,6 @@
       "pokedexNumber": 117,
       "number": "117",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/0f/8d/33/0f8d33eb85d2b45c74007a95c6c7f304e0e785da3b62bfcf909157181877f7f6.jpg",
       "notes": ""
@@ -1539,7 +1422,6 @@
       "pokedexNumber": 118,
       "number": "118",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f7/4c/1e/f74c1e222b9d566e5451002029b76ec75f24fde5698e248cc571999a9430af93.jpg",
       "notes": ""
@@ -1552,7 +1434,6 @@
       "pokedexNumber": 119,
       "number": "119",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/b2/5f/fe/b25ffe3e109dc543021f6465ac92f005199ff15897810fb262a785a55240f3b1.jpg",
       "notes": ""
@@ -1565,7 +1446,6 @@
       "pokedexNumber": 120,
       "number": "120",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/0e/4d/b3/0e4db381b13824418243333d1e0b757dc8f133fc503bbb24f0ce2fa5e2dd8bda.jpg",
       "notes": ""
@@ -1578,7 +1458,6 @@
       "pokedexNumber": 121,
       "number": "121",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8c/49/5a/8c495a2afa6a12de52ec5d0f98b279f38964ebd069e0105c80c978d12ca1c35b.jpg",
       "notes": ""
@@ -1591,7 +1470,6 @@
       "pokedexNumber": 122,
       "number": "122",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e1/7b/55/e17b55e1164a0e8957a8e057125a7c9e3a43441676eef1cf7e03a229d50a9b01.jpg",
       "notes": ""
@@ -1604,7 +1482,6 @@
       "pokedexNumber": 123,
       "number": "123",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/5f/6d/91/5f6d914dff785524a386c0e8c3a4879d60557c769e2c74e54f73d83d9e30238c.jpg",
       "notes": ""
@@ -1617,7 +1494,6 @@
       "pokedexNumber": 124,
       "number": "124",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/51/c7/38/51c7382897a8847b6ded1939998720cb658c98aced062eda33a4e3f4e343ecbe.jpg",
       "notes": ""
@@ -1630,7 +1506,6 @@
       "pokedexNumber": 125,
       "number": "125",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/fe/10/2c/fe102c4cca014eaec6a399d6a29aad6253f0a580bd76dd7cc62817cca02bb91d.jpg",
       "notes": ""
@@ -1643,7 +1518,6 @@
       "pokedexNumber": 126,
       "number": "126",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e7/3d/1c/e73d1cdeee17a510c9911f035632e32da0e8d54d0242d7ab3b1b39daf1a21877.jpg",
       "notes": ""
@@ -1656,7 +1530,6 @@
       "pokedexNumber": 127,
       "number": "127",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bf/13/92/bf13921ab80f50b5c57f46cd3576a01b7241905ed989f5312d827d63acb36836.jpg",
       "notes": ""
@@ -1669,7 +1542,6 @@
       "pokedexNumber": 128,
       "number": "128",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/19/7f/d2/197fd21b2c9ac259d385bb1681bff330b469a25f6dde3c008db576d68af75b1f.jpg",
       "notes": ""
@@ -1682,7 +1554,6 @@
       "pokedexNumber": 129,
       "number": "129",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/1f/63/27/1f6327e4fa672b3f0f422a4709d8070b03972623519d862d1d1389b3a372f88a.jpg",
       "notes": ""
@@ -1695,7 +1566,6 @@
       "pokedexNumber": 130,
       "number": "130",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/5f/e3/15/5fe315e13d6da2bcc36d7b2959755b9816c28e9860171d43bcf170bd927dd11c.jpg",
       "notes": ""
@@ -1708,7 +1578,6 @@
       "pokedexNumber": 131,
       "number": "131",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/fa/10/16/fa101681d2424de9b4338ee58e9dfe219522978ed012045407794c050eeae308.jpg",
       "notes": ""
@@ -1721,7 +1590,6 @@
       "pokedexNumber": 132,
       "number": "132",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/b0/e3/ad/b0e3ade2f71915b5278cb77c5923b20b6c34503958094494610d244416dcc677.jpg",
       "notes": ""
@@ -1734,7 +1602,6 @@
       "pokedexNumber": 133,
       "number": "133",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/76/eb/54/76eb54fd5d7dd214d3900fe5dde70ebdbb3abcb50d281006d396f023d5c30d33.jpg",
       "notes": ""
@@ -1747,7 +1614,6 @@
       "pokedexNumber": 134,
       "number": "134",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/98/18/c4/9818c4305b7f14b265ff361c06a1fc03fd106085d160cea8a770298ae17b6df9.jpg",
       "notes": ""
@@ -1760,7 +1626,6 @@
       "pokedexNumber": 135,
       "number": "135",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/1b/dd/25/1bdd25b50ea83ed02a05b30f22df3bef59ded478e0862d5b4680398585d9f34e.jpg",
       "notes": ""
@@ -1773,7 +1638,6 @@
       "pokedexNumber": 136,
       "number": "136",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f9/94/cc/f994ccdad54d2ff37d1672470c1712992e8fe489ecb22891c5468932ca2ff222.jpg",
       "notes": ""
@@ -1786,7 +1650,6 @@
       "pokedexNumber": 137,
       "number": "137",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/af/f6/f5/aff6f5a61b96493caaec67dd8fbd21a7ae9789cb5b2dcc9e25662bf3f61ed256.jpg",
       "notes": ""
@@ -1799,7 +1662,6 @@
       "pokedexNumber": 138,
       "number": "138",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bf/9c/87/bf9c87f50819e46fcae970daa5366c79ccc9d5eb69dc7aa8a40435c3069689c5.jpg",
       "notes": ""
@@ -1812,7 +1674,6 @@
       "pokedexNumber": 139,
       "number": "139",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/69/7d/b6/697db6b2edcbdc3f1b103da69ec570f435291a2ffdddbdecbc99318e3460af37.jpg",
       "notes": ""
@@ -1825,7 +1686,6 @@
       "pokedexNumber": 140,
       "number": "140",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/06/dc/6f/06dc6f51a7cc90470666ee0ea126db9640852172cd4832d22a3752b286602ae0.jpg",
       "notes": ""
@@ -1838,7 +1698,6 @@
       "pokedexNumber": 141,
       "number": "141",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c8/aa/36/c8aa368efd84d1bd5d7b63204fab32b630c61127dcb33795576a2cd87178ddb4.jpg",
       "notes": ""
@@ -1851,7 +1710,6 @@
       "pokedexNumber": 142,
       "number": "142",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/05/f7/41/05f74110f2d53f113e0093807bcb1b1a75f8727e711a5d11438cfaeb6a7f5698.jpg",
       "notes": ""
@@ -1864,7 +1722,6 @@
       "pokedexNumber": 143,
       "number": "143",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/60/2c/23/602c23e19cdad7896abda45a1a70fd6d9dcd7e561a43f70efec0fbc3f5db732d.jpg",
       "notes": ""
@@ -1877,7 +1734,6 @@
       "pokedexNumber": 144,
       "number": "144",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/dc/29/92/dc2992509a6acfc7ee750051d51cddf2e4266aed9155e522a58bea249be16c68.jpg",
       "notes": ""
@@ -1890,7 +1746,6 @@
       "pokedexNumber": 145,
       "number": "145",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/80/63/d1/8063d181bd04c4f9c3391ab26728dd0f4eda26e18d0fe8be54c448ce001ef9a4.jpg",
       "notes": ""
@@ -1903,7 +1758,6 @@
       "pokedexNumber": 146,
       "number": "146",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/44/d5/61/44d56137e797531d9754f6599bd385e6fa09da8841ec1b5371fe692093bb4ab4.jpg",
       "notes": ""
@@ -1916,7 +1770,6 @@
       "pokedexNumber": 147,
       "number": "147",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a9/71/35/a9713588c53c4169117f8143c1c82cb38b63b33645bae0c452432d54e0f8d952.jpg",
       "notes": ""
@@ -1929,7 +1782,6 @@
       "pokedexNumber": 148,
       "number": "148",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bf/4c/8b/bf4c8bf5b312e5bceb02bde7a2a483285af66c19f3131e67847d68ee555cc5d3.jpg",
       "notes": ""
@@ -1942,7 +1794,6 @@
       "pokedexNumber": 149,
       "number": "149",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/88/af/7d/88af7d91767b8569fc51970b2a42d17b8bc442152bce639915588f42b23cefb8.jpg",
       "notes": ""
@@ -1955,7 +1806,6 @@
       "pokedexNumber": 150,
       "number": "150",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a3/0f/97/a30f97e921fd0e81336c6bfe098c0184d6ca99d8edc9ec28786ac3455c7c034a.jpg",
       "notes": ""
@@ -1968,7 +1818,6 @@
       "pokedexNumber": 151,
       "number": "151",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c8/9d/5b/c89d5bb429a97606235b06a044d310a52a3885305005c260c4db8c0c78b8d562.jpg",
       "notes": ""
@@ -1981,7 +1830,6 @@
       "pokedexNumber": null,
       "number": "Item",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f3/e1/3a/f3e13afaca6b21998f8c04b4a436dd7ce00ce696e01108dce6213071aa74a0da.jpg",
       "notes": ""
@@ -1994,7 +1842,6 @@
       "pokedexNumber": null,
       "number": "Item",
       "count": 0,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/48/8c/ad/488cad0c1979bc64c2557c0d2fcfbf8e8d2d8e3d7916189e01f99ca8ce32c781.jpg",
       "notes": ""
@@ -2007,7 +1854,6 @@
       "pokedexNumber": 152,
       "number": "152",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4f/41/70/4f41700868f83c6ec7c6f0a250df92f1243a587a02ec640037211662e5616d38.jpg",
       "notes": ""
@@ -2020,7 +1866,6 @@
       "pokedexNumber": 153,
       "number": "153",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/71/ed/3e/71ed3e221e384a79c5cfa2900dbd335b723d1ddd2c02a8cb3d58848cbf14de06.jpg",
       "notes": ""
@@ -2033,7 +1878,6 @@
       "pokedexNumber": 154,
       "number": "154",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c2/6c/eb/c26cebe74da0052e6285dca2af5f55e4e07c4d33d3c386f8ffc5b2c7bb1f8f09.jpg",
       "notes": ""
@@ -2046,7 +1890,6 @@
       "pokedexNumber": 155,
       "number": "155",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/17/a5/8f/17a58f0c64d77eff0d91471122c60ac07517ed4115e93e9c6f639a7b9e69e909.jpg",
       "notes": ""
@@ -2059,7 +1902,6 @@
       "pokedexNumber": 156,
       "number": "156",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/30/70/9b/30709b8225068b89f51cab87a5ff35b9d6b88bd1229ac5664e864c4211ecbccf.jpg",
       "notes": ""
@@ -2072,7 +1914,6 @@
       "pokedexNumber": 157,
       "number": "157",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/76/28/c7/7628c766c54c60d567315beb34bd4f4f043cc369c94bff0dd694a7eff6e57e17.jpg",
       "notes": ""
@@ -2085,7 +1926,6 @@
       "pokedexNumber": 158,
       "number": "158",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a3/5a/0a/a35a0af4bd99b10e66af956e945ea59a8e5ec92c653e8a693050066a58871881.jpg",
       "notes": ""
@@ -2098,7 +1938,6 @@
       "pokedexNumber": 159,
       "number": "159",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f8/3f/14/f83f1480a5b820c84dd2c55c43725ea93e17950691546d4b59ff5ba2d4cd6608.jpg",
       "notes": ""
@@ -2111,7 +1950,6 @@
       "pokedexNumber": 160,
       "number": "160",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/24/5c/02/245c02dc64e0c1e4af2511c3acf8b26a2fac9e80084ad2d9e898f09f3068dcd8.jpg",
       "notes": ""
@@ -2124,7 +1962,6 @@
       "pokedexNumber": 161,
       "number": "161",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/1a/db/ff/1adbff7ddc360600958785b35a4d1f665309d789bb2afb1f35ef2aac8bfa5a33.jpg",
       "notes": ""
@@ -2137,7 +1974,6 @@
       "pokedexNumber": 162,
       "number": "162",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d0/22/62/d022629974ca39eacc2398045da54b6098e3f5b2fbff84a2bc4510b618516f66.jpg",
       "notes": ""
@@ -2150,7 +1986,6 @@
       "pokedexNumber": 163,
       "number": "163",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/7e/0a/b8/7e0ab8e952ca44260d92c27800c62d61aa5de0387e7603365e1684d8dd8fe45c.jpg",
       "notes": ""
@@ -2163,7 +1998,6 @@
       "pokedexNumber": 164,
       "number": "164",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a0/de/b7/a0deb77569ba15d8a420a567b6c48e5ea5b7e357075c9eb7d15a0da9f932289f.jpg",
       "notes": ""
@@ -2176,7 +2010,6 @@
       "pokedexNumber": 165,
       "number": "165",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/86/aa/5c/86aa5c26cd14abb2017136c294ffbc4b68e179b5f01ca7b449ec6af29f3d4f3c.jpg",
       "notes": ""
@@ -2189,7 +2022,6 @@
       "pokedexNumber": 166,
       "number": "166",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e9/41/41/e9414163f2911943a8cf00cfcc9eb4b90129b4efdbac20dcbd73469b4a0bede6.jpg",
       "notes": ""
@@ -2202,7 +2034,6 @@
       "pokedexNumber": 167,
       "number": "167",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c7/5a/0a/c75a0ac3d2b613d32ce2953e89b4b64c8e5e9b3341d0189d4cc1899fa496b5b7.jpg",
       "notes": ""
@@ -2215,7 +2046,6 @@
       "pokedexNumber": 168,
       "number": "168",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/dc/62/c2/dc62c206ca7f6660997f367bfdae53d50326710f7f526e4e0fb469419118dc73.jpg",
       "notes": ""
@@ -2228,7 +2058,6 @@
       "pokedexNumber": 169,
       "number": "169",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/9c/51/11/9c5111e352682ac42698d7009e038720e25494fe2fff188a1184f2a704555df3.jpg",
       "notes": ""
@@ -2241,7 +2070,6 @@
       "pokedexNumber": 170,
       "number": "170",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f2/1a/2d/f21a2de85da117e25c9ae706039a156f151f04fdd605adbfd07b5780d1e2129f.jpg",
       "notes": ""
@@ -2254,7 +2082,6 @@
       "pokedexNumber": 171,
       "number": "171",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/79/47/e2/7947e217c997372e044de4f58bc94a15c772b410b9d6afde73c5d93e3b1ab100.jpg",
       "notes": ""
@@ -2267,7 +2094,6 @@
       "pokedexNumber": 172,
       "number": "172",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/15/91/07/159107701dba6d9e530aea4367bf9cb4069e8bdcb7ca66e33ddb598de62075f4.jpg",
       "notes": ""
@@ -2280,7 +2106,6 @@
       "pokedexNumber": 173,
       "number": "173",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d1/87/05/d187058ed985e754e66548605eeb659ecad99a6891247e942e9aee13892de001.jpg",
       "notes": ""
@@ -2293,7 +2118,6 @@
       "pokedexNumber": 174,
       "number": "174",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/92/78/a0/9278a01281452dd745c09d4f1117e5a552c445a5632762a2ba24ec9ce32e32ed.jpg",
       "notes": ""
@@ -2306,7 +2130,6 @@
       "pokedexNumber": 175,
       "number": "175",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/27/49/bb/2749bbfd97ce5b8596c4caed53b67cc18802f9c0a4b8921115c05883c097f919.jpg",
       "notes": ""
@@ -2319,7 +2142,6 @@
       "pokedexNumber": 176,
       "number": "176",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/08/40/5c/08405c51de4123a966e8a46880e53734fcd09abd5c0820ca24dee725d5da19a0.jpg",
       "notes": ""
@@ -2332,7 +2154,6 @@
       "pokedexNumber": 177,
       "number": "177",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c5/8b/69/c58b69cf9a646478be584a8b81948991a290f1da2fc37335d92015860a86ccb9.jpg",
       "notes": ""
@@ -2345,7 +2166,6 @@
       "pokedexNumber": 178,
       "number": "178",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/16/24/68/16246885d449195d0a90ead6657fc81f32b3f1ae22f816341c0b3649ef8179f2.jpg",
       "notes": ""
@@ -2358,7 +2178,6 @@
       "pokedexNumber": 179,
       "number": "179",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/5c/83/10/5c83102e8b49625f7e15007356ec404ff7958d3679c8bcdbba38c0b33fa02a5d.jpg",
       "notes": ""
@@ -2371,7 +2190,6 @@
       "pokedexNumber": 180,
       "number": "180",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/95/78/6b/95786b0ff01223aba4a8a71c95d0d5d0a4bf0ecc860ed9925455577ecdc40f7d.jpg",
       "notes": ""
@@ -2384,7 +2202,6 @@
       "pokedexNumber": 181,
       "number": "181",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/2a/7c/25/2a7c25f13fc332afc73e8a7e2001619f61fc6d3c389a0eb752a46c7f0bba0687.jpg",
       "notes": ""
@@ -2397,7 +2214,6 @@
       "pokedexNumber": 182,
       "number": "182",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c9/28/ee/c928ee8d5fb87a75c642d1e354edd3dbb7c57fcea4da3c39fdcb42f69dc72bc3.jpg",
       "notes": ""
@@ -2410,7 +2226,6 @@
       "pokedexNumber": 183,
       "number": "183",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/be/b4/1c/beb41c61c6ca3e3ed2b33360d28e17c800554f51c82dd547b2ddf64cc2879db0.jpg",
       "notes": ""
@@ -2423,7 +2238,6 @@
       "pokedexNumber": 184,
       "number": "184",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/7b/3f/c9/7b3fc9e5dc765080a7fce09b9c92db5da56532620a8e3ea5b4fa054f3eff4178.jpg",
       "notes": ""
@@ -2436,7 +2250,6 @@
       "pokedexNumber": 185,
       "number": "185",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/eb/53/22/eb53228724339ec278c851aa4c6718aedd30fc1b1104935a2b60853252373382.jpg",
       "notes": ""
@@ -2449,7 +2262,6 @@
       "pokedexNumber": 186,
       "number": "186",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/c3/63/9e/c3639e8101dfa7bc4b74cdf22c213f2f443446aad73f4e0a0353f7eca0e8a4f1.jpg",
       "notes": ""
@@ -2462,7 +2274,6 @@
       "pokedexNumber": 187,
       "number": "187",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4c/55/81/4c558140742694cce83d5c980ab30148d91d5a686cb3c0985537b7004d945c6d.jpg",
       "notes": ""
@@ -2475,7 +2286,6 @@
       "pokedexNumber": 188,
       "number": "188",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e3/c0/b3/e3c0b3297f61b1527ee7568a17f07c6d96607ab0c9ac08b75696a7c8fb314dba.jpg",
       "notes": ""
@@ -2488,7 +2298,6 @@
       "pokedexNumber": 189,
       "number": "189",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bc/87/39/bc87394d75da24478d41823304717a2a7f18473f83b6a22f52ecf9ce87dc597e.jpg",
       "notes": ""
@@ -2501,7 +2310,6 @@
       "pokedexNumber": 190,
       "number": "190",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/cc/41/56/cc41565e2c5cdb3a073e16b6399172c5c231795176dd6e1486bc5fb91e6f30e6.jpg",
       "notes": ""
@@ -2514,7 +2322,6 @@
       "pokedexNumber": 191,
       "number": "191",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/dc/50/0c/dc500c7ae87ef6b15d72ff28d48209688f59947c9f9fdbba0b8d9826f829c36e.jpg",
       "notes": ""
@@ -2527,7 +2334,6 @@
       "pokedexNumber": 192,
       "number": "192",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/74/c8/64/74c8643640793d7e669521f6ac03fffcb322c9309764895d430ef7a35db8e18e.jpg",
       "notes": ""
@@ -2540,7 +2346,6 @@
       "pokedexNumber": 193,
       "number": "193",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/07/45/4b/07454b365d4c6cdf4b7b78c2f1407cea34a874e881846484ae6c4b0af761fc7a.jpg",
       "notes": ""
@@ -2553,7 +2358,6 @@
       "pokedexNumber": 194,
       "number": "194",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/14/90/51/1490511d54bcd59d21e6452ba3f1322fa5f96b48c89583ab335af0829c32a322.jpg",
       "notes": ""
@@ -2566,7 +2370,6 @@
       "pokedexNumber": 195,
       "number": "195",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/67/ab/9d/67ab9d04fe8d169bd1feaf374109ff1f4ca9f0935e5d3fa392e77a81980ee6ae.jpg",
       "notes": ""
@@ -2579,7 +2382,6 @@
       "pokedexNumber": 196,
       "number": "196",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/20/77/cc/2077cc880d2f1d09d006e34185347a7e944949c7a8076bb810b7aff6513ebd06.jpg",
       "notes": ""
@@ -2592,7 +2394,6 @@
       "pokedexNumber": 197,
       "number": "197",
       "count": 0,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/64/7e/01/647e0129ab306a4b94170157a5db67f0bd5a1434ecb2397332f3567308f42419.jpg",
       "notes": ""
@@ -2605,7 +2406,6 @@
       "pokedexNumber": 198,
       "number": "198",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/02/bd/5e/02bd5ea8c0d410ea94ab193581e274cdfc9372a726d3337faf852c991ffe4fdb.jpg",
       "notes": ""
@@ -2618,7 +2418,6 @@
       "pokedexNumber": 199,
       "number": "199",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/b1/30/0d/b1300d12aeea5ecc0417c81986989f58f54cec9a933ad4a66b0a436f508c8902.jpg",
       "notes": ""
@@ -2631,7 +2430,6 @@
       "pokedexNumber": 200,
       "number": "200",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4c/c0/51/4cc051a090cd7fad92c47a2bf8c2b0af97b13a4df01b19d9f06d4ed18aab4dfe.jpg",
       "notes": ""
@@ -2644,7 +2442,6 @@
       "pokedexNumber": 201,
       "number": "201",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d2/47/ec/d247ec63d86a21e192f1ec4e5292d167538dafdf16c307cf80c24de84e30356b.jpg",
       "notes": ""
@@ -2657,7 +2454,6 @@
       "pokedexNumber": 202,
       "number": "202",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/32/7f/6e/327f6e65be4d9094d78b829fa19764dd6c8d75af0c526aea9bce38dde8cf129c.jpg",
       "notes": ""
@@ -2670,7 +2466,6 @@
       "pokedexNumber": 203,
       "number": "203",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/99/1a/62/991a62c6c5692cec1aebebdfddc6d0ec4ba5ce4859888429192d72a3aadc7d28.jpg",
       "notes": ""
@@ -2683,7 +2478,6 @@
       "pokedexNumber": 204,
       "number": "204",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a9/e3/35/a9e3351d2cf7fd8c77f665589fda69c7c444b6c8371f7a77a0f8e9b821a37ad5.jpg",
       "notes": ""
@@ -2696,7 +2490,6 @@
       "pokedexNumber": 205,
       "number": "205",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/74/48/45/744845db21a92c089829f84f567f20021bb22ecdba78f2a85825c77cd2feb4c8.jpg",
       "notes": ""
@@ -2709,7 +2502,6 @@
       "pokedexNumber": 206,
       "number": "206",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4e/08/65/4e08656c20a425f8d99825da644d3cef0b34b7a332b58c95a4b2ba46f7e7b234.jpg",
       "notes": ""
@@ -2722,7 +2514,6 @@
       "pokedexNumber": 207,
       "number": "207",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/87/54/85/87548589916e7f0f1e2459048810b624ec7c6f540ec50b2edab29f0c7d23a9b7.jpg",
       "notes": ""
@@ -2735,7 +2526,6 @@
       "pokedexNumber": 208,
       "number": "208",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/84/0b/3a/840b3a46cf73785dc4dbcb4d2f72e7d6afccd2f49434c5bedd4cb1a7246827d4.jpg",
       "notes": ""
@@ -2748,7 +2538,6 @@
       "pokedexNumber": 209,
       "number": "209",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e4/ae/59/e4ae598967151ee7c904f2312057dbe5b1493461364a51ed5422068767bf859c.jpg",
       "notes": ""
@@ -2761,7 +2550,6 @@
       "pokedexNumber": 210,
       "number": "210",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/80/1d/fd/801dfd5e8a8bac5f8bf650859aa1451b7d4e1dff6c8ca5a5aee9b528713fbb38.jpg",
       "notes": ""
@@ -2774,7 +2562,6 @@
       "pokedexNumber": 211,
       "number": "211",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ee/e4/f7/eee4f7f56eabdd96cea410231a212421fb82e2c8457b5446f3d56e94c683fd25.jpg",
       "notes": ""
@@ -2787,7 +2574,6 @@
       "pokedexNumber": 212,
       "number": "212",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/85/8c/2e/858c2efdedb913f7faabc093212ba81eecc817ca80d20049710eb085c28fd01e.jpg",
       "notes": ""
@@ -2800,7 +2586,6 @@
       "pokedexNumber": 213,
       "number": "213",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/1b/be/a9/1bbea952c94beb378c7cff0f11f87e7188482702dfceb88618d3a28764fa4179.jpg",
       "notes": ""
@@ -2813,7 +2598,6 @@
       "pokedexNumber": 214,
       "number": "214",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d7/e5/aa/d7e5aa676b46bc12196e40aa41a1bfa7cadba25c57134dca5cc65cbe3971595a.jpg",
       "notes": ""
@@ -2826,7 +2610,6 @@
       "pokedexNumber": 215,
       "number": "215",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a5/22/3d/a5223d7bafb0d395e6ef26806d2bd252e7b91c7283c39f5a33042b1632b52efc.jpg",
       "notes": ""
@@ -2839,7 +2622,6 @@
       "pokedexNumber": 216,
       "number": "216",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/24/86/c6/2486c68ecd147566f4fbf8dab834be909951976472bc5ef3586738b8dfb30b85.jpg",
       "notes": ""
@@ -2852,7 +2634,6 @@
       "pokedexNumber": 217,
       "number": "217",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/97/da/8b/97da8bdb9ff583dc8d7cf9f59ddb2feaccf9e22e49695bf7303082ee7817e84d.jpg",
       "notes": ""
@@ -2865,7 +2646,6 @@
       "pokedexNumber": 218,
       "number": "218",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/07/2c/27/072c27ae21496b9868e3c003f12c222f41ee63764173c15e66c9c7a847e9fd68.jpg",
       "notes": ""
@@ -2878,7 +2658,6 @@
       "pokedexNumber": 219,
       "number": "219",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/a5/f3/4b/a5f34bb03b9ef7b6db881e2ac291c8fc7658ce04321dd6ef84311d9e64af2be4.jpg",
       "notes": ""
@@ -2891,7 +2670,6 @@
       "pokedexNumber": 220,
       "number": "220",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/17/f5/1b/17f51baf569a08acdd99fca9e13fc5a1698d6c8dc56ece2526e60c63a37474c2.jpg",
       "notes": ""
@@ -2904,7 +2682,6 @@
       "pokedexNumber": 221,
       "number": "221",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f7/9f/26/f79f260212a234a3d84dace4e26fedb7df60510973a5399552c156b5e741d518.jpg",
       "notes": ""
@@ -2917,7 +2694,6 @@
       "pokedexNumber": 222,
       "number": "222",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/55/6b/5d/556b5d49390f82dceec9fbeaf14ead861ddd7edd11272527e9583b52ca84fb48.jpg",
       "notes": ""
@@ -2930,7 +2706,6 @@
       "pokedexNumber": 223,
       "number": "223",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/37/83/60/3783607062d140b23017080770c52d4f42309bcdccc8828fae0a768ae7746cae.jpg",
       "notes": ""
@@ -2943,7 +2718,6 @@
       "pokedexNumber": 224,
       "number": "224",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/ae/ac/57/aeac57df9d9942372bf9ca8effc307d5ed60c47f85ca741032a046a3c2baeaa4.jpg",
       "notes": ""
@@ -2956,7 +2730,6 @@
       "pokedexNumber": 225,
       "number": "225",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/bb/34/17/bb3417ea80e85df9bde96f15d7982d912a6680e9b7db9582d193a830ae692b98.jpg",
       "notes": ""
@@ -2969,7 +2742,6 @@
       "pokedexNumber": 226,
       "number": "226",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8e/3c/cd/8e3ccd8953a6d3eeaf67e675c64c39630a037a75a5ad2643f16eb08d78576cb5.jpg",
       "notes": ""
@@ -2982,7 +2754,6 @@
       "pokedexNumber": 227,
       "number": "227",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f3/bb/72/f3bb725a242b1401984df46b7633279018c11861b4aac32581fec41ee7cd847b.jpg",
       "notes": ""
@@ -2995,7 +2766,6 @@
       "pokedexNumber": 228,
       "number": "228",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/63/7e/a5/637ea52df7e1b4e7126f4e5fe57fc06d4347afce336a457eee107a1f13627298.jpg",
       "notes": ""
@@ -3008,7 +2778,6 @@
       "pokedexNumber": 229,
       "number": "229",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/9d/aa/dc/9daadc5655d41cd7cbdc09ab2dbda80e67e16d92f59474d64db59d827c564dae.jpg",
       "notes": ""
@@ -3021,7 +2790,6 @@
       "pokedexNumber": 230,
       "number": "230",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/fb/6a/b5/fb6ab5055a3d79c1efe8b313d196b175a11b17d2c007d687631a837bb0b75eb8.jpg",
       "notes": ""
@@ -3034,7 +2802,6 @@
       "pokedexNumber": 231,
       "number": "231",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/e6/64/38/e66438f081f400ae0ff37be6a7e033a312e73f62a0a24933e10b1fac1209defc.jpg",
       "notes": ""
@@ -3047,7 +2814,6 @@
       "pokedexNumber": 232,
       "number": "232",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/20/fe/9b/20fe9b58f6b43dda018629e2626d8886a682b6a261d4c415b75129b60792851e.jpg",
       "notes": ""
@@ -3060,7 +2826,6 @@
       "pokedexNumber": 233,
       "number": "233",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/4d/9a/3b/4d9a3bb808b4cc7809bf86821bbe25ef08197182d7608d7a763416c70a5f00b6.jpg",
       "notes": ""
@@ -3073,7 +2838,6 @@
       "pokedexNumber": 234,
       "number": "234",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/8d/8a/9c/8d8a9c17c9cc95b28930f8fd10aa0de72b6cf30569a54e44ac937087d3e2cd61.jpg",
       "notes": ""
@@ -3086,7 +2850,6 @@
       "pokedexNumber": 235,
       "number": "235",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/83/5d/ce/835dceae025b1a9c7285d44b21de6ec2fffb203dfe054e8f3155155b4cbbee17.jpg",
       "notes": ""
@@ -3099,7 +2862,6 @@
       "pokedexNumber": 236,
       "number": "236",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/3c/82/5c/3c825c970157706df5b530928b6d758d451a3aef0e2cf0d3badd7da409c7b7fd.jpg",
       "notes": ""
@@ -3112,7 +2874,6 @@
       "pokedexNumber": 237,
       "number": "237",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/62/47/e4/6247e43e7750de1646fdcc0946984afc9f55bece2c0146662ca4d46dadb01eeb.jpg",
       "notes": ""
@@ -3125,7 +2886,6 @@
       "pokedexNumber": 238,
       "number": "238",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/22/aa/47/22aa47e70eec7b8f72a15a074553e191fe06c1bed7a677e7b2e3b911efcc6047.jpg",
       "notes": ""
@@ -3138,7 +2898,6 @@
       "pokedexNumber": 239,
       "number": "239",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/6d/20/b1/6d20b107c9ae82a40fb6f780769775ba0b6739aa8bc3c2535606026093189d03.jpg",
       "notes": ""
@@ -3151,7 +2910,6 @@
       "pokedexNumber": 240,
       "number": "240",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/73/fe/a5/73fea51fc107833992cdf76c04f4d43d01f66efd11649296c184299e310d3244.jpg",
       "notes": ""
@@ -3164,7 +2922,6 @@
       "pokedexNumber": 241,
       "number": "241",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/2c/24/70/2c2470d9ee40eff833401ac747b61f3236976a70268c8a547f42ff21c34fd965.jpg",
       "notes": ""
@@ -3177,7 +2934,6 @@
       "pokedexNumber": 242,
       "number": "242",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/23/a4/cd/23a4cd8999c0687fc12124938e287c64ee5102fd4d3eb7bd8879d007a6c04f48.jpg",
       "notes": ""
@@ -3190,7 +2946,6 @@
       "pokedexNumber": 243,
       "number": "243",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/03/97/e3/0397e3bea6aba4982bee1f59016840cf3404d65c30abf12bf3b2359907c99b52.jpg",
       "notes": ""
@@ -3203,7 +2958,6 @@
       "pokedexNumber": 244,
       "number": "244",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/83/55/19/835519dd1a637b94285d3bbfdbc312be65fcd80afa730ae3677156cba66c3067.jpg",
       "notes": ""
@@ -3216,7 +2970,6 @@
       "pokedexNumber": 245,
       "number": "245",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/75/4e/25/754e25e9efcedfcd49b5bac0b12cfa3e3b91bfa7d19849adae08fe756be76f3b.jpg",
       "notes": ""
@@ -3229,7 +2982,6 @@
       "pokedexNumber": 246,
       "number": "246",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/84/50/0f/84500f59df50f7ec471313b0c0e354a649d494b0b2a4a68ee428763843f7b982.jpg",
       "notes": ""
@@ -3242,7 +2994,6 @@
       "pokedexNumber": 247,
       "number": "247",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/d0/4b/08/d04b08effaa3ad15665f02581961cb975df014b79bfb9862b6888fb29923da00.jpg",
       "notes": ""
@@ -3255,7 +3006,6 @@
       "pokedexNumber": 248,
       "number": "248",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/f2/5c/11/f25c11dccf2bd7813721c5196439da5d65df81bb5de9f20f67d93d5604d9fdef.jpg",
       "notes": ""
@@ -3268,7 +3018,6 @@
       "pokedexNumber": 249,
       "number": "249",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/cc/b7/24/ccb7249ac8532e2031860af93536e5b76e4bd21cc2afd94beb64597570a33ec8.jpg",
       "notes": ""
@@ -3281,7 +3030,6 @@
       "pokedexNumber": 250,
       "number": "250",
       "count": 0,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/5a/9a/9a/5a9a9ac0b1294cb580c32828c2ef2b0c8570a163163a48a2b8f54f8601973f9e.jpg",
       "notes": ""
@@ -3294,7 +3042,6 @@
       "pokedexNumber": 251,
       "number": "251",
       "count": 1,
-      "variant": "normal",
       "language": "JP",
       "imageUrl": "https://static.tcgcollector.com/content/images/1a/ab/05/1aab05e0185589874133af929d46514b99a23ada5094c0144b380e251dd5d2f9.jpg",
       "notes": ""

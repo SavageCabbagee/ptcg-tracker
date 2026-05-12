@@ -1,10 +1,4 @@
-import {
-  CARD_VARIANTS,
-  type CardList,
-  type CardVariant,
-  type CollectionCard,
-  type CollectionFile,
-} from './types';
+import { type CardList, type CollectionCard, type CollectionFile, type DexEntry } from './types';
 import { DEFAULT_LANGUAGE } from './constants';
 
 const legacyDefaultList: CardList = {
@@ -20,6 +14,16 @@ export async function loadSeedCollection(): Promise<CollectionFile> {
   }
 
   return parseCollection(await response.json());
+}
+
+export async function loadDex(): Promise<DexEntry[]> {
+  const response = await fetch(`${import.meta.env.BASE_URL}data/dex.txt`);
+
+  if (!response.ok) {
+    throw new Error(`Could not load dex.txt (${response.status})`);
+  }
+
+  return parseDex(await response.text());
 }
 
 export function parseCollection(input: unknown): CollectionFile {
@@ -50,6 +54,23 @@ export function exportCollection(collection: CollectionFile) {
   URL.revokeObjectURL(url);
 }
 
+export function parseDex(input: string): DexEntry[] {
+  return input
+    .split('\n')
+    .slice(1)
+    .map((line) => {
+      const [rawNumber, name] = line.trim().split('\t');
+      const number = Number(rawNumber);
+
+      if (!Number.isInteger(number) || !name) {
+        return null;
+      }
+
+      return { number, name };
+    })
+    .filter((entry): entry is DexEntry => entry !== null);
+}
+
 function parseList(input: unknown): CardList {
   const list = input as Partial<CardList>;
 
@@ -70,10 +91,6 @@ function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): C
     throw new Error('Each card must be an object.');
   }
 
-  const variant: CardVariant = CARD_VARIANTS.includes(card.variant as CardVariant)
-    ? (card.variant as CardVariant)
-    : 'normal';
-
   const listId = stringValue(card.listId);
 
   return {
@@ -84,7 +101,6 @@ function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): C
     pokedexNumber: numberValue(card.pokedexNumber),
     number: stringValue(card.number),
     count: Math.max(0, Math.floor(Number(card.count) || 0)),
-    variant,
     language: stringValue(card.language).toUpperCase() || DEFAULT_LANGUAGE,
     imageUrl: stringValue(card.imageUrl),
     notes: stringValue(card.notes),

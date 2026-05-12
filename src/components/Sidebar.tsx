@@ -1,3 +1,4 @@
+import { Plus } from 'lucide-react';
 import { ListNav } from './ListNav';
 import type { CardList, CollectionCard } from '../types';
 
@@ -7,9 +8,10 @@ type SidebarProps = {
   cards: CollectionCard[];
   listCounts: Map<string, number>;
   onChooseList: (listId: string) => void;
+  onAddList: () => void;
 };
 
-export function Sidebar({ lists, activeListId, cards, listCounts, onChooseList }: SidebarProps) {
+export function Sidebar({ lists, activeListId, cards, listCounts, onChooseList, onAddList }: SidebarProps) {
   return (
     <aside className="hidden border-r border-zinc-800 bg-zinc-950 px-4 py-4 lg:block">
       <div className="mb-5">
@@ -23,6 +25,11 @@ export function Sidebar({ lists, activeListId, cards, listCounts, onChooseList }
         listCounts={listCounts}
         onChooseList={onChooseList}
       />
+
+      <button className="secondary-button mt-3 w-full" type="button" onClick={onAddList}>
+        <Plus size={17} />
+        Add List
+      </button>
 
       <div className="mt-5 hidden border-t border-zinc-800 pt-4 text-sm text-zinc-400 lg:block">
         <p>{cards.length} unique cards</p>

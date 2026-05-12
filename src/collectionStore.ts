@@ -13,6 +13,7 @@ type CollectionState = {
   isLoaded: boolean;
   loadCollection: (collection: CollectionFile) => void;
   setActiveList: (listId: string) => void;
+  addList: (name: string) => CardList;
   addCard: (draft: CardDraft) => void;
   updateCard: (id: string, draft: CardDraft) => void;
   deleteCard: (id: string) => void;
@@ -26,6 +27,26 @@ const normalizeList = (list: Partial<CardList>): CardList => ({
 const sortLists = (lists: CardList[]) =>
   [...lists].filter((list) => list.id !== 'wishlist');
 
+const createListId = (name: string, lists: CardList[]) => {
+  const baseId =
+    name
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '') || 'list';
+  const reservedIds = new Set(['all', 'wishlist', ...lists.map((list) => list.id)]);
+
+  let id = baseId;
+  let index = 2;
+
+  while (reservedIds.has(id)) {
+    id = `${baseId}-${index}`;
+    index += 1;
+  }
+
+  return id;
+};
+
 const normalizeCard = (draft: CardDraft, fallbackListId: string): CollectionCard => ({
   id: draft.id?.trim() || crypto.randomUUID(),
   listId: draft.listId?.trim() || fallbackListId,
@@ -35,7 +56,6 @@ const normalizeCard = (draft: CardDraft, fallbackListId: string): CollectionCard
     draft.pokedexNumber === null ? null : Math.max(1, Math.floor(Number(draft.pokedexNumber) || 0)) || null,
   number: draft.number.trim(),
   count: Math.max(0, Math.floor(Number(draft.count) || 0)),
-  variant: draft.variant,
   language: draft.language.trim().toUpperCase(),
   imageUrl: draft.imageUrl.trim(),
   notes: draft.notes.trim(),
@@ -59,6 +79,24 @@ export const useCollectionStore = create<CollectionState>((set) => ({
       };
     }),
   setActiveList: (listId) => set({ activeListId: listId }),
+  addList: (name) => {
+    const listName = name.trim() || 'Untitled List';
+    let newList: CardList = { id: 'list', name: listName };
+
+    set((state) => {
+      newList = {
+        id: createListId(listName, state.lists),
+        name: listName,
+      };
+
+      return {
+        lists: [...state.lists, newList],
+        activeListId: newList.id,
+      };
+    });
+
+    return newList;
+  },
   addCard: (draft) =>
     set((state) => ({
       cards: [...state.cards, normalizeCard(draft, state.activeListId)].sort(compareCards),

@@ -9,7 +9,6 @@ export const createEmptyDraft = (listId = 'main'): CardDraft => ({
   pokedexNumber: null,
   number: '',
   count: 1,
-  variant: 'normal',
   language: DEFAULT_LANGUAGE,
   imageUrl: '',
   notes: '',

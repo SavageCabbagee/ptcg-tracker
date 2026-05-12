@@ -1,9 +1,10 @@
-export const CARD_VARIANTS = ['normal', 'foil', 'reverse'] as const;
-
-export type CardVariant = (typeof CARD_VARIANTS)[number];
-
 export type CardList = {
   id: string;
+  name: string;
+};
+
+export type DexEntry = {
+  number: number;
   name: string;
 };
 
@@ -15,7 +16,6 @@ export type CollectionCard = {
   pokedexNumber: number | null;
   number: string;
   count: number;
-  variant: CardVariant;
   language: string;
   imageUrl: string;
   notes: string;

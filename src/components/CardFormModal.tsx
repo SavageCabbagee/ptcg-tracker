@@ -1,14 +1,15 @@
 import { FormEvent } from 'react';
 import { Plus, X } from 'lucide-react';
-import { variantLabel } from '../cardUtils';
 import { TextField } from './TextField';
-import { CARD_VARIANTS, type CardDraft, type CardList } from '../types';
+import { type CardDraft, type CardList, type DexEntry } from '../types';
 
 type CardFormModalProps = {
   draft: CardDraft;
   editingId: string | null;
   lists: CardList[];
+  dexSuggestions: DexEntry[];
   onDraftChange: (draft: CardDraft) => void;
+  onDexSuggestionSelect: (entry: DexEntry) => void;
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
   onClose: () => void;
 };
@@ -17,7 +18,9 @@ export function CardFormModal({
   draft,
   editingId,
   lists,
+  dexSuggestions,
   onDraftChange,
+  onDexSuggestionSelect,
   onSubmit,
   onClose,
 }: CardFormModalProps) {
@@ -53,7 +56,36 @@ export function CardFormModal({
               ))}
             </select>
           </label>
-          <TextField label="Name" value={draft.name} onChange={(name) => onDraftChange({ ...draft, name })} required />
+          <div className="field-label">
+            <label htmlFor="card-name">Name</label>
+            <span className="relative">
+              <input
+                autoComplete="off"
+                className="field-input"
+                id="card-name"
+                required
+                value={draft.name}
+                onChange={(event) => onDraftChange({ ...draft, name: event.target.value })}
+              />
+              {dexSuggestions.length > 0 && (
+                <span className="absolute left-0 right-0 top-[calc(100%+0.25rem)] z-50 overflow-hidden rounded-md border border-zinc-700 bg-zinc-950 shadow-xl">
+                  {dexSuggestions.map((entry) => (
+                    <button
+                      className="flex w-full items-center justify-between gap-3 px-3 py-2 text-left text-sm text-zinc-200 transition hover:bg-zinc-800 focus:bg-zinc-800 focus:outline-none"
+                      key={entry.number}
+                      type="button"
+                      onClick={() => onDexSuggestionSelect(entry)}
+                    >
+                      <span className="truncate">{entry.name}</span>
+                      <span className="shrink-0 text-xs font-semibold text-zinc-500">
+                        #{entry.number.toString().padStart(3, '0')}
+                      </span>
+                    </button>
+                  ))}
+                </span>
+              )}
+            </span>
+          </div>
           <TextField label="Set" value={draft.set} onChange={(set) => onDraftChange({ ...draft, set })} required />
           <TextField
             label="Image URL"
@@ -93,25 +125,6 @@ export function CardFormModal({
                 value={draft.count}
                 onChange={(event) => onDraftChange({ ...draft, count: Number(event.target.value) })}
               />
-            </label>
-            <label className="field-label">
-              Variant
-              <select
-                className="field-input"
-                value={draft.variant}
-                onChange={(event) =>
-                  onDraftChange({
-                    ...draft,
-                    variant: event.target.value as CardDraft['variant'],
-                  })
-                }
-              >
-                {CARD_VARIANTS.map((variant) => (
-                  <option key={variant} value={variant}>
-                    {variantLabel(variant)}
-                  </option>
-                ))}
-              </select>
             </label>
           </div>
           <label className="field-label">
