@@ -3,6 +3,7 @@ import { Plus, X } from 'lucide-react';
 import { compareBySortKey, getDexSuggestions, matchesCardQuery } from './cardUtils';
 import { CardFormModal } from './components/CardFormModal';
 import { CardGrid } from './components/CardGrid';
+import { CountSummary } from './components/CountSummary';
 import { MobileHeader } from './components/MobileHeader';
 import { SearchSortBar } from './components/SearchSortBar';
 import { Sidebar } from './components/Sidebar';
@@ -77,6 +78,12 @@ export function App() {
     return cards.filter((card) => card.listId === activeListId);
   }, [activeListId, cards]);
   const totalOwned = activeCards.reduce((sum, card) => sum + card.count, 0);
+  const totalWishlisted = activeCards.filter((card) => card.count === 0).length;
+  const activeListSummary = {
+    tracked: activeCards.length,
+    owned: totalOwned,
+    wishlisted: totalWishlisted,
+  };
 
   const visibleCards = useMemo(() => {
     return activeCards
@@ -198,40 +205,33 @@ export function App() {
           onAddList={openListForm}
         />
 
-        <section className="min-w-0 px-4 py-3 sm:px-6 lg:px-8 lg:py-4">
-          <MobileHeader
-            title={activeList?.name ?? 'Collection'}
-            lists={navLists}
-            activeListId={activeListId}
-            isOpen={isListMenuOpen}
-            listCounts={listCounts}
-            onToggle={() => setIsListMenuOpen((current) => !current)}
-            onChooseList={chooseList}
-            onAddList={openListForm}
-          />
+        <section className="min-w-0 px-4 pb-4 sm:px-6 lg:px-8">
+          <div className="sticky top-0 z-20 -mx-4 border-b border-zinc-800 bg-zinc-950 px-4 pt-3 shadow-lg shadow-black/30 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 lg:pt-4">
+            <MobileHeader
+              title={activeList?.name ?? 'Collection'}
+              summary={activeListSummary}
+              lists={navLists}
+              activeListId={activeListId}
+              isOpen={isListMenuOpen}
+              listCounts={listCounts}
+              onToggle={() => setIsListMenuOpen((current) => !current)}
+              onChooseList={chooseList}
+              onAddList={openListForm}
+            />
 
-          <header className="hidden flex-col gap-2 pb-3 md:flex md:flex-row md:items-end md:justify-between">
-            <div>
-              <h2 className="hidden text-3xl font-semibold lg:block">{activeList?.name ?? 'Collection'}</h2>
-              <p className="mt-1 text-sm text-zinc-400">
-                {visibleCards.length} shown · {activeCards.length} unique · {totalOwned} owned
-              </p>
-            </div>
-          </header>
+            <header className="hidden flex-col gap-2 pb-3 md:flex md:flex-row md:items-end md:justify-between">
+              <div>
+                <h2 className="hidden text-3xl font-semibold lg:block">{activeList?.name ?? 'Collection'}</h2>
+              </div>
+            </header>
 
-          {(status || error) && (
-            <section className="mb-4 hidden flex-col gap-2 text-sm sm:flex-row sm:items-center sm:justify-between md:flex">
-              {status && <p className="text-zinc-400">{status}</p>}
-              {error && <p className="font-medium text-red-400">{error}</p>}
-            </section>
-          )}
-
-          <SearchSortBar
-            query={query}
-            sortKey={sortKey}
-            onQueryChange={setQuery}
-            onSortChange={setSortKey}
-          />
+            <SearchSortBar
+              query={query}
+              sortKey={sortKey}
+              onQueryChange={setQuery}
+              onSortChange={setSortKey}
+            />
+          </div>
 
           <CardGrid
             cards={visibleCards}
