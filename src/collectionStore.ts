@@ -24,11 +24,7 @@ const normalizeList = (list: Partial<CardList>): CardList => ({
 });
 
 const sortLists = (lists: CardList[]) =>
-  [...lists].sort((a, b) => {
-    if (a.id === 'wishlist') return 1;
-    if (b.id === 'wishlist') return -1;
-    return 0;
-  });
+  [...lists].filter((list) => list.id !== 'wishlist');
 
 const normalizeCard = (draft: CardDraft, fallbackListId: string): CollectionCard => ({
   id: draft.id?.trim() || crypto.randomUUID(),

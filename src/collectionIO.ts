@@ -5,6 +5,7 @@ import {
   type CollectionCard,
   type CollectionFile,
 } from './types';
+import { DEFAULT_LANGUAGE } from './constants';
 
 const legacyDefaultList: CardList = {
   id: 'main',
@@ -27,12 +28,13 @@ export function parseCollection(input: unknown): CollectionFile {
   }
 
   const rawLists = (input as Partial<CollectionFile>).lists;
-  const lists = Array.isArray(rawLists) ? rawLists.map(parseList) : [legacyDefaultList];
+  const parsedLists = Array.isArray(rawLists) ? rawLists.map(parseList) : [legacyDefaultList];
+  const lists = parsedLists.filter((list) => list.id !== 'wishlist');
   const fallbackListId = lists[0]?.id || legacyDefaultList.id;
 
   return {
     lists,
-    cards: (input as CollectionFile).cards.map((card) => parseCard(card, fallbackListId)),
+    cards: (input as CollectionFile).cards.map((card) => parseCard(card, fallbackListId, lists)),
   };
 }
 
@@ -61,7 +63,7 @@ function parseList(input: unknown): CardList {
   };
 }
 
-function parseCard(input: unknown, fallbackListId: string): CollectionCard {
+function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): CollectionCard {
   const card = input as Partial<CollectionCard>;
 
   if (!card || typeof card !== 'object') {
@@ -72,16 +74,18 @@ function parseCard(input: unknown, fallbackListId: string): CollectionCard {
     ? (card.variant as CardVariant)
     : 'normal';
 
+  const listId = stringValue(card.listId);
+
   return {
     id: stringValue(card.id) || crypto.randomUUID(),
-    listId: stringValue(card.listId) || fallbackListId,
+    listId: lists.some((list) => list.id === listId) ? listId : fallbackListId,
     name: requiredString(card.name, 'name'),
     set: requiredString(card.set, 'set'),
     pokedexNumber: numberValue(card.pokedexNumber),
     number: stringValue(card.number),
     count: Math.max(0, Math.floor(Number(card.count) || 0)),
     variant,
-    language: stringValue(card.language).toUpperCase() || 'EN',
+    language: stringValue(card.language).toUpperCase() || DEFAULT_LANGUAGE,
     imageUrl: stringValue(card.imageUrl),
     notes: stringValue(card.notes),
   };

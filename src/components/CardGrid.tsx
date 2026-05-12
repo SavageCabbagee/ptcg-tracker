@@ -26,7 +26,7 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridP
     <div className="grid grid-cols-[repeat(auto-fill,minmax(96px,1fr))] gap-3 sm:grid-cols-[repeat(auto-fill,minmax(128px,1fr))] md:gap-4 xl:grid-cols-[repeat(auto-fill,minmax(160px,1fr))]">
       {cards.map((card) => (
         <article
-          className="card-tile group cursor-pointer"
+          className={`card-tile group cursor-pointer ${card.count === 0 ? 'opacity-60 hover:opacity-85' : ''}`}
           key={card.id}
           role="button"
           tabIndex={0}
@@ -53,7 +53,7 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridP
               </div>
             )}
             <div className="absolute right-1.5 top-1.5 rounded-md bg-black/70 px-1.5 py-0.5 text-[11px] font-semibold text-white sm:right-2 sm:top-2 sm:px-2 sm:py-1 sm:text-xs">
-              x{card.count}
+              {card.count === 0 ? 'Wanted' : `x${card.count}`}
             </div>
             <div className="absolute inset-x-0 bottom-0 flex justify-end gap-1 bg-gradient-to-t from-black/75 to-transparent p-1.5 opacity-100 sm:p-2 sm:opacity-0 sm:transition sm:group-hover:opacity-100">
               <button

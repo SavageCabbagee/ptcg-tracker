@@ -9,7 +9,13 @@ import { Sidebar } from './components/Sidebar';
 import { createEmptyDraft } from './constants';
 import { loadSeedCollection } from './collectionIO';
 import { useCollectionStore } from './collectionStore';
-import type { CardDraft, CollectionCard, SortKey } from './types';
+import type { CardDraft, CardList, CollectionCard, SortKey } from './types';
+
+const ALL_VIEW_ID = 'all';
+const WISHLIST_VIEW_ID = 'wishlist';
+
+const allCardsList: CardList = { id: ALL_VIEW_ID, name: 'All Cards' };
+const wishlistList: CardList = { id: WISHLIST_VIEW_ID, name: 'Wishlist' };
 
 export function App() {
   const {
@@ -44,8 +50,20 @@ export function App() {
       });
   }, [loadCollection]);
 
-  const activeList = lists.find((list) => list.id === activeListId) ?? lists[0];
-  const activeCards = cards.filter((card) => card.listId === activeListId);
+  const navLists = useMemo(() => [allCardsList, ...lists, wishlistList], [lists]);
+  const fallbackListId = lists[0]?.id ?? 'main';
+  const activeList = navLists.find((list) => list.id === activeListId) ?? navLists[0];
+  const activeCards = useMemo(() => {
+    if (activeListId === ALL_VIEW_ID) {
+      return cards;
+    }
+
+    if (activeListId === WISHLIST_VIEW_ID) {
+      return cards.filter((card) => card.count === 0);
+    }
+
+    return cards.filter((card) => card.listId === activeListId);
+  }, [activeListId, cards]);
   const totalOwned = activeCards.reduce((sum, card) => sum + card.count, 0);
 
   const visibleCards = useMemo(() => {
@@ -56,16 +74,23 @@ export function App() {
 
   const listCounts = useMemo(() => {
     return new Map(
-      lists.map((list) => [
-        list.id,
-        cards.filter((card) => card.listId === list.id).reduce((sum, card) => sum + card.count, 0),
-      ]),
+      navLists.map((list) => {
+        if (list.id === ALL_VIEW_ID) {
+          return [list.id, cards.length];
+        }
+
+        if (list.id === WISHLIST_VIEW_ID) {
+          return [list.id, cards.filter((card) => card.count === 0).length];
+        }
+
+        return [list.id, cards.filter((card) => card.listId === list.id).length];
+      }),
     );
-  }, [cards, lists]);
+  }, [cards, navLists]);
 
   function openAddForm() {
     setEditingId(null);
-    setDraft(createEmptyDraft(activeListId));
+    setDraft(createEmptyDraft(lists.some((list) => list.id === activeListId) ? activeListId : fallbackListId));
     setIsFormOpen(true);
   }
 
@@ -87,7 +112,7 @@ export function App() {
       updateCard(editingId, draft);
       setStatus(`Updated ${draft.name.trim()}`);
     } else {
-      addCard({ ...draft, listId: draft.listId || activeListId });
+      addCard({ ...draft, listId: draft.listId || fallbackListId });
       setStatus(`Added ${draft.name.trim()}`);
     }
 
@@ -102,7 +127,7 @@ export function App() {
 
   function closeForm() {
     setEditingId(null);
-    setDraft(createEmptyDraft(activeListId));
+    setDraft(createEmptyDraft(lists.some((list) => list.id === activeListId) ? activeListId : fallbackListId));
     setIsFormOpen(false);
   }
 
@@ -110,7 +135,7 @@ export function App() {
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
       <div className="grid min-h-screen lg:grid-cols-[260px_1fr]">
         <Sidebar
-          lists={lists}
+          lists={navLists}
           activeListId={activeListId}
           cards={cards}
           listCounts={listCounts}
@@ -120,7 +145,7 @@ export function App() {
         <section className="min-w-0 px-4 py-3 sm:px-6 lg:px-8 lg:py-4">
           <MobileHeader
             title={activeList?.name ?? 'Collection'}
-            lists={lists}
+            lists={navLists}
             activeListId={activeListId}
             isOpen={isListMenuOpen}
             listCounts={listCounts}
