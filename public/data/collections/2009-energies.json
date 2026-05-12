@@ -1,0 +1,90 @@
+[
+  {
+    "id": "grass-energy-2009-energies-no-001",
+    "name": "Grass Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "001",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/89/1e/cd/891ecd61cabfeffbe50dfb4d1adfe2435b5feddbed4f6a31faf5ede9386d56b5.webp",
+    "notes": ""
+  },
+  {
+    "id": "fire-energy-2009-energies-no-002",
+    "name": "Fire Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "002",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/84/f2/71/84f2716ea6a3e5cb47e0789acbf73175eb6af923e84aac729279bebedd59fd5b.webp",
+    "notes": ""
+  },
+  {
+    "id": "water-energy-2009-energies-no-003",
+    "name": "Water Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "003",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/ec/ad/4b/ecad4b3288969ddf662c1a8dd161ef31401225b8ce44dd58eceeaf67433f13d3.webp",
+    "notes": ""
+  },
+  {
+    "id": "lightning-energy-2009-energies-no-004",
+    "name": "Lightning Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "004",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/6a/a6/80/6aa68036fa3a8c3521049bf6c293168853c861ca1093faccfb1dd7c4745e8565.webp",
+    "notes": ""
+  },
+  {
+    "id": "psychic-energy-2009-energies-no-005",
+    "name": "Psychic Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "005",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/63/c4/a0/63c4a09350b67276b461029cca38cb7574da7a2081bcd4426b440d320623f03b.webp",
+    "notes": ""
+  },
+  {
+    "id": "fighting-energy-2009-energies-no-006",
+    "name": "Fighting Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "006",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/77/99/52/77995246b9b480eb406b538fb94c6dad4ce0c577e1b4ab5c4d01dec6d215e46d.webp",
+    "notes": ""
+  },
+  {
+    "id": "darkness-energy-2009-energies-no-007",
+    "name": "Darkness Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "007",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/b9/0c/fd/b90cfd0f9fd898ff0ccb41dcecafde284f7098a7cf36b9697b580d1aee021f0c.webp",
+    "notes": ""
+  },
+  {
+    "id": "metal-energy-2009-energies-no-008",
+    "name": "Metal Energy",
+    "set": "2009 Energies",
+    "pokedexNumber": null,
+    "number": "008",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/fb/fa/bc/fbfabc6ce577d878b9148d9382cce2024a3ff76970fcefd9b2c20b176e32c141.webp",
+    "notes": ""
+  }
+]

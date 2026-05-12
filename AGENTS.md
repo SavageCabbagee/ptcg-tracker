@@ -41,7 +41,8 @@ There is currently no test script or lint script defined in `package.json`.
 - `src/constants.ts`: default draft values and constants.
 - `src/components/`: reusable UI components.
 - `src/styles.css`: Tailwind layers and shared component classes.
-- `public/data/collection.json`: bundled starter collection loaded by the app.
+- `public/data/collection.json`: bundled collection manifest loaded by the app.
+- `public/data/collections/*.json`: per-theme card arrays referenced by the manifest.
 - `public/data/dex.txt` and `dex/*.txt`: Pokemon dex data files.
 - `.github/workflows/deploy.yml`: GitHub Pages deployment workflow.
 
@@ -72,6 +73,7 @@ There is currently no test script or lint script defined in `package.json`.
 - There is no active import/export UX. Treat the bundled JSON as repo-controlled seed/current data for now.
 - When parsing bundled data, accept legacy shapes where the current code already does so.
 - Counts should remain non-negative integers, card language values are normalized to uppercase, and missing optional strings normalize to empty strings.
+- A card with `count: 0` is treated as wishlisted. Wishlist is a computed view, not a persisted list ID.
 - Default card language is `JP`; keep defaults centralized in `src/constants.ts`.
 - `CollectionCard` / `CollectionFile` are enough for the current controlled JSON shape. Do not add schema docs unless explicitly requested.
 
