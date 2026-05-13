@@ -5,7 +5,7 @@
     "set": "ADV Promos",
     "pokedexNumber": 382,
     "number": "001/ADV-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/4d/45/c4/4d45c4a6d4d067d31168e1125103477a48ee4ff8149d112c7a42186e1a49e112.jpg",
     "notes": ""
@@ -16,7 +16,7 @@
     "set": "ADV Promos",
     "pokedexNumber": 383,
     "number": "002/ADV-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/fb/3f/3e/fb3f3ef5111d539cbe22ac48b1cebbf5c2ffd91a391ff2c96489f80c551917a8.jpg",
     "notes": ""
@@ -148,7 +148,7 @@
     "set": "ADV Promos",
     "pokedexNumber": 385,
     "number": "014/ADV-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/48/45/6d/48456dcbf7788ef52341f7a21ca00ee53fcb3eab4927ef41ae3b67a32deb1a03.jpg",
     "notes": ""
@@ -159,7 +159,7 @@
     "set": "ADV Promos",
     "pokedexNumber": 252,
     "number": "015/ADV-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/c0/53/81/c0538166e6a69d3955c0910289f2f11722a91f7417b6d2bb67d0260a1ad50069.jpg",
     "notes": ""
@@ -335,7 +335,7 @@
     "set": "ADV Promos",
     "pokedexNumber": 293,
     "number": "031/ADV-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/36/37/eb/3637eb4391a5c0c10f20cad3a06db8ffc183f41fc712bbda1735224d2e99dc38.jpg",
     "notes": ""
@@ -500,7 +500,7 @@
     "set": "ADV Promos",
     "pokedexNumber": 254,
     "number": "046/ADV-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/6e/9d/58/6e9d58569a6ddf23a0bd2379407a76789d8e757a35e50fd46253bc26c9f3a210.jpg",
     "notes": ""
@@ -511,7 +511,7 @@
     "set": "ADV Promos",
     "pokedexNumber": 257,
     "number": "047/ADV-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/df/be/2e/dfbe2ee5af1b56380b6ba4ac2a49e789c867048ab18fe368e3ec4f096df4c677.jpg",
     "notes": ""

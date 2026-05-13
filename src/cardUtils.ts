@@ -5,11 +5,19 @@ export function compareBySortKey(a: CollectionCard, b: CollectionCard, sortKey: 
     return b.count - a.count || a.name.localeCompare(b.name);
   }
 
-  if (sortKey === 'number') {
+  if (sortKey === 'pokedex') {
     return compareByPokedexNumber(a, b);
   }
 
-  return a[sortKey].localeCompare(b[sortKey], undefined, { numeric: true }) || a.name.localeCompare(b.name);
+  if (sortKey === 'cardNumber') {
+    return compareByCardNumber(a, b);
+  }
+
+  if (sortKey === 'set') {
+    return a.set.localeCompare(b.set, undefined, { numeric: true }) || compareByCardNumber(a, b);
+  }
+
+  return a.name.localeCompare(b.name);
 }
 
 function compareByPokedexNumber(a: CollectionCard, b: CollectionCard) {
@@ -20,6 +28,10 @@ function compareByPokedexNumber(a: CollectionCard, b: CollectionCard) {
   if (a.pokedexNumber !== null) return -1;
   if (b.pokedexNumber !== null) return 1;
 
+  return compareByCardNumber(a, b);
+}
+
+function compareByCardNumber(a: CollectionCard, b: CollectionCard) {
   return a.number.localeCompare(b.number, undefined, { numeric: true }) || a.name.localeCompare(b.name);
 }
 

@@ -38,4 +38,4 @@ export type CardDraft = Omit<CollectionCard, 'id'> & {
   id?: string;
 };
 
-export type SortKey = 'name' | 'set' | 'number' | 'count';
+export type SortKey = 'name' | 'set' | 'pokedex' | 'cardNumber' | 'count';

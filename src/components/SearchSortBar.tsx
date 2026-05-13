@@ -35,7 +35,8 @@ export function SearchSortBar({ query, sortKey, onQueryChange, onSortChange }: S
         >
           <option value="set">Set</option>
           <option value="name">Name</option>
-          <option value="number">Number</option>
+          <option value="pokedex">Pokedex</option>
+          <option value="cardNumber">Card #</option>
           <option value="count">Count</option>
         </select>
       </label>

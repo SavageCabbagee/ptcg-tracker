@@ -11,6 +11,11 @@
       "file": "collections/pokedex-gen-2.json"
     },
     {
+      "id": "gen3",
+      "name": "Pokedex Gen 3",
+      "file": "collections/pokedex-gen-3.json"
+    },
+    {
       "id": "neo-premium-files",
       "name": "Neo Premium Files",
       "file": "collections/neo-premium-files.json"
