@@ -34,6 +34,21 @@
       "id": "adv-promos",
       "name": "ADV Promos",
       "file": "collections/adv-promos.json"
+    },
+    {
+      "id": "adv-others",
+      "name": "ADV (Others)",
+      "file": "collections/adv-others.json"
+    },
+    {
+      "id": "pcg-promos",
+      "name": "PCG Promos",
+      "file": "collections/pcg-promos.json"
+    },
+    {
+      "id": "arceus",
+      "name": "Arceus",
+      "file": "collections/arceus.json"
     }
   ]
 }
