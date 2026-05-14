@@ -176,17 +176,6 @@
     "notes": ""
   },
   {
-    "id": "adv-others-tcgcollector-50961",
-    "name": "Beldum",
-    "set": "Metagross Constructed Starter Deck",
-    "pokedexNumber": 374,
-    "number": "011/019",
-    "count": 0,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/27/f1/bd/27f1bdc7d0c0ba3a162da8f413cce71d32fa7b5c19714efa9ca1bae4cbd0b916.webp",
-    "notes": ""
-  },
-  {
     "id": "adv-others-tcgcollector-50954",
     "name": "Metang",
     "set": "Metagross Constructed Starter Deck",
@@ -198,17 +187,6 @@
     "notes": ""
   },
   {
-    "id": "adv-others-tcgcollector-50962",
-    "name": "Metang",
-    "set": "Metagross Constructed Starter Deck",
-    "pokedexNumber": 375,
-    "number": "012/019",
-    "count": 0,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/2d/68/13/2d6813aad418a87e1336f8870635cd986d95a4c1aa8639b50d41312e051f42d7.webp",
-    "notes": ""
-  },
-  {
     "id": "adv-others-tcgcollector-50955",
     "name": "Metagross",
     "set": "Metagross Constructed Starter Deck",
@@ -217,6 +195,39 @@
     "count": 0,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/0b/ab/e2/0babe2eb2ed1b7d095abeaae96b28bd582319698c6a06ebdda46fb114f0c7ff0.webp",
+    "notes": ""
+  },
+  {
+    "id": "adv5_jp-026",
+    "name": "Rain Castform",
+    "set": "Undone Seal",
+    "pokedexNumber": 351,
+    "number": "026/083",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-026.png?signature=cac8f0ecb54769f7e241312c40ce26d2281ec3780d977ab2c542720ada64f282",
+    "notes": ""
+  },
+  {
+    "id": "adv5_jp-027",
+    "name": "Snow-cloud Castform",
+    "set": "Undone Seal",
+    "pokedexNumber": 351,
+    "number": "027/083",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-027.png?signature=1b18b10e486a2bdb2b9266a84ff0ac3e31e080caa8c65d2e78791ed6c65f29c7",
+    "notes": ""
+  },
+  {
+    "id": "adv5_jp-019",
+    "name": "Sunny Castform",
+    "set": "Undone Seal",
+    "pokedexNumber": 351,
+    "number": "019/083",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-019.png?signature=47d27649045b049d7fe91d3920ac0d6fea3ca1eddcec0d609f3d43fbeb0ea670",
     "notes": ""
   },
   {
