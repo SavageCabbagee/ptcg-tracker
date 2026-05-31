@@ -5,6 +5,7 @@ import {
   type CollectionManifestEntry,
   type CollectionManifestFile,
   type DexEntry,
+  type SerializedCollection,
 } from './types';
 import { DEFAULT_LANGUAGE } from './constants';
 
@@ -55,7 +56,14 @@ export function parseCollection(input: unknown): CollectionFile {
   };
 }
 
-async function loadManifestCollection(input: CollectionManifestFile): Promise<CollectionFile> {
+export async function parseCollectionManifest(
+  input: unknown,
+  loadCollectionFile: (path: string) => Promise<unknown>,
+): Promise<CollectionFile> {
+  if (!isCollectionManifest(input)) {
+    return parseCollection(input);
+  }
+
   const collections = input.collections.map(parseManifestEntry);
 
   if (collections.length === 0) {
@@ -63,21 +71,25 @@ async function loadManifestCollection(input: CollectionManifestFile): Promise<Co
   }
 
   const cardsByCollection = await Promise.all(
-    collections.map(async (collection) => {
-      const response = await fetch(dataUrl(collection.file));
-
-      if (!response.ok) {
-        throw new Error(`Could not load ${collection.file} (${response.status})`);
-      }
-
-      return parseCollectionSubset(await response.json(), collection);
-    }),
+    collections.map(async (collection) => parseCollectionSubset(await loadCollectionFile(collection.file), collection)),
   );
 
   return {
-    lists: collections.map(({ id, name }) => ({ id, name })),
+    lists: collections.map(({ id, name, file }) => ({ id, name, file })),
     cards: cardsByCollection.flat(),
   };
+}
+
+async function loadManifestCollection(input: CollectionManifestFile): Promise<CollectionFile> {
+  return parseCollectionManifest(input, async (path) => {
+    const response = await fetch(dataUrl(path));
+
+    if (!response.ok) {
+      throw new Error(`Could not load ${path} (${response.status})`);
+    }
+
+    return response.json();
+  });
 }
 
 function parseCollectionSubset(input: unknown, list: CardList): CollectionCard[] {
@@ -102,6 +114,34 @@ export function exportCollection(collection: CollectionFile) {
   link.download = 'collection.json';
   link.click();
   URL.revokeObjectURL(url);
+}
+
+export function serializeSplitCollection(collection: CollectionFile, dataRoot = ''): SerializedCollection {
+  const cleanDataRoot = normalizePath(dataRoot);
+  const lists = collection.lists.filter((list) => list.id !== 'wishlist');
+  const manifest: CollectionManifestFile = {
+    collections: lists.map((list) => ({
+      id: list.id,
+      name: list.name,
+      file: list.file || `collections/${list.id}.json`,
+    })),
+  };
+  const files = [
+    {
+      path: joinPath(cleanDataRoot, 'collection.json'),
+      content: `${JSON.stringify(manifest, null, 2)}\n`,
+    },
+    ...lists.map((list) => ({
+      path: joinPath(cleanDataRoot, list.file || `collections/${list.id}.json`),
+      content: `${JSON.stringify(
+        collection.cards.filter((card) => card.listId === list.id).map(stripListId),
+        null,
+        2,
+      )}\n`,
+    })),
+  ];
+
+  return { files };
 }
 
 export function parseDex(input: string): DexEntry[] {
@@ -165,6 +205,22 @@ function isCollectionManifest(input: unknown): input is CollectionManifestFile {
 
 function dataUrl(path: string) {
   return `${import.meta.env.BASE_URL}data/${path.replace(/^\/+/, '')}`;
+}
+
+function normalizePath(path: string) {
+  return path.trim().replace(/^\/+|\/+$/g, '');
+}
+
+function joinPath(...parts: string[]) {
+  return parts
+    .map((part) => part.replace(/^\/+|\/+$/g, ''))
+    .filter(Boolean)
+    .join('/');
+}
+
+function stripListId(card: CollectionCard) {
+  const { listId: _listId, ...rest } = card;
+  return rest;
 }
 
 function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): CollectionCard {

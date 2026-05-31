@@ -22,6 +22,7 @@ type CollectionState = {
 const normalizeList = (list: Partial<CardList>): CardList => ({
   id: list.id?.trim() || crypto.randomUUID(),
   name: list.name?.trim() || 'Untitled List',
+  file: list.file?.trim() || undefined,
 });
 
 const sortLists = (lists: CardList[]) =>

@@ -1,6 +1,7 @@
 export type CardList = {
   id: string;
   name: string;
+  file?: string;
 };
 
 export type DexEntry = {
@@ -32,6 +33,27 @@ export type CollectionManifestEntry = CardList & {
 
 export type CollectionManifestFile = {
   collections: CollectionManifestEntry[];
+};
+
+export type SerializedCollectionFile = {
+  path: string;
+  content: string;
+};
+
+export type SerializedCollection = {
+  files: SerializedCollectionFile[];
+};
+
+export type GitHubStorageConfig = {
+  owner: string;
+  repo: string;
+  branch: string;
+  dataRoot: string;
+};
+
+export type GitHubStorageSession = {
+  commitSha: string;
+  treeSha: string;
 };
 
 export type CardDraft = Omit<CollectionCard, 'id'> & {

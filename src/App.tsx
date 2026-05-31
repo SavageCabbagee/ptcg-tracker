@@ -1,22 +1,45 @@
-import { FormEvent, useEffect, useMemo, useState } from 'react';
+import { FormEvent, useCallback, useEffect, useMemo, useState } from 'react';
 import { Plus, Trash2, X } from 'lucide-react';
 import { compareBySortKey, getDexSuggestions, matchesCardQuery } from './cardUtils';
 import { CardFormModal } from './components/CardFormModal';
 import { CardGrid } from './components/CardGrid';
 import { CountSummary } from './components/CountSummary';
+import { GitHubStoragePanel } from './components/GitHubStoragePanel';
 import { MobileHeader } from './components/MobileHeader';
 import { SearchSortBar } from './components/SearchSortBar';
 import { Sidebar } from './components/Sidebar';
 import { createEmptyDraft } from './constants';
 import { loadDex, loadSeedCollection } from './collectionIO';
 import { useCollectionStore } from './collectionStore';
-import type { CardDraft, CardList, CollectionCard, DexEntry, SortKey } from './types';
+import {
+  isGitHubConfigComplete,
+  loadGitHubCollection,
+  normalizeGitHubConfig,
+  saveGitHubCollection,
+} from './githubStorage';
+import type {
+  CardDraft,
+  CardList,
+  CollectionCard,
+  DexEntry,
+  GitHubStorageConfig,
+  GitHubStorageSession,
+  SortKey,
+} from './types';
 
 const ALL_VIEW_ID = 'all';
 const WISHLIST_VIEW_ID = 'wishlist';
+const githubConfigStorageKey = 'ptcg-tracker.github.config';
+const githubTokenStorageKey = 'ptcg-tracker.github.token';
 
 const allCardsList: CardList = { id: ALL_VIEW_ID, name: 'All Cards' };
 const wishlistList: CardList = { id: WISHLIST_VIEW_ID, name: 'Wishlist' };
+const defaultGitHubConfig: GitHubStorageConfig = {
+  owner: '',
+  repo: '',
+  branch: 'main',
+  dataRoot: '',
+};
 
 export function App() {
   const {
@@ -43,11 +66,19 @@ export function App() {
   const [dexEntries, setDexEntries] = useState<DexEntry[]>([]);
   const [status, setStatus] = useState('Loading collection data...');
   const [error, setError] = useState('');
+  const [githubConfig, setGitHubConfig] = useState<GitHubStorageConfig>(loadStoredGitHubConfig);
+  const [githubToken, setGitHubToken] = useState(loadStoredGitHubToken);
+  const [githubSession, setGitHubSession] = useState<GitHubStorageSession | null>(null);
+  const [isStorageOpen, setIsStorageOpen] = useState(false);
+  const [storageStatus, setStorageStatus] = useState('');
+  const [storageAction, setStorageAction] = useState<'idle' | 'loading' | 'saving'>('idle');
+  const [isDirty, setIsDirty] = useState(false);
 
   useEffect(() => {
     loadSeedCollection()
       .then((collection) => {
         loadCollection(collection);
+        setIsDirty(false);
         setStatus(`Loaded ${collection.cards.length} cards from collection data`);
       })
       .catch((reason: unknown) => {
@@ -63,6 +94,19 @@ export function App() {
         setDexEntries([]);
       });
   }, []);
+
+  useEffect(() => {
+    localStorage.setItem(githubConfigStorageKey, JSON.stringify(normalizeGitHubConfig(githubConfig)));
+  }, [githubConfig]);
+
+  useEffect(() => {
+    if (githubToken.trim()) {
+      localStorage.setItem(githubTokenStorageKey, githubToken);
+      return;
+    }
+
+    localStorage.removeItem(githubTokenStorageKey);
+  }, [githubToken]);
 
   const navLists = useMemo(() => [allCardsList, ...lists, wishlistList], [lists]);
   const fallbackListId = lists[0]?.id ?? 'main';
@@ -116,6 +160,104 @@ export function App() {
       }),
     );
   }, [cards, navLists]);
+  const normalizedGitHubConfig = useMemo(() => normalizeGitHubConfig(githubConfig), [githubConfig]);
+  const canSyncGitHub = isGitHubConfigComplete(normalizedGitHubConfig, githubToken);
+  const isStorageBusy = storageAction !== 'idle';
+
+  const loadFromGitHub = useCallback(
+    async (config: GitHubStorageConfig, token: string, source: 'auto' | 'manual') => {
+      setStorageAction('loading');
+      setError('');
+      setStorageStatus(source === 'auto' ? 'Loading saved GitHub storage...' : 'Loading from GitHub...');
+
+      try {
+        const { collection, session } = await loadGitHubCollection(config, token);
+        loadCollection(collection);
+        setGitHubSession(session);
+        setIsDirty(false);
+        setStatus(`Loaded ${collection.cards.length} cards from GitHub`);
+        setStorageStatus(`Loaded ${config.owner}/${config.repo}@${config.branch}`);
+      } catch (reason: unknown) {
+        const message = reason instanceof Error ? reason.message : 'Could not load from GitHub.';
+        setError(message);
+        setStorageStatus(source === 'auto' ? `Auto-load failed: ${message}` : message);
+      } finally {
+        setStorageAction('idle');
+      }
+    },
+    [loadCollection],
+  );
+
+  useEffect(() => {
+    const config = normalizeGitHubConfig(loadStoredGitHubConfig());
+    const token = loadStoredGitHubToken().trim();
+
+    if (!isGitHubConfigComplete(config, token)) {
+      return;
+    }
+
+    void loadFromGitHub(config, token, 'auto');
+  }, [loadFromGitHub]);
+
+  function updateGitHubConfig(config: GitHubStorageConfig) {
+    setGitHubConfig(config);
+    setGitHubSession(null);
+  }
+
+  function updateGitHubToken(token: string) {
+    setGitHubToken(token);
+    setGitHubSession(null);
+  }
+
+  async function handleGitHubLoad() {
+    if (!canSyncGitHub || isStorageBusy) {
+      return;
+    }
+
+    if (isDirty && !window.confirm('Load from GitHub and replace unsaved local changes?')) {
+      return;
+    }
+
+    void loadFromGitHub(normalizedGitHubConfig, githubToken.trim(), 'manual');
+  }
+
+  async function handleGitHubSave() {
+    if (!canSyncGitHub || isStorageBusy || !isDirty) {
+      return;
+    }
+
+    setStorageAction('saving');
+    setError('');
+    setStorageStatus('Saving to GitHub...');
+
+    try {
+      const session = await saveGitHubCollection(
+        normalizedGitHubConfig,
+        githubToken.trim(),
+        { lists, cards },
+        githubSession,
+      );
+      setGitHubSession(session);
+      setIsDirty(false);
+      setStatus('Saved collection data to GitHub');
+      setStorageStatus(`Saved commit ${session.commitSha.slice(0, 7)} to ${normalizedGitHubConfig.branch}`);
+    } catch (reason: unknown) {
+      const message = reason instanceof Error ? reason.message : 'Could not save to GitHub.';
+      setError(message);
+      setStorageStatus(message);
+    } finally {
+      setStorageAction('idle');
+    }
+  }
+
+  function disconnectGitHub() {
+    localStorage.removeItem(githubConfigStorageKey);
+    localStorage.removeItem(githubTokenStorageKey);
+    setGitHubConfig(defaultGitHubConfig);
+    setGitHubToken('');
+    setGitHubSession(null);
+    setStorageStatus('Disconnected GitHub storage');
+  }
 
   function openAddForm() {
     setEditingId(null);
@@ -149,6 +291,7 @@ export function App() {
     }
 
     const list = addList(listName);
+    setIsDirty(true);
     setStatus(`Added ${list.name}`);
     setIsListMenuOpen(false);
     closeListForm();
@@ -165,9 +308,11 @@ export function App() {
 
     if (editingId) {
       updateCard(editingId, draft);
+      setIsDirty(true);
       setStatus(`Updated ${draft.name.trim()}`);
     } else {
       addCard({ ...draft, listId: draft.listId || fallbackListId });
+      setIsDirty(true);
       setStatus(`Added ${draft.name.trim()}`);
     }
 
@@ -200,6 +345,7 @@ export function App() {
     }
 
     deleteCard(deletingCard.id);
+    setIsDirty(true);
     setStatus(`Deleted ${deletingCard.name}`);
     closeDeleteConfirm();
   }
@@ -249,6 +395,22 @@ export function App() {
               sortKey={sortKey}
               onQueryChange={setQuery}
               onSortChange={setSortKey}
+            />
+
+            <GitHubStoragePanel
+              config={githubConfig}
+              token={githubToken}
+              isOpen={isStorageOpen}
+              isBusy={isStorageBusy}
+              canSync={canSyncGitHub}
+              isDirty={isDirty}
+              storageStatus={storageStatus}
+              onToggle={() => setIsStorageOpen((current) => !current)}
+              onConfigChange={updateGitHubConfig}
+              onTokenChange={updateGitHubToken}
+              onLoad={handleGitHubLoad}
+              onSave={handleGitHubSave}
+              onDisconnect={disconnectGitHub}
             />
           </div>
 
@@ -353,4 +515,22 @@ export function App() {
       )}
     </main>
   );
+}
+
+function loadStoredGitHubConfig(): GitHubStorageConfig {
+  try {
+    const input = localStorage.getItem(githubConfigStorageKey);
+
+    if (!input) {
+      return defaultGitHubConfig;
+    }
+
+    return normalizeGitHubConfig({ ...defaultGitHubConfig, ...(JSON.parse(input) as Partial<GitHubStorageConfig>) });
+  } catch {
+    return defaultGitHubConfig;
+  }
+}
+
+function loadStoredGitHubToken() {
+  return localStorage.getItem(githubTokenStorageKey) ?? '';
 }
