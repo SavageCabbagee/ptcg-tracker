@@ -13,9 +13,9 @@ This file gives Codex and other AI agents the working context for this repo. Rea
 - `lucide-react` for icons
 - Static seed data from `public/data/collection.json`
 
-There is no backend in this repo. The app loads bundled JSON data in the browser and manages edits in client state.
+There is no backend in this repo. The app loads bundled JSON data in the browser, can load/save collection data through the GitHub REST API using a user-provided PAT, and manages edits in client state.
 
-The near-term repo plan is to keep this as a GitHub Pages-hosted static frontend while the tracker UX is refined. Private GitHub-repo storage and authenticated GitHub API writes are deferred until the basic card grid/list workflow feels solid.
+The app is intended to remain a GitHub Pages-hosted static frontend. GitHub storage is client-side only: users provide a fine-grained PAT with repository Contents read/write access, and the browser talks directly to GitHub.
 
 ## Common Commands
 
@@ -37,9 +37,11 @@ There is currently no test script or lint script defined in `package.json`.
 - `src/types.ts`: shared collection, card, and sort types.
 - `src/collectionStore.ts`: Zustand store, normalization, card CRUD, and collection sorting.
 - `src/collectionIO.ts`: loading, parsing, and normalizing collection JSON.
+- `src/githubStorage.ts`: GitHub API load/save behavior for split collection files.
 - `src/cardUtils.ts`: card sorting, labels, and search matching.
 - `src/constants.ts`: default draft values and constants.
 - `src/components/`: reusable UI components.
+- `src/components/GitHubStoragePanel.tsx`: GitHub storage settings and explicit load/save controls.
 - `src/styles.css`: Tailwind layers and shared component classes.
 - `public/data/collection.json`: bundled collection manifest loaded by the app.
 - `public/data/collections/*.json`: per-theme card arrays referenced by the manifest.
@@ -51,7 +53,9 @@ There is currently no test script or lint script defined in `package.json`.
 - Keep card data shaped around `CollectionCard`, `CardDraft`, `CollectionFile`, and related types in `src/types.ts`.
 - Keep input cleanup and defensive data normalization close to `collectionIO.ts` and `collectionStore.ts`.
 - `collectionIO.ts` handles unknown external JSON. Prefer explicit validation and normalization there.
+- `collectionIO.ts` also owns serialization for the split GitHub storage layout. Preserve manifest file paths when round-tripping.
 - `collectionStore.ts` owns in-memory collection behavior. Preserve existing sorting and normalization behavior unless the task is specifically to change it.
+- `githubStorage.ts` owns GitHub REST API calls. Keep token handling out of persisted collection data, URLs, and status messages.
 - UI state currently lives in `App.tsx`; reusable visual pieces live under `src/components/`.
 - Search and sort helpers belong in `src/cardUtils.ts` when they are not tied to rendering.
 - The primary UX is a dark, mobile-first card grid. Cards open the edit modal when tapped/clicked.
@@ -70,12 +74,24 @@ There is currently no test script or lint script defined in `package.json`.
 
 - Treat `public/data/collection.json` as user data. Do not reformat, regenerate, or overwrite it unless the task explicitly asks for that.
 - Preserve unknown user edits in data files. Check `git status --short` before changing data.
-- There is no active import/export UX. Treat the bundled JSON as repo-controlled seed/current data for now.
+- Bundled JSON remains the seed/fallback data. GitHub storage is an optional runtime source of truth after the user configures it.
 - When parsing bundled data, accept legacy shapes where the current code already does so.
 - Counts should remain non-negative integers, card language values are normalized to uppercase, and missing optional strings normalize to empty strings.
 - A card with `count: 0` is treated as wishlisted. Wishlist is a computed view, not a persisted list ID.
 - Default card language is `JP`; keep defaults centralized in `src/constants.ts`.
 - `CollectionCard` / `CollectionFile` are enough for the current controlled JSON shape. Do not add schema docs unless explicitly requested.
+
+## GitHub Storage Notes
+
+- GitHub storage uses explicit Load and Save controls, plus auto-load on refresh when a valid stored token and repo config are present.
+- The PAT and GitHub config are stored in `localStorage`; Disconnect clears both.
+- The GitHub storage default data root is the repository root. A blank Data root means the app expects `collection.json` and `collections/*.json` at repo root.
+- The split storage layout is:
+  - `collection.json`: manifest with `collections[]` entries containing `id`, `name`, and relative `file`.
+  - `collections/*.json`: per-list card arrays referenced by the manifest.
+- Save uses GitHub git tree/commit/ref APIs to commit all changed split files together.
+- Save conflict handling compares the loaded/saved branch commit SHA with the current branch head and blocks stale saves.
+- Preserve each manifest entry's `file` path on load/save. New lists fall back to `collections/<list-id>.json`.
 
 ## Deployment Notes
 

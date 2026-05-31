@@ -29,6 +29,7 @@ import type {
 
 const ALL_VIEW_ID = 'all';
 const WISHLIST_VIEW_ID = 'wishlist';
+const activeListStorageKey = 'ptcg-tracker.active-list';
 const githubConfigStorageKey = 'ptcg-tracker.github.config';
 const githubTokenStorageKey = 'ptcg-tracker.github.token';
 
@@ -77,7 +78,7 @@ export function App() {
   useEffect(() => {
     loadSeedCollection()
       .then((collection) => {
-        loadCollection(collection);
+        loadCollection(collection, loadStoredActiveListId());
         setIsDirty(false);
         setStatus(`Loaded ${collection.cards.length} cards from collection data`);
       })
@@ -107,6 +108,12 @@ export function App() {
 
     localStorage.removeItem(githubTokenStorageKey);
   }, [githubToken]);
+
+  useEffect(() => {
+    if (isLoaded && activeListId) {
+      localStorage.setItem(activeListStorageKey, activeListId);
+    }
+  }, [activeListId, isLoaded]);
 
   const navLists = useMemo(() => [allCardsList, ...lists, wishlistList], [lists]);
   const fallbackListId = lists[0]?.id ?? 'main';
@@ -172,7 +179,7 @@ export function App() {
 
       try {
         const { collection, session } = await loadGitHubCollection(config, token);
-        loadCollection(collection);
+        loadCollection(collection, loadStoredActiveListId());
         setGitHubSession(session);
         setIsDirty(false);
         setStatus(`Loaded ${collection.cards.length} cards from GitHub`);
@@ -267,6 +274,7 @@ export function App() {
 
   function chooseList(listId: string) {
     setActiveList(listId);
+    localStorage.setItem(activeListStorageKey, listId);
     setIsListMenuOpen(false);
   }
 
@@ -533,4 +541,8 @@ function loadStoredGitHubConfig(): GitHubStorageConfig {
 
 function loadStoredGitHubToken() {
   return localStorage.getItem(githubTokenStorageKey) ?? '';
+}
+
+function loadStoredActiveListId() {
+  return localStorage.getItem(activeListStorageKey) ?? undefined;
 }

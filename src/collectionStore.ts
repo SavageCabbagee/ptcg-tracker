@@ -11,7 +11,7 @@ type CollectionState = {
   activeListId: string;
   cards: CollectionCard[];
   isLoaded: boolean;
-  loadCollection: (collection: CollectionFile) => void;
+  loadCollection: (collection: CollectionFile, preferredListId?: string) => void;
   setActiveList: (listId: string) => void;
   addList: (name: string) => CardList;
   addCard: (draft: CardDraft) => void;
@@ -67,14 +67,16 @@ export const useCollectionStore = create<CollectionState>((set) => ({
   activeListId: defaultList.id,
   cards: [],
   isLoaded: false,
-  loadCollection: (collection) =>
+  loadCollection: (collection, preferredListId) =>
     set(() => {
       const lists = sortLists(collection.lists.length > 0 ? collection.lists.map(normalizeList) : [defaultList]);
       const fallbackListId = lists[0].id;
+      const activeListId =
+        preferredListId && isAllowedActiveList(preferredListId, lists) ? preferredListId : fallbackListId;
 
       return {
         lists,
-        activeListId: fallbackListId,
+        activeListId,
         cards: collection.cards.map((card) => normalizeCard(card, fallbackListId)).sort(compareCards),
         isLoaded: true,
       };
@@ -118,3 +120,6 @@ const compareCards = (a: CollectionCard, b: CollectionCard) =>
   a.set.localeCompare(b.set) ||
   a.number.localeCompare(b.number, undefined, { numeric: true }) ||
   a.name.localeCompare(b.name);
+
+const isAllowedActiveList = (listId: string, lists: CardList[]) =>
+  listId === 'all' || listId === 'wishlist' || lists.some((list) => list.id === listId);
