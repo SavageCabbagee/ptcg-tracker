@@ -1,5 +1,5 @@
 import { FormEvent } from 'react';
-import { Plus, X } from 'lucide-react';
+import { ImageOff, Plus, X } from 'lucide-react';
 import { TextField } from './TextField';
 import { type CardDraft, type CardList, type DexEntry } from '../types';
 
@@ -30,7 +30,7 @@ export function CardFormModal({
       onClick={onClose}
     >
       <form
-        className="max-h-[92vh] w-full overflow-y-auto rounded-lg border border-zinc-800 bg-zinc-900 p-4 shadow-xl sm:max-w-xl"
+        className="max-h-[92vh] w-full overflow-y-auto rounded-lg border border-zinc-800 bg-zinc-900 p-4 shadow-xl sm:max-w-2xl"
         onClick={(event) => event.stopPropagation()}
         onSubmit={onSubmit}
       >
@@ -39,6 +39,21 @@ export function CardFormModal({
           <button className="icon-button" type="button" onClick={onClose} title="Close">
             <X size={18} />
           </button>
+        </div>
+
+        <div className="mb-4 rounded-lg border border-zinc-800 bg-zinc-950 p-3">
+          {draft.imageUrl ? (
+            <img
+              className="mx-auto max-h-[64vh] w-full max-w-sm rounded-md object-contain sm:max-h-[68vh]"
+              src={draft.imageUrl}
+              alt={draft.name ? `${draft.name} card` : 'Card preview'}
+            />
+          ) : (
+            <div className="flex min-h-64 flex-col items-center justify-center gap-3 rounded-md border border-dashed border-zinc-700 text-zinc-500">
+              <ImageOff size={36} />
+              <span className="text-sm font-medium">No image URL</span>
+            </div>
+          )}
         </div>
 
         <div className="grid gap-3">

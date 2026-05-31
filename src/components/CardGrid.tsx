@@ -6,7 +6,7 @@ type CardGridProps = {
   isLoaded: boolean;
   error: string;
   onEdit: (card: CollectionCard) => void;
-  onDelete: (id: string) => void;
+  onDelete: (card: CollectionCard) => void;
 };
 
 export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridProps) {
@@ -72,7 +72,7 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridP
                 type="button"
                 onClick={(event) => {
                   event.stopPropagation();
-                  onDelete(card.id);
+                  onDelete(card);
                 }}
                 title={`Delete ${card.name}`}
               >

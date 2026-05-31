@@ -1,5 +1,5 @@
 import { FormEvent, useEffect, useMemo, useState } from 'react';
-import { Plus, X } from 'lucide-react';
+import { Plus, Trash2, X } from 'lucide-react';
 import { compareBySortKey, getDexSuggestions, matchesCardQuery } from './cardUtils';
 import { CardFormModal } from './components/CardFormModal';
 import { CardGrid } from './components/CardGrid';
@@ -34,6 +34,7 @@ export function App() {
   const [draft, setDraft] = useState<CardDraft>(() => createEmptyDraft());
   const [editingId, setEditingId] = useState<string | null>(null);
   const [isFormOpen, setIsFormOpen] = useState(false);
+  const [deletingCard, setDeletingCard] = useState<CollectionCard | null>(null);
   const [isListFormOpen, setIsListFormOpen] = useState(false);
   const [listName, setListName] = useState('');
   const [isListMenuOpen, setIsListMenuOpen] = useState(false);
@@ -185,6 +186,24 @@ export function App() {
     setIsFormOpen(false);
   }
 
+  function requestDelete(card: CollectionCard) {
+    setDeletingCard(card);
+  }
+
+  function closeDeleteConfirm() {
+    setDeletingCard(null);
+  }
+
+  function confirmDelete() {
+    if (!deletingCard) {
+      return;
+    }
+
+    deleteCard(deletingCard.id);
+    setStatus(`Deleted ${deletingCard.name}`);
+    closeDeleteConfirm();
+  }
+
   function chooseDexSuggestion(entry: DexEntry) {
     setDraft((current) => ({
       ...current,
@@ -238,7 +257,7 @@ export function App() {
             isLoaded={isLoaded}
             error={error}
             onEdit={startEditing}
-            onDelete={deleteCard}
+            onDelete={requestDelete}
           />
         </section>
       </div>
@@ -292,6 +311,44 @@ export function App() {
               Add List
             </button>
           </form>
+        </div>
+      )}
+
+      {deletingCard && (
+        <div
+          className="fixed inset-0 z-50 flex items-end bg-black/70 p-3 sm:items-center sm:justify-center"
+          onClick={closeDeleteConfirm}
+        >
+          <div
+            className="w-full rounded-lg border border-zinc-800 bg-zinc-900 p-4 shadow-xl sm:max-w-sm"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="delete-card-title"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <h2 className="text-lg font-semibold" id="delete-card-title">
+                Delete Card
+              </h2>
+              <button className="icon-button" type="button" onClick={closeDeleteConfirm} title="Close">
+                <X size={18} />
+              </button>
+            </div>
+
+            <p className="text-sm text-zinc-300">
+              Delete <span className="font-semibold text-zinc-100">{deletingCard.name}</span> from your collection?
+            </p>
+
+            <div className="mt-5 grid grid-cols-2 gap-3">
+              <button className="secondary-button" type="button" onClick={closeDeleteConfirm}>
+                Cancel
+              </button>
+              <button className="danger-button w-full gap-2 px-3" type="button" onClick={confirmDelete}>
+                <Trash2 size={18} />
+                Delete
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </main>
