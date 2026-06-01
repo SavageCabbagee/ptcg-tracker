@@ -1,7 +1,13 @@
+export type CardSubgroup = {
+  id: string;
+  name: string;
+};
+
 export type CardList = {
   id: string;
   name: string;
   file?: string;
+  subgroups?: CardSubgroup[];
 };
 
 export type DexEntry = {
@@ -20,6 +26,7 @@ export type CollectionCard = {
   language: string;
   imageUrl: string;
   notes: string;
+  subgroupId?: string;
 };
 
 export type CollectionFile = {

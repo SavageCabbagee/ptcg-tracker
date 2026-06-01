@@ -1,5 +1,6 @@
 import {
   type CardList,
+  type CardSubgroup,
   type CollectionCard,
   type CollectionFile,
   type CollectionManifestEntry,
@@ -75,7 +76,7 @@ export async function parseCollectionManifest(
   );
 
   return {
-    lists: collections.map(({ id, name, file }) => ({ id, name, file })),
+    lists: collections.map(({ id, name, file, subgroups }) => ({ id, name, file, subgroups })),
     cards: cardsByCollection.flat(),
   };
 }
@@ -124,6 +125,7 @@ export function serializeSplitCollection(collection: CollectionFile, dataRoot = 
       id: list.id,
       name: list.name,
       file: list.file || `collections/${list.id}.json`,
+      ...(list.subgroups?.length ? { subgroups: list.subgroups } : {}),
     })),
   };
   const files = [
@@ -171,6 +173,7 @@ function parseList(input: unknown): CardList {
   return {
     id: stringValue(list.id) || crypto.randomUUID(),
     name: stringValue(list.name) || 'Untitled List',
+    subgroups: parseSubgroups(list.subgroups),
   };
 }
 
@@ -196,6 +199,7 @@ function parseManifestEntry(input: unknown): CollectionManifestEntry {
     id,
     name: stringValue(collection.name) || 'Untitled Collection',
     file,
+    subgroups: parseSubgroups(collection.subgroups),
   };
 }
 
@@ -219,8 +223,8 @@ function joinPath(...parts: string[]) {
 }
 
 function stripListId(card: CollectionCard) {
-  const { listId: _listId, ...rest } = card;
-  return rest;
+  const { listId: _listId, subgroupId, ...rest } = card;
+  return subgroupId ? { ...rest, subgroupId } : rest;
 }
 
 function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): CollectionCard {
@@ -231,10 +235,12 @@ function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): C
   }
 
   const listId = stringValue(card.listId);
+  const resolvedList = lists.find((list) => list.id === listId) ?? lists.find((list) => list.id === fallbackListId);
+  const subgroupId = stringValue(card.subgroupId);
 
   return {
     id: stringValue(card.id) || crypto.randomUUID(),
-    listId: lists.some((list) => list.id === listId) ? listId : fallbackListId,
+    listId: resolvedList?.id ?? fallbackListId,
     name: requiredString(card.name, 'name'),
     set: requiredString(card.set, 'set'),
     pokedexNumber: numberValue(card.pokedexNumber),
@@ -243,7 +249,35 @@ function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): C
     language: stringValue(card.language).toUpperCase() || DEFAULT_LANGUAGE,
     imageUrl: stringValue(card.imageUrl),
     notes: stringValue(card.notes),
+    subgroupId: resolvedList?.subgroups?.some((subgroup) => subgroup.id === subgroupId) ? subgroupId : undefined,
   };
+}
+
+function parseSubgroups(input: unknown): CardSubgroup[] | undefined {
+  if (!Array.isArray(input)) {
+    return undefined;
+  }
+
+  const subgroups = input
+    .map((item) => {
+      const subgroup = item as Partial<CardSubgroup>;
+
+      if (!subgroup || typeof subgroup !== 'object') {
+        return null;
+      }
+
+      const id = stringValue(subgroup.id);
+      const name = stringValue(subgroup.name);
+
+      if (!id || !name) {
+        return null;
+      }
+
+      return { id, name };
+    })
+    .filter((subgroup): subgroup is CardSubgroup => subgroup !== null);
+
+  return subgroups.length > 0 ? subgroups : undefined;
 }
 
 function requiredString(value: unknown, field: string) {

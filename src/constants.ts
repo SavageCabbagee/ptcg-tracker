@@ -1,6 +1,8 @@
 import type { CardDraft } from './types';
 
 export const DEFAULT_LANGUAGE = 'JP';
+export const ALL_SUBGROUPS_ID = 'all';
+export const UNGROUPED_SUBGROUP_ID = 'ungrouped';
 
 export const createEmptyDraft = (listId = 'main'): CardDraft => ({
   listId,
@@ -12,4 +14,5 @@ export const createEmptyDraft = (listId = 'main'): CardDraft => ({
   language: DEFAULT_LANGUAGE,
   imageUrl: '',
   notes: '',
+  subgroupId: '',
 });

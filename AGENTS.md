@@ -50,7 +50,7 @@ There is currently no test script or lint script defined in `package.json`.
 
 ## Architecture Notes
 
-- Keep card data shaped around `CollectionCard`, `CardDraft`, `CollectionFile`, and related types in `src/types.ts`.
+- Keep card data shaped around `CollectionCard`, `CardDraft`, `CardList`, `CardSubgroup`, `CollectionFile`, and related types in `src/types.ts`.
 - Keep input cleanup and defensive data normalization close to `collectionIO.ts` and `collectionStore.ts`.
 - `collectionIO.ts` handles unknown external JSON. Prefer explicit validation and normalization there.
 - `collectionIO.ts` also owns serialization for the split GitHub storage layout. Preserve manifest file paths when round-tripping.
@@ -60,6 +60,8 @@ There is currently no test script or lint script defined in `package.json`.
 - Search and sort helpers belong in `src/cardUtils.ts` when they are not tied to rendering.
 - The primary UX is a dark, mobile-first card grid. Cards open the edit modal when tapped/clicked.
 - Lists are switched from the desktop sidebar or the collapsible mobile header. Cards move between lists through the edit modal list selector.
+- Sub-groups are optional groups within a list/collection, not top-level tabs. A card can have one optional `subgroupId`, scoped to its `listId`.
+- Sub-group filtering lives in the active collection view. Keep the top-level sidebar/mobile list navigation focused on collections.
 - The floating add button opens the same card form modal used for edits.
 
 ## Styling Guidelines
@@ -78,6 +80,8 @@ There is currently no test script or lint script defined in `package.json`.
 - When parsing bundled data, accept legacy shapes where the current code already does so.
 - Counts should remain non-negative integers, card language values are normalized to uppercase, and missing optional strings normalize to empty strings.
 - A card with `count: 0` is treated as wishlisted. Wishlist is a computed view, not a persisted list ID.
+- `CardList.subgroups` contains optional per-collection sub-group metadata. `CollectionCard.subgroupId` should be preserved only when it matches a sub-group on that card's collection.
+- Sub-groups are stored in the collection manifest, while card `subgroupId` values are stored on individual cards. Do not split sub-groups into separate files unless explicitly requested.
 - Default card language is `JP`; keep defaults centralized in `src/constants.ts`.
 - `CollectionCard` / `CollectionFile` are enough for the current controlled JSON shape. Do not add schema docs unless explicitly requested.
 
@@ -87,11 +91,11 @@ There is currently no test script or lint script defined in `package.json`.
 - The PAT and GitHub config are stored in `localStorage`; Disconnect clears both.
 - The GitHub storage default data root is the repository root. A blank Data root means the app expects `collection.json` and `collections/*.json` at repo root.
 - The split storage layout is:
-  - `collection.json`: manifest with `collections[]` entries containing `id`, `name`, and relative `file`.
-  - `collections/*.json`: per-list card arrays referenced by the manifest.
+  - `collection.json`: manifest with `collections[]` entries containing `id`, `name`, relative `file`, and optional `subgroups`.
+  - `collections/*.json`: per-list card arrays referenced by the manifest. Cards may include optional `subgroupId`.
 - Save uses GitHub git tree/commit/ref APIs to commit all changed split files together.
 - Save conflict handling compares the loaded/saved branch commit SHA with the current branch head and blocks stale saves.
-- Preserve each manifest entry's `file` path on load/save. New lists fall back to `collections/<list-id>.json`.
+- Preserve each manifest entry's `file` path and `subgroups` on load/save. New lists fall back to `collections/<list-id>.json`.
 
 ## Deployment Notes
 

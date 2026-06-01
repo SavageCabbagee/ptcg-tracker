@@ -1,4 +1,4 @@
-import { FormEvent } from 'react';
+import { FormEvent, useMemo, useState } from 'react';
 import { ImageOff, Plus, X } from 'lucide-react';
 import { TextField } from './TextField';
 import { type CardDraft, type CardList, type DexEntry } from '../types';
@@ -10,6 +10,7 @@ type CardFormModalProps = {
   dexSuggestions: DexEntry[];
   onDraftChange: (draft: CardDraft) => void;
   onDexSuggestionSelect: (entry: DexEntry) => void;
+  onAddSubgroup: (listId: string, name: string) => void;
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
   onClose: () => void;
 };
@@ -21,9 +22,36 @@ export function CardFormModal({
   dexSuggestions,
   onDraftChange,
   onDexSuggestionSelect,
+  onAddSubgroup,
   onSubmit,
   onClose,
 }: CardFormModalProps) {
+  const [subgroupName, setSubgroupName] = useState('');
+  const sortedLists = useMemo(
+    () => [...lists].sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })),
+    [lists],
+  );
+  const selectedList = useMemo(
+    () => sortedLists.find((list) => list.id === draft.listId) ?? sortedLists[0],
+    [draft.listId, sortedLists],
+  );
+  const subgroups = useMemo(
+    () =>
+      [...(selectedList?.subgroups ?? [])].sort((a, b) =>
+        a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }),
+      ),
+    [selectedList],
+  );
+
+  function handleAddSubgroup() {
+    if (!selectedList || !subgroupName.trim()) {
+      return;
+    }
+
+    onAddSubgroup(selectedList.id, subgroupName);
+    setSubgroupName('');
+  }
+
   return (
     <div
       className="fixed inset-0 z-40 flex items-end bg-black/70 p-3 sm:items-center sm:justify-center"
@@ -62,15 +90,54 @@ export function CardFormModal({
             <select
               className="field-input"
               value={draft.listId}
-              onChange={(event) => onDraftChange({ ...draft, listId: event.target.value })}
+              onChange={(event) => onDraftChange({ ...draft, listId: event.target.value, subgroupId: '' })}
             >
-              {lists.map((list) => (
+              {sortedLists.map((list) => (
                 <option key={list.id} value={list.id}>
                   {list.name}
                 </option>
               ))}
             </select>
           </label>
+          {selectedList && (
+            <div className="grid gap-2">
+              <label className="field-label">
+                Sub-group
+                <select
+                  className="field-input"
+                  value={draft.subgroupId ?? ''}
+                  onChange={(event) => onDraftChange({ ...draft, subgroupId: event.target.value })}
+                >
+                  <option value="">Ungrouped</option>
+                  {subgroups.map((subgroup) => (
+                    <option key={subgroup.id} value={subgroup.id}>
+                      {subgroup.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <div className="grid grid-cols-[1fr_auto] gap-2">
+                <label className="field-label">
+                  <span className="sr-only">New sub-group</span>
+                  <input
+                    className="field-input"
+                    placeholder="New sub-group"
+                    value={subgroupName}
+                    onChange={(event) => setSubgroupName(event.target.value)}
+                  />
+                </label>
+                <button
+                  className="secondary-button self-end px-3"
+                  type="button"
+                  disabled={!subgroupName.trim()}
+                  onClick={handleAddSubgroup}
+                >
+                  <Plus size={18} />
+                  Add
+                </button>
+              </div>
+            </div>
+          )}
           <div className="field-label">
             <label htmlFor="card-name">Name</label>
             <span className="relative">

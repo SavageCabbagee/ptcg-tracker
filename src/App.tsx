@@ -8,7 +8,7 @@ import { GitHubStoragePanel } from './components/GitHubStoragePanel';
 import { MobileHeader } from './components/MobileHeader';
 import { SearchSortBar } from './components/SearchSortBar';
 import { Sidebar } from './components/Sidebar';
-import { createEmptyDraft } from './constants';
+import { ALL_SUBGROUPS_ID, UNGROUPED_SUBGROUP_ID, createEmptyDraft } from './constants';
 import { loadDex, loadSeedCollection } from './collectionIO';
 import { useCollectionStore } from './collectionStore';
 import {
@@ -51,6 +51,7 @@ export function App() {
     loadCollection,
     setActiveList,
     addList,
+    addSubgroup,
     addCard,
     updateCard,
     deleteCard,
@@ -64,6 +65,7 @@ export function App() {
   const [isListMenuOpen, setIsListMenuOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [sortKey, setSortKey] = useState<SortKey>('pokedex');
+  const [activeSubgroupId, setActiveSubgroupId] = useState(ALL_SUBGROUPS_ID);
   const [dexEntries, setDexEntries] = useState<DexEntry[]>([]);
   const [status, setStatus] = useState('Loading collection data...');
   const [error, setError] = useState('');
@@ -118,7 +120,15 @@ export function App() {
   const navLists = useMemo(() => [allCardsList, ...lists, wishlistList], [lists]);
   const fallbackListId = lists[0]?.id ?? 'main';
   const activeList = navLists.find((list) => list.id === activeListId) ?? navLists[0];
-  const activeCards = useMemo(() => {
+  const activeCollection = lists.find((list) => list.id === activeListId);
+  const activeSubgroups = useMemo(
+    () =>
+      [...(activeCollection?.subgroups ?? [])].sort((a, b) =>
+        a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }),
+      ),
+    [activeCollection],
+  );
+  const baseActiveCards = useMemo(() => {
     if (activeListId === ALL_VIEW_ID) {
       return cards;
     }
@@ -129,6 +139,17 @@ export function App() {
 
     return cards.filter((card) => card.listId === activeListId);
   }, [activeListId, cards]);
+  const activeCards = useMemo(() => {
+    if (!activeCollection || activeSubgroupId === ALL_SUBGROUPS_ID) {
+      return baseActiveCards;
+    }
+
+    if (activeSubgroupId === UNGROUPED_SUBGROUP_ID) {
+      return baseActiveCards.filter((card) => !card.subgroupId);
+    }
+
+    return baseActiveCards.filter((card) => card.subgroupId === activeSubgroupId);
+  }, [activeCollection, activeSubgroupId, baseActiveCards]);
   const totalOwned = activeCards.reduce((sum, card) => sum + card.count, 0);
   const totalWishlisted = activeCards.filter((card) => card.count === 0).length;
   const activeListSummary = {
@@ -167,9 +188,31 @@ export function App() {
       }),
     );
   }, [cards, navLists]);
+  const subgroupCounts = useMemo(() => {
+    const counts = new Map<string, number>([
+      [ALL_SUBGROUPS_ID, baseActiveCards.length],
+      [UNGROUPED_SUBGROUP_ID, baseActiveCards.filter((card) => !card.subgroupId).length],
+    ]);
+
+    activeSubgroups.forEach((subgroup) => {
+      counts.set(subgroup.id, baseActiveCards.filter((card) => card.subgroupId === subgroup.id).length);
+    });
+
+    return counts;
+  }, [activeSubgroups, baseActiveCards]);
   const normalizedGitHubConfig = useMemo(() => normalizeGitHubConfig(githubConfig), [githubConfig]);
   const canSyncGitHub = isGitHubConfigComplete(normalizedGitHubConfig, githubToken);
   const isStorageBusy = storageAction !== 'idle';
+
+  useEffect(() => {
+    if (
+      activeSubgroupId !== ALL_SUBGROUPS_ID &&
+      activeSubgroupId !== UNGROUPED_SUBGROUP_ID &&
+      !activeSubgroups.some((subgroup) => subgroup.id === activeSubgroupId)
+    ) {
+      setActiveSubgroupId(ALL_SUBGROUPS_ID);
+    }
+  }, [activeSubgroupId, activeSubgroups]);
 
   const loadFromGitHub = useCallback(
     async (config: GitHubStorageConfig, token: string, source: 'auto' | 'manual') => {
@@ -267,13 +310,18 @@ export function App() {
   }
 
   function openAddForm() {
+    const listId = lists.some((list) => list.id === activeListId) ? activeListId : fallbackListId;
+    const subgroupId =
+      activeSubgroupId !== ALL_SUBGROUPS_ID && activeSubgroupId !== UNGROUPED_SUBGROUP_ID ? activeSubgroupId : '';
+
     setEditingId(null);
-    setDraft(createEmptyDraft(lists.some((list) => list.id === activeListId) ? activeListId : fallbackListId));
+    setDraft({ ...createEmptyDraft(listId), subgroupId });
     setIsFormOpen(true);
   }
 
   function chooseList(listId: string) {
     setActiveList(listId);
+    setActiveSubgroupId(ALL_SUBGROUPS_ID);
     localStorage.setItem(activeListStorageKey, listId);
     setIsListMenuOpen(false);
   }
@@ -305,6 +353,19 @@ export function App() {
     closeListForm();
   }
 
+  function handleAddSubgroup(listId: string, name: string) {
+    const subgroup = addSubgroup(listId, name);
+
+    if (!subgroup) {
+      return;
+    }
+
+    setDraft((current) => ({ ...current, listId, subgroupId: subgroup.id }));
+    setActiveSubgroupId(subgroup.id);
+    setIsDirty(true);
+    setStatus(`Added ${subgroup.name}`);
+  }
+
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError('');
@@ -334,8 +395,10 @@ export function App() {
   }
 
   function closeForm() {
+    const listId = lists.some((list) => list.id === activeListId) ? activeListId : fallbackListId;
+
     setEditingId(null);
-    setDraft(createEmptyDraft(lists.some((list) => list.id === activeListId) ? activeListId : fallbackListId));
+    setDraft(createEmptyDraft(listId));
     setIsFormOpen(false);
   }
 
@@ -401,8 +464,12 @@ export function App() {
             <SearchSortBar
               query={query}
               sortKey={sortKey}
+              subgroups={activeSubgroups}
+              subgroupId={activeSubgroupId}
+              subgroupCounts={subgroupCounts}
               onQueryChange={setQuery}
               onSortChange={setSortKey}
+              onSubgroupChange={setActiveSubgroupId}
             />
 
             <GitHubStoragePanel
@@ -444,6 +511,7 @@ export function App() {
           dexSuggestions={dexSuggestions}
           onDraftChange={setDraft}
           onDexSuggestionSelect={chooseDexSuggestion}
+          onAddSubgroup={handleAddSubgroup}
           onSubmit={handleSubmit}
           onClose={closeForm}
         />
