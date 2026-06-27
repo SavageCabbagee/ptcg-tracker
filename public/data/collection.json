@@ -38,7 +38,17 @@
     {
       "id": "adv-others",
       "name": "ADV (Others)",
-      "file": "collections/adv-others.json"
+      "file": "collections/adv-others.json",
+      "subgroups": [
+        {
+          "id": "constructed-deck-others",
+          "name": "Constructed deck/Others"
+        },
+        {
+          "id": "main-set",
+          "name": "Main Set"
+        }
+      ]
     },
     {
       "id": "pcg-promos",
