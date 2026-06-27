@@ -1,0 +1,46 @@
+[
+  {
+    "id": "tcgcollector-26921",
+    "name": "Uxie LV.X",
+    "set": "Cry from the Mysterious",
+    "pokedexNumber": 480,
+    "number": "042",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/48/6a/ea/486aea4858dc294e1fd142aca6d515bab6b1c9680e48bc30809eb6446a401b90.webp",
+    "notes": ""
+  },
+  {
+    "id": "tcgcollector-52298",
+    "name": "Dialga LV.X",
+    "set": "Dialga & Palkia LV.X Constructed Standard Decks",
+    "pokedexNumber": 483,
+    "number": "007",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/19/98/1b/19981bb2eb3944e19cf4177cc3d94558d14f4a195ad46a4038c26868cba99e70.webp",
+    "notes": ""
+  },
+  {
+    "id": "tcgcollector-52304",
+    "name": "Palkia LV.X",
+    "set": "Dialga & Palkia LV.X Constructed Standard Decks",
+    "pokedexNumber": 484,
+    "number": "013",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/79/0e/41/790e4142b3b4faf9d9cc0934ad9c1251700cf88623ffb1f7bb4d66b091d19983.webp",
+    "notes": ""
+  },
+  {
+    "id": "tcgcollector-26480",
+    "name": "Regigigas LV.X",
+    "set": "Regigigas LV.X Collection Pack",
+    "pokedexNumber": 486,
+    "number": "011/012",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/28/be/0f/28be0f160f5d1a87a943a94aa53a9f70bbc25a9cc33741153ef815cbf45bef61.jpg",
+    "notes": ""
+  }
+]
