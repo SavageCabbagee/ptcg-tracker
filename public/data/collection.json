@@ -6,9 +6,19 @@
       "file": "collections/pokedex-gen-1.json"
     },
     {
+      "id": "gen-1-others",
+      "name": "Gen 1 (Others)",
+      "file": "collections/gen-1-others.json"
+    },
+    {
       "id": "gen2",
       "name": "Pokedex Gen 2",
       "file": "collections/pokedex-gen-2.json"
+    },
+    {
+      "id": "gen-2-others",
+      "name": "Gen 2 (Others)",
+      "file": "collections/gen-2-others.json"
     },
     {
       "id": "gen3",
@@ -16,9 +26,37 @@
       "file": "collections/pokedex-gen-3.json"
     },
     {
+      "id": "gen-3-others",
+      "name": "Gen 3 (Others)",
+      "file": "collections/gen-3-others.json",
+      "subgroups": [
+        {
+          "id": "adv-promos",
+          "name": "ADV Promos"
+        },
+        {
+          "id": "constructed-deck-others",
+          "name": "Constructed deck/Others"
+        },
+        {
+          "id": "main-set",
+          "name": "Main Set"
+        },
+        {
+          "id": "pcg-promos",
+          "name": "PCG Promos"
+        }
+      ]
+    },
+    {
       "id": "gen4",
       "name": "Pokedex Gen 4",
       "file": "collections/pokedex-gen-4.json"
+    },
+    {
+      "id": "gen-4-others",
+      "name": "Gen 4 (Others)",
+      "file": "collections/gen-4-others.json"
     },
     {
       "id": "neo-premium-files",
@@ -34,31 +72,6 @@
       "id": "2009-energies",
       "name": "2009 Energies",
       "file": "collections/2009-energies.json"
-    },
-    {
-      "id": "adv-promos",
-      "name": "ADV Promos",
-      "file": "collections/adv-promos.json"
-    },
-    {
-      "id": "adv-others",
-      "name": "ADV (Others)",
-      "file": "collections/adv-others.json",
-      "subgroups": [
-        {
-          "id": "constructed-deck-others",
-          "name": "Constructed deck/Others"
-        },
-        {
-          "id": "main-set",
-          "name": "Main Set"
-        }
-      ]
-    },
-    {
-      "id": "pcg-promos",
-      "name": "PCG Promos",
-      "file": "collections/pcg-promos.json"
     },
     {
       "id": "arceus",

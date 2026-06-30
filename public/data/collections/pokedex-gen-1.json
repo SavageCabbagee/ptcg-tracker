@@ -121,17 +121,6 @@
     "notes": ""
   },
   {
-    "id": "dex-012",
-    "name": "Butterfree",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 12,
-    "number": "012",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/bf/fc/52/bffc52e8bc67aaa707e5c664097080564179afc71fc264950b7312c69c277d3e.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-013",
     "name": "Weedle",
     "set": "Expansion Pack",
@@ -187,17 +176,6 @@
     "notes": ""
   },
   {
-    "id": "dex-018",
-    "name": "Pidgeot",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 18,
-    "number": "018",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/bb/a9/14/bba914d0da72b9c6219e95ed47698b22967bc0e1a6c5f9736584836a971f489d.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-019",
     "name": "Rattata",
     "set": "Expansion Pack",
@@ -217,50 +195,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/fd/81/bb/fd81bbbf1cc7303b71908f8cd386c15d581b76c34bcb76258ca54fc611e1531a.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-021",
-    "name": "Spearow",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 21,
-    "number": "021",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/92/a3/f0/92a3f0a84950d548f9b189c7f0216470c2d79bd67de8af02a166060c255d4904.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-022",
-    "name": "Fearow",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 22,
-    "number": "022",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/5a/25/54/5a2554666cac778c7cb397ca2d295b3f4ec58f40de8c298c74a40b612cc1af11.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-023",
-    "name": "Ekans",
-    "set": "Mystery of the Fossils",
-    "pokedexNumber": 23,
-    "number": "023",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/83/92/43/839243b150e2e7edf35f80ad46b5f1ac780b28c5c61d53f739de80b9a48473f2.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-024",
-    "name": "Arbok",
-    "set": "Mystery of the Fossils",
-    "pokedexNumber": 24,
-    "number": "024",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/f0/ee/8c/f0ee8c8d3495ac4ffd1c03c893886cd8be8df49c7e01b282c09cb125d77fc8b8.jpg",
     "notes": ""
   },
   {
@@ -294,50 +228,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/10/bd/bb/10bdbbc9b67615df1d63d68251873f6cb79f57d0f3e86a3a04585e33bfb31d71.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-028",
-    "name": "Sandslash",
-    "set": "Mystery of the Fossils",
-    "pokedexNumber": 28,
-    "number": "028",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e5/70/a3/e570a3030cf2499c1c592f701c4afa638bdb09a73fc7fb6969d729dc4b9cb550.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-029",
-    "name": "Nidoran♀",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 29,
-    "number": "029",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/78/b0/d2/78b0d276df2d76307bb1df6b1d93a37d10b559e9516bf055c340ef36808a24a6.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-030",
-    "name": "Nidorina",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 30,
-    "number": "030",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/c1/73/04/c173042d9dda290339ec782390485187b63e72c2fccbaabe9d0fa9f29dfbfad5.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-031",
-    "name": "Nidoqueen",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 31,
-    "number": "031",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8a/dd/d3/8addd32b134339d4215ac2f4fec78556e83ae1c556fb6034a5dfd9706fca35aa.jpg",
     "notes": ""
   },
   {
@@ -385,17 +275,6 @@
     "notes": ""
   },
   {
-    "id": "dex-036",
-    "name": "Clefable",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 36,
-    "number": "036",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/d6/68/1c/d6681cb103c017479e05ac9f030b00e7a22c5a133c011a8ada78ed2dcd9a9426.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-037",
     "name": "Vulpix",
     "set": "Expansion Pack",
@@ -418,127 +297,6 @@
     "notes": ""
   },
   {
-    "id": "dex-039",
-    "name": "Jigglypuff",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 39,
-    "number": "039",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/31/ff/13/31ff13b5ddd86c2ed1da2412ad48551ae7de03215937f99c90e99fdd1319dfac.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-040",
-    "name": "Wigglytuff",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 40,
-    "number": "040",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/5a/c3/47/5ac3477e56f963a4d55b02bc479a68d18232bde92fbd5943a4ad121a744576eb.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-041",
-    "name": "Zubat",
-    "set": "Mystery of the Fossils",
-    "pokedexNumber": 41,
-    "number": "041",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/4e/ec/97/4eec9726e1c2a4eac9afc1eaecf099d6e1bf2b96f22e892a81300e36157eae2e.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-042",
-    "name": "Golbat",
-    "set": "Mystery of the Fossils",
-    "pokedexNumber": 42,
-    "number": "042",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/07/2d/d9/072dd99c1ec5c66f057a5e2642d245efc977032afe36bb8f3c75b99b49a9812d.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-043",
-    "name": "Oddish",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 43,
-    "number": "043",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e9/cb/75/e9cb75dcfc82232502cd0f1e80e4c7664b52735e0ce1074f62dad79a0ec8062b.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-044",
-    "name": "Gloom",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 44,
-    "number": "044",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/93/75/59/937559fc5318d3678b4ec23729fec9d1e4d5886aa97dabaa4026a477a70811e0.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-045",
-    "name": "Vileplume",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 45,
-    "number": "045",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/bf/60/82/bf6082baeb5a649e00a3732c89e947e5006c36376478582b40ff9755f8f420f6.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-046",
-    "name": "Paras",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 46,
-    "number": "046",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/88/a4/95/88a495dcc88388f70a1fbc6402f142ca86b4a50e583f85277ad798d69fc377b3.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-047",
-    "name": "Parasect",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 47,
-    "number": "047",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/84/72/ac/8472acbf1ff40678b0ca2e7edb92798401a6a90ab7228f0e57064cbc887e0853.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-048",
-    "name": "Venonat",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 48,
-    "number": "048",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/75/6e/cf/756ecf297e0452a74ce282a56831664fe8a988769b5be04a52b97d938c03d9e8.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-049",
-    "name": "Venomoth",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 49,
-    "number": "049",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/4f/14/f1/4f14f159b75be7a9f19f78ba336ef16341259bd4d2aeb0e8bbde7f7446fd5f0d.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-050",
     "name": "Diglett",
     "set": "Expansion Pack",
@@ -558,72 +316,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/d3/a4/0b/d3a40bc5abb304d0f708de4c0bec25e9ba1ad4d34eb915d20b66925ea9c94493.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-052",
-    "name": "Meowth",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 52,
-    "number": "052",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e4/01/ae/e401ae3805b797bdb28ec6e06cb712c8198e637c02e2efe9480af830f4157bbd.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-053",
-    "name": "Persian",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 53,
-    "number": "053",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/20/4a/84/204a8428a0c4efefa779a5cb47c013822f90fafcfbd4b9c99c3c9a98c6a80fb7.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-054",
-    "name": "Psyduck",
-    "set": "Mystery of the Fossils",
-    "pokedexNumber": 54,
-    "number": "054",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/41/19/23/4119234ff6048fd2d98aeedbcb6cfba934e9e64b3249d301fa9e43295fda6ab5.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-055",
-    "name": "Golduck",
-    "set": "Mystery of the Fossils",
-    "pokedexNumber": 55,
-    "number": "055",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/38/a4/04/38a404b9866caf1208d0f79dd0ce15bff9d217495669b5e11f306bbe64ea6622.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-056",
-    "name": "Mankey",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 56,
-    "number": "056",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/95/4c/76/954c765ff83bb5f820b072658a4c59453113fea9564b756d8eb27e4bd72f0263.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-057",
-    "name": "Primeape",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 57,
-    "number": "057",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/64/b0/33/64b03385f8e33e0e389d2d9ee697ff7cdc7485ef7a33a6e310d2dab974862536.jpg",
     "notes": ""
   },
   {
@@ -748,36 +440,366 @@
     "notes": ""
   },
   {
-    "id": "dex-069",
-    "name": "Bellsprout",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 69,
-    "number": "069",
+    "id": "dex-077",
+    "name": "Ponyta",
+    "set": "Expansion Pack",
+    "pokedexNumber": 77,
+    "number": "077",
     "count": 1,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/92/51/92/925192fd244b542de4bd872b0a77a916fb7bfa9b28e8d4ecb4dc61c02c60a705.jpg",
+    "imageUrl": "https://static.tcgcollector.com/content/images/37/b4/0c/37b40c0a8ec0355095fb052e5eb4f65b40ff41222dee4a2ddc81f76361570955.jpg",
     "notes": ""
   },
   {
-    "id": "dex-070",
-    "name": "Weepinbell",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 70,
-    "number": "070",
+    "id": "dex-081",
+    "name": "Magnemite",
+    "set": "Expansion Pack",
+    "pokedexNumber": 81,
+    "number": "081",
     "count": 1,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a3/d8/e3/a3d8e37a95776317effd631a1fa6b11f4ed8711498c4e83161f52d0a5f2ba899.jpg",
+    "imageUrl": "https://static.tcgcollector.com/content/images/d4/f0/f4/d4f0f433be37e0da8ac8bdb79e515dfc1c6410b51e39026925916c040bb494fd.jpg",
     "notes": ""
   },
   {
-    "id": "dex-071",
-    "name": "Victreebel",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 71,
-    "number": "071",
+    "id": "dex-083",
+    "name": "Farfetch’d",
+    "set": "Expansion Pack",
+    "pokedexNumber": 83,
+    "number": "083",
     "count": 1,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8d/c4/6e/8dc46e8783277e3d1d630940dddac50f7a1ef9f0af4a5293917cf047f71b4c3f.jpg",
+    "imageUrl": "https://static.tcgcollector.com/content/images/8c/4d/dc/8c4ddca1b335505c898e461cc52171a6582aa227cb32e153230a1b954385173b.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-084",
+    "name": "Doduo",
+    "set": "Expansion Pack",
+    "pokedexNumber": 84,
+    "number": "084",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/95/46/8d/95468d2f671e56be0c6e711522c865c36665af357b8d42a51bce4d3d16ff6332.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-086",
+    "name": "Seel",
+    "set": "Expansion Pack",
+    "pokedexNumber": 86,
+    "number": "086",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/32/ea/eb/32eaebb0efd5901b272742023cb7f5b8c7d73af4c81a4dd1543d4f77aa7d595f.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-087",
+    "name": "Dewgong",
+    "set": "Expansion Pack",
+    "pokedexNumber": 87,
+    "number": "087",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/cb/f0/83/cbf083810fa587cad523945ff0139212e64e4f0472a93c6b1e8f12d236dc9cfc.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-095",
+    "name": "Onix",
+    "set": "Expansion Pack",
+    "pokedexNumber": 95,
+    "number": "095",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/b2/c6/42/b2c64286c0a37c8d4d26f69a060f7d8d7e2bfb1be27fc4fc166fb61b94d14dd6.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-096",
+    "name": "Drowzee",
+    "set": "Expansion Pack",
+    "pokedexNumber": 96,
+    "number": "096",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/ce/59/13/ce5913e371e935c48edcde828eac8f917b756d0757785b05171d1fb39b85f633.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-100",
+    "name": "Voltorb",
+    "set": "Expansion Pack",
+    "pokedexNumber": 100,
+    "number": "100",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/8e/c4/ec/8ec4ec1ce887c204e45a2b4c42c48dd2d647f6904631f1e9f7330c1d95c9bdd8.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-107",
+    "name": "Hitmonchan",
+    "set": "Expansion Pack",
+    "pokedexNumber": 107,
+    "number": "107",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/56/a8/34/56a834ca21c30c80dccb7a9411d39b8c62b63f9858575731be3d8c057aa4e9a7.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-109",
+    "name": "Koffing",
+    "set": "Expansion Pack",
+    "pokedexNumber": 109,
+    "number": "109",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/67/8e/b4/678eb4990a1baf7a14efb81b4c22b431d517022537b0f24888f42ab0bbd6ae35.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-113",
+    "name": "Chansey",
+    "set": "Expansion Pack",
+    "pokedexNumber": 113,
+    "number": "113",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/66/e0/4a/66e04ac53a4c02870db319dc8f56a58465cdb7809c3f0c0dae6547b5408a7968.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-114",
+    "name": "Tangela",
+    "set": "Expansion Pack",
+    "pokedexNumber": 114,
+    "number": "114",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/ea/74/46/ea74460468706b4bd0e89d18c48d9cf30bdf019c3426d592a91323a2c21f16a3.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-120",
+    "name": "Staryu",
+    "set": "Expansion Pack",
+    "pokedexNumber": 120,
+    "number": "120",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/0e/4d/b3/0e4db381b13824418243333d1e0b757dc8f133fc503bbb24f0ce2fa5e2dd8bda.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-121",
+    "name": "Starmie",
+    "set": "Expansion Pack",
+    "pokedexNumber": 121,
+    "number": "121",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/8c/49/5a/8c495a2afa6a12de52ec5d0f98b279f38964ebd069e0105c80c978d12ca1c35b.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-124",
+    "name": "Jynx",
+    "set": "Expansion Pack",
+    "pokedexNumber": 124,
+    "number": "124",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/51/c7/38/51c7382897a8847b6ded1939998720cb658c98aced062eda33a4e3f4e343ecbe.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-125",
+    "name": "Electabuzz",
+    "set": "Expansion Pack",
+    "pokedexNumber": 125,
+    "number": "125",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/fe/10/2c/fe102c4cca014eaec6a399d6a29aad6253f0a580bd76dd7cc62817cca02bb91d.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-126",
+    "name": "Magmar",
+    "set": "Expansion Pack",
+    "pokedexNumber": 126,
+    "number": "126",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/e7/3d/1c/e73d1cdeee17a510c9911f035632e32da0e8d54d0242d7ab3b1b39daf1a21877.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-129",
+    "name": "Magikarp",
+    "set": "Expansion Pack",
+    "pokedexNumber": 129,
+    "number": "129",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/1f/63/27/1f6327e4fa672b3f0f422a4709d8070b03972623519d862d1d1389b3a372f88a.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-130",
+    "name": "Gyarados",
+    "set": "Expansion Pack",
+    "pokedexNumber": 130,
+    "number": "130",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/5f/e3/15/5fe315e13d6da2bcc36d7b2959755b9816c28e9860171d43bcf170bd927dd11c.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-137",
+    "name": "Porygon",
+    "set": "Expansion Pack",
+    "pokedexNumber": 137,
+    "number": "137",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/af/f6/f5/aff6f5a61b96493caaec67dd8fbd21a7ae9789cb5b2dcc9e25662bf3f61ed256.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-145",
+    "name": "Zapdos",
+    "set": "Expansion Pack",
+    "pokedexNumber": 145,
+    "number": "145",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/80/63/d1/8063d181bd04c4f9c3391ab26728dd0f4eda26e18d0fe8be54c448ce001ef9a4.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-147",
+    "name": "Dratini",
+    "set": "Expansion Pack",
+    "pokedexNumber": 147,
+    "number": "147",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/a9/71/35/a9713588c53c4169117f8143c1c82cb38b63b33645bae0c452432d54e0f8d952.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-148",
+    "name": "Dragonair",
+    "set": "Expansion Pack",
+    "pokedexNumber": 148,
+    "number": "148",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/bf/4c/8b/bf4c8bf5b312e5bceb02bde7a2a483285af66c19f3131e67847d68ee555cc5d3.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-150",
+    "name": "Mewtwo",
+    "set": "Expansion Pack",
+    "pokedexNumber": 150,
+    "number": "150",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/a3/0f/97/a30f97e921fd0e81336c6bfe098c0184d6ca99d8edc9ec28786ac3455c7c034a.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-pokedex",
+    "name": "Pokédex",
+    "set": "Expansion Pack",
+    "pokedexNumber": null,
+    "number": "Item",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/48/8c/ad/488cad0c1979bc64c2557c0d2fcfbf8e8d2d8e3d7916189e01f99ca8ce32c781.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-023",
+    "name": "Ekans",
+    "set": "Mystery of the Fossils",
+    "pokedexNumber": 23,
+    "number": "023",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/83/92/43/839243b150e2e7edf35f80ad46b5f1ac780b28c5c61d53f739de80b9a48473f2.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-024",
+    "name": "Arbok",
+    "set": "Mystery of the Fossils",
+    "pokedexNumber": 24,
+    "number": "024",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/f0/ee/8c/f0ee8c8d3495ac4ffd1c03c893886cd8be8df49c7e01b282c09cb125d77fc8b8.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-028",
+    "name": "Sandslash",
+    "set": "Mystery of the Fossils",
+    "pokedexNumber": 28,
+    "number": "028",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/e5/70/a3/e570a3030cf2499c1c592f701c4afa638bdb09a73fc7fb6969d729dc4b9cb550.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-041",
+    "name": "Zubat",
+    "set": "Mystery of the Fossils",
+    "pokedexNumber": 41,
+    "number": "041",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/4e/ec/97/4eec9726e1c2a4eac9afc1eaecf099d6e1bf2b96f22e892a81300e36157eae2e.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-042",
+    "name": "Golbat",
+    "set": "Mystery of the Fossils",
+    "pokedexNumber": 42,
+    "number": "042",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/07/2d/d9/072dd99c1ec5c66f057a5e2642d245efc977032afe36bb8f3c75b99b49a9812d.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-054",
+    "name": "Psyduck",
+    "set": "Mystery of the Fossils",
+    "pokedexNumber": 54,
+    "number": "054",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/41/19/23/4119234ff6048fd2d98aeedbcb6cfba934e9e64b3249d301fa9e43295fda6ab5.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-055",
+    "name": "Golduck",
+    "set": "Mystery of the Fossils",
+    "pokedexNumber": 55,
+    "number": "055",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/38/a4/04/38a404b9866caf1208d0f79dd0ce15bff9d217495669b5e11f306bbe64ea6622.jpg",
     "notes": ""
   },
   {
@@ -836,28 +858,6 @@
     "notes": ""
   },
   {
-    "id": "dex-077",
-    "name": "Ponyta",
-    "set": "Expansion Pack",
-    "pokedexNumber": 77,
-    "number": "077",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/37/b4/0c/37b40c0a8ec0355095fb052e5eb4f65b40ff41222dee4a2ddc81f76361570955.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-078",
-    "name": "Rapidash",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 78,
-    "number": "078",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ae/c9/e8/aec9e8e607c0de813a3b25091f8e5dc92a0ce1c75babe3c01e4aa865dc2791a4.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-079",
     "name": "Slowpoke",
     "set": "Mystery of the Fossils",
@@ -880,17 +880,6 @@
     "notes": ""
   },
   {
-    "id": "dex-081",
-    "name": "Magnemite",
-    "set": "Expansion Pack",
-    "pokedexNumber": 81,
-    "number": "081",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/d4/f0/f4/d4f0f433be37e0da8ac8bdb79e515dfc1c6410b51e39026925916c040bb494fd.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-082",
     "name": "Magneton",
     "set": "Mystery of the Fossils",
@@ -899,61 +888,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/85/f2/b3/85f2b3a38e81eb0a4657b76c4c251b35e63350bf669c1c7459ecdf0fb9d1269f.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-083",
-    "name": "Farfetch’d",
-    "set": "Expansion Pack",
-    "pokedexNumber": 83,
-    "number": "083",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8c/4d/dc/8c4ddca1b335505c898e461cc52171a6582aa227cb32e153230a1b954385173b.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-084",
-    "name": "Doduo",
-    "set": "Expansion Pack",
-    "pokedexNumber": 84,
-    "number": "084",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/95/46/8d/95468d2f671e56be0c6e711522c865c36665af357b8d42a51bce4d3d16ff6332.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-085",
-    "name": "Dodrio",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 85,
-    "number": "085",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/24/a0/87/24a08783de0c0ba6a367153f6f08c4031197bf959f1397a3eeb1dfbb8d80e2a4.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-086",
-    "name": "Seel",
-    "set": "Expansion Pack",
-    "pokedexNumber": 86,
-    "number": "086",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/32/ea/eb/32eaebb0efd5901b272742023cb7f5b8c7d73af4c81a4dd1543d4f77aa7d595f.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-087",
-    "name": "Dewgong",
-    "set": "Expansion Pack",
-    "pokedexNumber": 87,
-    "number": "087",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/cb/f0/83/cbf083810fa587cad523945ff0139212e64e4f0472a93c6b1e8f12d236dc9cfc.jpg",
     "notes": ""
   },
   {
@@ -1034,28 +968,6 @@
     "notes": ""
   },
   {
-    "id": "dex-095",
-    "name": "Onix",
-    "set": "Expansion Pack",
-    "pokedexNumber": 95,
-    "number": "095",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/b2/c6/42/b2c64286c0a37c8d4d26f69a060f7d8d7e2bfb1be27fc4fc166fb61b94d14dd6.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-096",
-    "name": "Drowzee",
-    "set": "Expansion Pack",
-    "pokedexNumber": 96,
-    "number": "096",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ce/59/13/ce5913e371e935c48edcde828eac8f917b756d0757785b05171d1fb39b85f633.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-097",
     "name": "Hypno",
     "set": "Mystery of the Fossils",
@@ -1089,72 +1001,6 @@
     "notes": ""
   },
   {
-    "id": "dex-100",
-    "name": "Voltorb",
-    "set": "Expansion Pack",
-    "pokedexNumber": 100,
-    "number": "100",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8e/c4/ec/8ec4ec1ce887c204e45a2b4c42c48dd2d647f6904631f1e9f7330c1d95c9bdd8.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-101",
-    "name": "Electrode",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 101,
-    "number": "101",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ff/e6/61/ffe661e13bf56e16027d42c5fd4c96fd5387e9571a56aa6609eca36d251f4697.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-102",
-    "name": "Exeggcute",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 102,
-    "number": "102",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/df/2c/b1/df2cb1693cec03f3413fa524dbd3d108d7ecc8957b906ee6735ad35e9f5cc299.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-103",
-    "name": "Exeggutor",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 103,
-    "number": "103",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/26/52/cc/2652cc0cd6b69b234b14db6cebdaa877b6c143afd278c95aabd6e016c7c4f58b.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-104",
-    "name": "Cubone",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 104,
-    "number": "104",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/f8/d2/00/f8d200a898479b5b0352684bc314c376985024316daa5f4eb3c349e37b5683d7.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-105",
-    "name": "Marowak",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 105,
-    "number": "105",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/68/23/f3/6823f39b4f82a82fb6bc15040f4e4747fb5be0a122e45ebd359dc0b39d25ff74.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-106",
     "name": "Hitmonlee",
     "set": "Mystery of the Fossils",
@@ -1166,39 +1012,6 @@
     "notes": ""
   },
   {
-    "id": "dex-107",
-    "name": "Hitmonchan",
-    "set": "Expansion Pack",
-    "pokedexNumber": 107,
-    "number": "107",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/56/a8/34/56a834ca21c30c80dccb7a9411d39b8c62b63f9858575731be3d8c057aa4e9a7.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-108",
-    "name": "Lickitung",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 108,
-    "number": "108",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a5/16/54/a5165475fc5899db2f0ee64e47af398d73ad569d3bf63c4d138a7f99eff6d6cb.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-109",
-    "name": "Koffing",
-    "set": "Expansion Pack",
-    "pokedexNumber": 109,
-    "number": "109",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/67/8e/b4/678eb4990a1baf7a14efb81b4c22b431d517022537b0f24888f42ab0bbd6ae35.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-110",
     "name": "Weezing",
     "set": "Mystery of the Fossils",
@@ -1207,61 +1020,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/37/01/3f/37013fe656d502f281c6259ba2c0d459695b97bc2faf4c9e128ef287e9c3326e.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-111",
-    "name": "Rhyhorn",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 111,
-    "number": "111",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/68/38/a5/6838a53f9599ddf94a0e9db54660316a848883a931b4cf494cc736c9949dd9a0.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-112",
-    "name": "Rhydon",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 112,
-    "number": "112",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/6e/07/fa/6e07faee6c457b8474168c25bd786f84dfbf44805bf41b4d0b07dffc0f086a69.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-113",
-    "name": "Chansey",
-    "set": "Expansion Pack",
-    "pokedexNumber": 113,
-    "number": "113",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/66/e0/4a/66e04ac53a4c02870db319dc8f56a58465cdb7809c3f0c0dae6547b5408a7968.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-114",
-    "name": "Tangela",
-    "set": "Expansion Pack",
-    "pokedexNumber": 114,
-    "number": "114",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ea/74/46/ea74460468706b4bd0e89d18c48d9cf30bdf019c3426d592a91323a2c21f16a3.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-115",
-    "name": "Kangaskhan",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 115,
-    "number": "115",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/71/f9/74/71f9745900ee5bdf433ff9939e65fac84b515e49eb544a867edc0bd4f933ef4e.jpg",
     "notes": ""
   },
   {
@@ -1287,149 +1045,6 @@
     "notes": ""
   },
   {
-    "id": "dex-118",
-    "name": "Goldeen",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 118,
-    "number": "118",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/f7/4c/1e/f74c1e222b9d566e5451002029b76ec75f24fde5698e248cc571999a9430af93.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-119",
-    "name": "Seaking",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 119,
-    "number": "119",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/b2/5f/fe/b25ffe3e109dc543021f6465ac92f005199ff15897810fb262a785a55240f3b1.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-120",
-    "name": "Staryu",
-    "set": "Expansion Pack",
-    "pokedexNumber": 120,
-    "number": "120",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/0e/4d/b3/0e4db381b13824418243333d1e0b757dc8f133fc503bbb24f0ce2fa5e2dd8bda.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-121",
-    "name": "Starmie",
-    "set": "Expansion Pack",
-    "pokedexNumber": 121,
-    "number": "121",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8c/49/5a/8c495a2afa6a12de52ec5d0f98b279f38964ebd069e0105c80c978d12ca1c35b.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-122",
-    "name": "Mr. Mime",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 122,
-    "number": "122",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e1/7b/55/e17b55e1164a0e8957a8e057125a7c9e3a43441676eef1cf7e03a229d50a9b01.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-123",
-    "name": "Scyther",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 123,
-    "number": "123",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/5f/6d/91/5f6d914dff785524a386c0e8c3a4879d60557c769e2c74e54f73d83d9e30238c.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-124",
-    "name": "Jynx",
-    "set": "Expansion Pack",
-    "pokedexNumber": 124,
-    "number": "124",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/51/c7/38/51c7382897a8847b6ded1939998720cb658c98aced062eda33a4e3f4e343ecbe.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-125",
-    "name": "Electabuzz",
-    "set": "Expansion Pack",
-    "pokedexNumber": 125,
-    "number": "125",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/fe/10/2c/fe102c4cca014eaec6a399d6a29aad6253f0a580bd76dd7cc62817cca02bb91d.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-126",
-    "name": "Magmar",
-    "set": "Expansion Pack",
-    "pokedexNumber": 126,
-    "number": "126",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e7/3d/1c/e73d1cdeee17a510c9911f035632e32da0e8d54d0242d7ab3b1b39daf1a21877.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-127",
-    "name": "Pinsir",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 127,
-    "number": "127",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/bf/13/92/bf13921ab80f50b5c57f46cd3576a01b7241905ed989f5312d827d63acb36836.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-128",
-    "name": "Tauros",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 128,
-    "number": "128",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/19/7f/d2/197fd21b2c9ac259d385bb1681bff330b469a25f6dde3c008db576d68af75b1f.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-129",
-    "name": "Magikarp",
-    "set": "Expansion Pack",
-    "pokedexNumber": 129,
-    "number": "129",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/1f/63/27/1f6327e4fa672b3f0f422a4709d8070b03972623519d862d1d1389b3a372f88a.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-130",
-    "name": "Gyarados",
-    "set": "Expansion Pack",
-    "pokedexNumber": 130,
-    "number": "130",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/5f/e3/15/5fe315e13d6da2bcc36d7b2959755b9816c28e9860171d43bcf170bd927dd11c.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-131",
     "name": "Lapras",
     "set": "Mystery of the Fossils",
@@ -1449,61 +1064,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/b0/e3/ad/b0e3ade2f71915b5278cb77c5923b20b6c34503958094494610d244416dcc677.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-133",
-    "name": "Eevee",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 133,
-    "number": "133",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/76/eb/54/76eb54fd5d7dd214d3900fe5dde70ebdbb3abcb50d281006d396f023d5c30d33.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-134",
-    "name": "Vaporeon",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 134,
-    "number": "134",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/98/18/c4/9818c4305b7f14b265ff361c06a1fc03fd106085d160cea8a770298ae17b6df9.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-135",
-    "name": "Jolteon",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 135,
-    "number": "135",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/1b/dd/25/1bdd25b50ea83ed02a05b30f22df3bef59ded478e0862d5b4680398585d9f34e.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-136",
-    "name": "Flareon",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 136,
-    "number": "136",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/f9/94/cc/f994ccdad54d2ff37d1672470c1712992e8fe489ecb22891c5468932ca2ff222.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-137",
-    "name": "Porygon",
-    "set": "Expansion Pack",
-    "pokedexNumber": 137,
-    "number": "137",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/af/f6/f5/aff6f5a61b96493caaec67dd8fbd21a7ae9789cb5b2dcc9e25662bf3f61ed256.jpg",
     "notes": ""
   },
   {
@@ -1562,17 +1122,6 @@
     "notes": ""
   },
   {
-    "id": "dex-143",
-    "name": "Snorlax",
-    "set": "Pokémon Jungle",
-    "pokedexNumber": 143,
-    "number": "143",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/60/2c/23/602c23e19cdad7896abda45a1a70fd6d9dcd7e561a43f70efec0fbc3f5db732d.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-144",
     "name": "Articuno",
     "set": "Mystery of the Fossils",
@@ -1581,17 +1130,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/dc/29/92/dc2992509a6acfc7ee750051d51cddf2e4266aed9155e522a58bea249be16c68.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-145",
-    "name": "Zapdos",
-    "set": "Expansion Pack",
-    "pokedexNumber": 145,
-    "number": "145",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/80/63/d1/8063d181bd04c4f9c3391ab26728dd0f4eda26e18d0fe8be54c448ce001ef9a4.jpg",
     "notes": ""
   },
   {
@@ -1606,28 +1144,6 @@
     "notes": ""
   },
   {
-    "id": "dex-147",
-    "name": "Dratini",
-    "set": "Expansion Pack",
-    "pokedexNumber": 147,
-    "number": "147",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a9/71/35/a9713588c53c4169117f8143c1c82cb38b63b33645bae0c452432d54e0f8d952.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-148",
-    "name": "Dragonair",
-    "set": "Expansion Pack",
-    "pokedexNumber": 148,
-    "number": "148",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/bf/4c/8b/bf4c8bf5b312e5bceb02bde7a2a483285af66c19f3131e67847d68ee555cc5d3.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-149",
     "name": "Dragonite",
     "set": "Mystery of the Fossils",
@@ -1636,17 +1152,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/88/af/7d/88af7d91767b8569fc51970b2a42d17b8bc442152bce639915588f42b23cefb8.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-150",
-    "name": "Mewtwo",
-    "set": "Expansion Pack",
-    "pokedexNumber": 150,
-    "number": "150",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a3/0f/97/a30f97e921fd0e81336c6bfe098c0184d6ca99d8edc9ec28786ac3455c7c034a.jpg",
     "notes": ""
   },
   {
@@ -1661,6 +1166,512 @@
     "notes": ""
   },
   {
+    "id": "dex-012",
+    "name": "Butterfree",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 12,
+    "number": "012",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/bf/fc/52/bffc52e8bc67aaa707e5c664097080564179afc71fc264950b7312c69c277d3e.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-018",
+    "name": "Pidgeot",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 18,
+    "number": "018",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/bb/a9/14/bba914d0da72b9c6219e95ed47698b22967bc0e1a6c5f9736584836a971f489d.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-021",
+    "name": "Spearow",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 21,
+    "number": "021",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/92/a3/f0/92a3f0a84950d548f9b189c7f0216470c2d79bd67de8af02a166060c255d4904.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-022",
+    "name": "Fearow",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 22,
+    "number": "022",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/5a/25/54/5a2554666cac778c7cb397ca2d295b3f4ec58f40de8c298c74a40b612cc1af11.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-029",
+    "name": "Nidoran♀",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 29,
+    "number": "029",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/78/b0/d2/78b0d276df2d76307bb1df6b1d93a37d10b559e9516bf055c340ef36808a24a6.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-030",
+    "name": "Nidorina",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 30,
+    "number": "030",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/c1/73/04/c173042d9dda290339ec782390485187b63e72c2fccbaabe9d0fa9f29dfbfad5.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-031",
+    "name": "Nidoqueen",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 31,
+    "number": "031",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/8a/dd/d3/8addd32b134339d4215ac2f4fec78556e83ae1c556fb6034a5dfd9706fca35aa.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-036",
+    "name": "Clefable",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 36,
+    "number": "036",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/d6/68/1c/d6681cb103c017479e05ac9f030b00e7a22c5a133c011a8ada78ed2dcd9a9426.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-039",
+    "name": "Jigglypuff",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 39,
+    "number": "039",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/31/ff/13/31ff13b5ddd86c2ed1da2412ad48551ae7de03215937f99c90e99fdd1319dfac.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-040",
+    "name": "Wigglytuff",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 40,
+    "number": "040",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/5a/c3/47/5ac3477e56f963a4d55b02bc479a68d18232bde92fbd5943a4ad121a744576eb.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-043",
+    "name": "Oddish",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 43,
+    "number": "043",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/e9/cb/75/e9cb75dcfc82232502cd0f1e80e4c7664b52735e0ce1074f62dad79a0ec8062b.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-044",
+    "name": "Gloom",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 44,
+    "number": "044",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/93/75/59/937559fc5318d3678b4ec23729fec9d1e4d5886aa97dabaa4026a477a70811e0.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-045",
+    "name": "Vileplume",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 45,
+    "number": "045",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/bf/60/82/bf6082baeb5a649e00a3732c89e947e5006c36376478582b40ff9755f8f420f6.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-046",
+    "name": "Paras",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 46,
+    "number": "046",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/88/a4/95/88a495dcc88388f70a1fbc6402f142ca86b4a50e583f85277ad798d69fc377b3.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-047",
+    "name": "Parasect",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 47,
+    "number": "047",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/84/72/ac/8472acbf1ff40678b0ca2e7edb92798401a6a90ab7228f0e57064cbc887e0853.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-048",
+    "name": "Venonat",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 48,
+    "number": "048",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/75/6e/cf/756ecf297e0452a74ce282a56831664fe8a988769b5be04a52b97d938c03d9e8.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-049",
+    "name": "Venomoth",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 49,
+    "number": "049",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/4f/14/f1/4f14f159b75be7a9f19f78ba336ef16341259bd4d2aeb0e8bbde7f7446fd5f0d.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-052",
+    "name": "Meowth",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 52,
+    "number": "052",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/e4/01/ae/e401ae3805b797bdb28ec6e06cb712c8198e637c02e2efe9480af830f4157bbd.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-053",
+    "name": "Persian",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 53,
+    "number": "053",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/20/4a/84/204a8428a0c4efefa779a5cb47c013822f90fafcfbd4b9c99c3c9a98c6a80fb7.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-056",
+    "name": "Mankey",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 56,
+    "number": "056",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/95/4c/76/954c765ff83bb5f820b072658a4c59453113fea9564b756d8eb27e4bd72f0263.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-057",
+    "name": "Primeape",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 57,
+    "number": "057",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/64/b0/33/64b03385f8e33e0e389d2d9ee697ff7cdc7485ef7a33a6e310d2dab974862536.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-069",
+    "name": "Bellsprout",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 69,
+    "number": "069",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/92/51/92/925192fd244b542de4bd872b0a77a916fb7bfa9b28e8d4ecb4dc61c02c60a705.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-070",
+    "name": "Weepinbell",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 70,
+    "number": "070",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/a3/d8/e3/a3d8e37a95776317effd631a1fa6b11f4ed8711498c4e83161f52d0a5f2ba899.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-071",
+    "name": "Victreebel",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 71,
+    "number": "071",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/8d/c4/6e/8dc46e8783277e3d1d630940dddac50f7a1ef9f0af4a5293917cf047f71b4c3f.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-078",
+    "name": "Rapidash",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 78,
+    "number": "078",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/ae/c9/e8/aec9e8e607c0de813a3b25091f8e5dc92a0ce1c75babe3c01e4aa865dc2791a4.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-085",
+    "name": "Dodrio",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 85,
+    "number": "085",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/24/a0/87/24a08783de0c0ba6a367153f6f08c4031197bf959f1397a3eeb1dfbb8d80e2a4.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-101",
+    "name": "Electrode",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 101,
+    "number": "101",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/ff/e6/61/ffe661e13bf56e16027d42c5fd4c96fd5387e9571a56aa6609eca36d251f4697.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-102",
+    "name": "Exeggcute",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 102,
+    "number": "102",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/df/2c/b1/df2cb1693cec03f3413fa524dbd3d108d7ecc8957b906ee6735ad35e9f5cc299.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-103",
+    "name": "Exeggutor",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 103,
+    "number": "103",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/26/52/cc/2652cc0cd6b69b234b14db6cebdaa877b6c143afd278c95aabd6e016c7c4f58b.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-104",
+    "name": "Cubone",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 104,
+    "number": "104",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/f8/d2/00/f8d200a898479b5b0352684bc314c376985024316daa5f4eb3c349e37b5683d7.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-105",
+    "name": "Marowak",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 105,
+    "number": "105",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/68/23/f3/6823f39b4f82a82fb6bc15040f4e4747fb5be0a122e45ebd359dc0b39d25ff74.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-108",
+    "name": "Lickitung",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 108,
+    "number": "108",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/a5/16/54/a5165475fc5899db2f0ee64e47af398d73ad569d3bf63c4d138a7f99eff6d6cb.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-111",
+    "name": "Rhyhorn",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 111,
+    "number": "111",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/68/38/a5/6838a53f9599ddf94a0e9db54660316a848883a931b4cf494cc736c9949dd9a0.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-112",
+    "name": "Rhydon",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 112,
+    "number": "112",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/6e/07/fa/6e07faee6c457b8474168c25bd786f84dfbf44805bf41b4d0b07dffc0f086a69.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-115",
+    "name": "Kangaskhan",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 115,
+    "number": "115",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/71/f9/74/71f9745900ee5bdf433ff9939e65fac84b515e49eb544a867edc0bd4f933ef4e.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-118",
+    "name": "Goldeen",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 118,
+    "number": "118",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/f7/4c/1e/f74c1e222b9d566e5451002029b76ec75f24fde5698e248cc571999a9430af93.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-119",
+    "name": "Seaking",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 119,
+    "number": "119",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/b2/5f/fe/b25ffe3e109dc543021f6465ac92f005199ff15897810fb262a785a55240f3b1.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-122",
+    "name": "Mr. Mime",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 122,
+    "number": "122",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/e1/7b/55/e17b55e1164a0e8957a8e057125a7c9e3a43441676eef1cf7e03a229d50a9b01.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-123",
+    "name": "Scyther",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 123,
+    "number": "123",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/5f/6d/91/5f6d914dff785524a386c0e8c3a4879d60557c769e2c74e54f73d83d9e30238c.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-127",
+    "name": "Pinsir",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 127,
+    "number": "127",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/bf/13/92/bf13921ab80f50b5c57f46cd3576a01b7241905ed989f5312d827d63acb36836.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-128",
+    "name": "Tauros",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 128,
+    "number": "128",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/19/7f/d2/197fd21b2c9ac259d385bb1681bff330b469a25f6dde3c008db576d68af75b1f.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-133",
+    "name": "Eevee",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 133,
+    "number": "133",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/76/eb/54/76eb54fd5d7dd214d3900fe5dde70ebdbb3abcb50d281006d396f023d5c30d33.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-134",
+    "name": "Vaporeon",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 134,
+    "number": "134",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/98/18/c4/9818c4305b7f14b265ff361c06a1fc03fd106085d160cea8a770298ae17b6df9.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-135",
+    "name": "Jolteon",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 135,
+    "number": "135",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/1b/dd/25/1bdd25b50ea83ed02a05b30f22df3bef59ded478e0862d5b4680398585d9f34e.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-136",
+    "name": "Flareon",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 136,
+    "number": "136",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/f9/94/cc/f994ccdad54d2ff37d1672470c1712992e8fe489ecb22891c5468932ca2ff222.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-143",
+    "name": "Snorlax",
+    "set": "Pokémon Jungle",
+    "pokedexNumber": 143,
+    "number": "143",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/60/2c/23/602c23e19cdad7896abda45a1a70fd6d9dcd7e561a43f70efec0fbc3f5db732d.jpg",
+    "notes": ""
+  },
+  {
     "id": "dex-poke-ball",
     "name": "Poké Ball",
     "set": "Pokémon Jungle",
@@ -1669,17 +1680,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/f3/e1/3a/f3e13afaca6b21998f8c04b4a436dd7ce00ce696e01108dce6213071aa74a0da.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-pokedex",
-    "name": "Pokédex",
-    "set": "Expansion Pack",
-    "pokedexNumber": null,
-    "number": "Item",
-    "count": 0,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/48/8c/ad/488cad0c1979bc64c2557c0d2fcfbf8e8d2d8e3d7916189e01f99ca8ce32c781.jpg",
     "notes": ""
   }
 ]

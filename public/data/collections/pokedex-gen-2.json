@@ -1,5 +1,423 @@
 [
   {
+    "id": "dex-169",
+    "name": "Crobat",
+    "set": "Awakening Legends",
+    "pokedexNumber": 169,
+    "number": "169",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/9c/51/11/9c5111e352682ac42698d7009e038720e25494fe2fff188a1184f2a704555df3.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-200",
+    "name": "Misdreavus",
+    "set": "Awakening Legends",
+    "pokedexNumber": 200,
+    "number": "200",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/4c/c0/51/4cc051a090cd7fad92c47a2bf8c2b0af97b13a4df01b19d9f06d4ed18aab4dfe.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-211",
+    "name": "Qwilfish",
+    "set": "Awakening Legends",
+    "pokedexNumber": 211,
+    "number": "211",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/ee/e4/f7/eee4f7f56eabdd96cea410231a212421fb82e2c8457b5446f3d56e94c683fd25.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-218",
+    "name": "Slugma",
+    "set": "Awakening Legends",
+    "pokedexNumber": 218,
+    "number": "218",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/07/2c/27/072c27ae21496b9868e3c003f12c222f41ee63764173c15e66c9c7a847e9fd68.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-219",
+    "name": "Magcargo",
+    "set": "Awakening Legends",
+    "pokedexNumber": 219,
+    "number": "219",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/a5/f3/4b/a5f34bb03b9ef7b6db881e2ac291c8fc7658ce04321dd6ef84311d9e64af2be4.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-223",
+    "name": "Remoraid",
+    "set": "Awakening Legends",
+    "pokedexNumber": 223,
+    "number": "223",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/37/83/60/3783607062d140b23017080770c52d4f42309bcdccc8828fae0a768ae7746cae.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-224",
+    "name": "Octillery",
+    "set": "Awakening Legends",
+    "pokedexNumber": 224,
+    "number": "224",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/ae/ac/57/aeac57df9d9942372bf9ca8effc307d5ed60c47f85ca741032a046a3c2baeaa4.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-225",
+    "name": "Delibird",
+    "set": "Awakening Legends",
+    "pokedexNumber": 225,
+    "number": "225",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/bb/34/17/bb3417ea80e85df9bde96f15d7982d912a6680e9b7db9582d193a830ae692b98.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-233",
+    "name": "Porygon2",
+    "set": "Awakening Legends",
+    "pokedexNumber": 233,
+    "number": "233",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/4d/9a/3b/4d9a3bb808b4cc7809bf86821bbe25ef08197182d7608d7a763416c70a5f00b6.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-238",
+    "name": "Smoochum",
+    "set": "Awakening Legends",
+    "pokedexNumber": 238,
+    "number": "238",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/22/aa/47/22aa47e70eec7b8f72a15a074553e191fe06c1bed7a677e7b2e3b911efcc6047.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-242",
+    "name": "Blissey",
+    "set": "Awakening Legends",
+    "pokedexNumber": 242,
+    "number": "242",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/23/a4/cd/23a4cd8999c0687fc12124938e287c64ee5102fd4d3eb7bd8879d007a6c04f48.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-243",
+    "name": "Raikou",
+    "set": "Awakening Legends",
+    "pokedexNumber": 243,
+    "number": "243",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/03/97/e3/0397e3bea6aba4982bee1f59016840cf3404d65c30abf12bf3b2359907c99b52.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-244",
+    "name": "Entei",
+    "set": "Awakening Legends",
+    "pokedexNumber": 244,
+    "number": "244",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/83/55/19/835519dd1a637b94285d3bbfdbc312be65fcd80afa730ae3677156cba66c3067.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-245",
+    "name": "Suicune",
+    "set": "Awakening Legends",
+    "pokedexNumber": 245,
+    "number": "245",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/75/4e/25/754e25e9efcedfcd49b5bac0b12cfa3e3b91bfa7d19849adae08fe756be76f3b.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-250",
+    "name": "Ho-oh",
+    "set": "Awakening Legends",
+    "pokedexNumber": 250,
+    "number": "250",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/5a/9a/9a/5a9a9ac0b1294cb580c32828c2ef2b0c8570a163163a48a2b8f54f8601973f9e.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-251",
+    "name": "Celebi",
+    "set": "Awakening Legends",
+    "pokedexNumber": 251,
+    "number": "251",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/1a/ab/05/1aab05e0185589874133af929d46514b99a23ada5094c0144b380e251dd5d2f9.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-174",
+    "name": "Igglybuff",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 174,
+    "number": "174",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/92/78/a0/9278a01281452dd745c09d4f1117e5a552c445a5632762a2ba24ec9ce32e32ed.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-186",
+    "name": "Politoed",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 186,
+    "number": "186",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/c3/63/9e/c3639e8101dfa7bc4b74cdf22c213f2f443446aad73f4e0a0353f7eca0e8a4f1.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-193",
+    "name": "Yanma",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 193,
+    "number": "193",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/07/45/4b/07454b365d4c6cdf4b7b78c2f1407cea34a874e881846484ae6c4b0af761fc7a.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-196",
+    "name": "Espeon",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 196,
+    "number": "196",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/20/77/cc/2077cc880d2f1d09d006e34185347a7e944949c7a8076bb810b7aff6513ebd06.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-197",
+    "name": "Umbreon",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 197,
+    "number": "197",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/64/7e/01/647e0129ab306a4b94170157a5db67f0bd5a1434ecb2397332f3567308f42419.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-201",
+    "name": "Unown",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 201,
+    "number": "201",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/d2/47/ec/d247ec63d86a21e192f1ec4e5292d167538dafdf16c307cf80c24de84e30356b.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-202",
+    "name": "Wobbuffet",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 202,
+    "number": "202",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/32/7f/6e/327f6e65be4d9094d78b829fa19764dd6c8d75af0c526aea9bce38dde8cf129c.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-204",
+    "name": "Pineco",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 204,
+    "number": "204",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/a9/e3/35/a9e3351d2cf7fd8c77f665589fda69c7c444b6c8371f7a77a0f8e9b821a37ad5.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-205",
+    "name": "Forretress",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 205,
+    "number": "205",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/74/48/45/744845db21a92c089829f84f567f20021bb22ecdba78f2a85825c77cd2feb4c8.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-206",
+    "name": "Dunsparce",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 206,
+    "number": "206",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/4e/08/65/4e08656c20a425f8d99825da644d3cef0b34b7a332b58c95a4b2ba46f7e7b234.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-212",
+    "name": "Scizor",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 212,
+    "number": "212",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/85/8c/2e/858c2efdedb913f7faabc093212ba81eecc817ca80d20049710eb085c28fd01e.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-216",
+    "name": "Teddiursa",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 216,
+    "number": "216",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/24/86/c6/2486c68ecd147566f4fbf8dab834be909951976472bc5ef3586738b8dfb30b85.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-217",
+    "name": "Ursaring",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 217,
+    "number": "217",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/97/da/8b/97da8bdb9ff583dc8d7cf9f59ddb2feaccf9e22e49695bf7303082ee7817e84d.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-222",
+    "name": "Corsola",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 222,
+    "number": "222",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/55/6b/5d/556b5d49390f82dceec9fbeaf14ead861ddd7edd11272527e9583b52ca84fb48.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-228",
+    "name": "Houndour",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 228,
+    "number": "228",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/63/7e/a5/637ea52df7e1b4e7126f4e5fe57fc06d4347afce336a457eee107a1f13627298.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-229",
+    "name": "Houndoom",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 229,
+    "number": "229",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/9d/aa/dc/9daadc5655d41cd7cbdc09ab2dbda80e67e16d92f59474d64db59d827c564dae.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-235",
+    "name": "Smeargle",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 235,
+    "number": "235",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/83/5d/ce/835dceae025b1a9c7285d44b21de6ec2fffb203dfe054e8f3155155b4cbbee17.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-236",
+    "name": "Tyrogue",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 236,
+    "number": "236",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/3c/82/5c/3c825c970157706df5b530928b6d758d451a3aef0e2cf0d3badd7da409c7b7fd.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-237",
+    "name": "Hitmontop",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 237,
+    "number": "237",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/62/47/e4/6247e43e7750de1646fdcc0946984afc9f55bece2c0146662ca4d46dadb01eeb.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-246",
+    "name": "Larvitar",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 246,
+    "number": "246",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/84/50/0f/84500f59df50f7ec471313b0c0e354a649d494b0b2a4a68ee428763843f7b982.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-247",
+    "name": "Pupitar",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 247,
+    "number": "247",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/d0/4b/08/d04b08effaa3ad15665f02581961cb975df014b79bfb9862b6888fb29923da00.jpg",
+    "notes": ""
+  },
+  {
+    "id": "dex-248",
+    "name": "Tyranitar",
+    "set": "Crossing the Ruins...",
+    "pokedexNumber": 248,
+    "number": "248",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/f2/5c/11/f25c11dccf2bd7813721c5196439da5d65df81bb5de9f20f67d93d5604d9fdef.jpg",
+    "notes": ""
+  },
+  {
     "id": "dex-152",
     "name": "Chikorita",
     "set": "Gold, Silver, to a New World...",
@@ -187,17 +605,6 @@
     "notes": ""
   },
   {
-    "id": "dex-169",
-    "name": "Crobat",
-    "set": "Awakening Legends",
-    "pokedexNumber": 169,
-    "number": "169",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/9c/51/11/9c5111e352682ac42698d7009e038720e25494fe2fff188a1184f2a704555df3.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-170",
     "name": "Chinchou",
     "set": "Gold, Silver, to a New World...",
@@ -239,17 +646,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/d1/87/05/d187058ed985e754e66548605eeb659ecad99a6891247e942e9aee13892de001.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-174",
-    "name": "Igglybuff",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 174,
-    "number": "174",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/92/78/a0/9278a01281452dd745c09d4f1117e5a552c445a5632762a2ba24ec9ce32e32ed.jpg",
     "notes": ""
   },
   {
@@ -374,17 +770,6 @@
     "notes": ""
   },
   {
-    "id": "dex-186",
-    "name": "Politoed",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 186,
-    "number": "186",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/c3/63/9e/c3639e8101dfa7bc4b74cdf22c213f2f443446aad73f4e0a0353f7eca0e8a4f1.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-187",
     "name": "Hoppip",
     "set": "Gold, Silver, to a New World...",
@@ -451,17 +836,6 @@
     "notes": ""
   },
   {
-    "id": "dex-193",
-    "name": "Yanma",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 193,
-    "number": "193",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/07/45/4b/07454b365d4c6cdf4b7b78c2f1407cea34a874e881846484ae6c4b0af761fc7a.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-194",
     "name": "Wooper",
     "set": "Gold, Silver, to a New World...",
@@ -481,28 +855,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/67/ab/9d/67ab9d04fe8d169bd1feaf374109ff1f4ca9f0935e5d3fa392e77a81980ee6ae.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-196",
-    "name": "Espeon",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 196,
-    "number": "196",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/20/77/cc/2077cc880d2f1d09d006e34185347a7e944949c7a8076bb810b7aff6513ebd06.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-197",
-    "name": "Umbreon",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 197,
-    "number": "197",
-    "count": 0,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/64/7e/01/647e0129ab306a4b94170157a5db67f0bd5a1434ecb2397332f3567308f42419.jpg",
     "notes": ""
   },
   {
@@ -528,39 +880,6 @@
     "notes": ""
   },
   {
-    "id": "dex-200",
-    "name": "Misdreavus",
-    "set": "Awakening Legends",
-    "pokedexNumber": 200,
-    "number": "200",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/4c/c0/51/4cc051a090cd7fad92c47a2bf8c2b0af97b13a4df01b19d9f06d4ed18aab4dfe.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-201",
-    "name": "Unown",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 201,
-    "number": "201",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/d2/47/ec/d247ec63d86a21e192f1ec4e5292d167538dafdf16c307cf80c24de84e30356b.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-202",
-    "name": "Wobbuffet",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 202,
-    "number": "202",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/32/7f/6e/327f6e65be4d9094d78b829fa19764dd6c8d75af0c526aea9bce38dde8cf129c.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-203",
     "name": "Girafarig",
     "set": "Gold, Silver, to a New World...",
@@ -569,39 +888,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/99/1a/62/991a62c6c5692cec1aebebdfddc6d0ec4ba5ce4859888429192d72a3aadc7d28.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-204",
-    "name": "Pineco",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 204,
-    "number": "204",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a9/e3/35/a9e3351d2cf7fd8c77f665589fda69c7c444b6c8371f7a77a0f8e9b821a37ad5.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-205",
-    "name": "Forretress",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 205,
-    "number": "205",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/74/48/45/744845db21a92c089829f84f567f20021bb22ecdba78f2a85825c77cd2feb4c8.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-206",
-    "name": "Dunsparce",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 206,
-    "number": "206",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/4e/08/65/4e08656c20a425f8d99825da644d3cef0b34b7a332b58c95a4b2ba46f7e7b234.jpg",
     "notes": ""
   },
   {
@@ -649,28 +935,6 @@
     "notes": ""
   },
   {
-    "id": "dex-211",
-    "name": "Qwilfish",
-    "set": "Awakening Legends",
-    "pokedexNumber": 211,
-    "number": "211",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ee/e4/f7/eee4f7f56eabdd96cea410231a212421fb82e2c8457b5446f3d56e94c683fd25.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-212",
-    "name": "Scizor",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 212,
-    "number": "212",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/85/8c/2e/858c2efdedb913f7faabc093212ba81eecc817ca80d20049710eb085c28fd01e.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-213",
     "name": "Shuckle",
     "set": "Gold, Silver, to a New World...",
@@ -704,50 +968,6 @@
     "notes": ""
   },
   {
-    "id": "dex-216",
-    "name": "Teddiursa",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 216,
-    "number": "216",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/24/86/c6/2486c68ecd147566f4fbf8dab834be909951976472bc5ef3586738b8dfb30b85.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-217",
-    "name": "Ursaring",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 217,
-    "number": "217",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/97/da/8b/97da8bdb9ff583dc8d7cf9f59ddb2feaccf9e22e49695bf7303082ee7817e84d.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-218",
-    "name": "Slugma",
-    "set": "Awakening Legends",
-    "pokedexNumber": 218,
-    "number": "218",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/07/2c/27/072c27ae21496b9868e3c003f12c222f41ee63764173c15e66c9c7a847e9fd68.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-219",
-    "name": "Magcargo",
-    "set": "Awakening Legends",
-    "pokedexNumber": 219,
-    "number": "219",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a5/f3/4b/a5f34bb03b9ef7b6db881e2ac291c8fc7658ce04321dd6ef84311d9e64af2be4.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-220",
     "name": "Swinub",
     "set": "Gold, Silver, to a New World...",
@@ -770,50 +990,6 @@
     "notes": ""
   },
   {
-    "id": "dex-222",
-    "name": "Corsola",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 222,
-    "number": "222",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/55/6b/5d/556b5d49390f82dceec9fbeaf14ead861ddd7edd11272527e9583b52ca84fb48.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-223",
-    "name": "Remoraid",
-    "set": "Awakening Legends",
-    "pokedexNumber": 223,
-    "number": "223",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/37/83/60/3783607062d140b23017080770c52d4f42309bcdccc8828fae0a768ae7746cae.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-224",
-    "name": "Octillery",
-    "set": "Awakening Legends",
-    "pokedexNumber": 224,
-    "number": "224",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ae/ac/57/aeac57df9d9942372bf9ca8effc307d5ed60c47f85ca741032a046a3c2baeaa4.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-225",
-    "name": "Delibird",
-    "set": "Awakening Legends",
-    "pokedexNumber": 225,
-    "number": "225",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/bb/34/17/bb3417ea80e85df9bde96f15d7982d912a6680e9b7db9582d193a830ae692b98.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-226",
     "name": "Mantine",
     "set": "Gold, Silver, to a New World...",
@@ -833,28 +1009,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/f3/bb/72/f3bb725a242b1401984df46b7633279018c11861b4aac32581fec41ee7cd847b.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-228",
-    "name": "Houndour",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 228,
-    "number": "228",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/63/7e/a5/637ea52df7e1b4e7126f4e5fe57fc06d4347afce336a457eee107a1f13627298.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-229",
-    "name": "Houndoom",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 229,
-    "number": "229",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/9d/aa/dc/9daadc5655d41cd7cbdc09ab2dbda80e67e16d92f59474d64db59d827c564dae.jpg",
     "notes": ""
   },
   {
@@ -891,17 +1045,6 @@
     "notes": ""
   },
   {
-    "id": "dex-233",
-    "name": "Porygon2",
-    "set": "Awakening Legends",
-    "pokedexNumber": 233,
-    "number": "233",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/4d/9a/3b/4d9a3bb808b4cc7809bf86821bbe25ef08197182d7608d7a763416c70a5f00b6.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-234",
     "name": "Stantler",
     "set": "Gold, Silver, to a New World...",
@@ -910,50 +1053,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/8d/8a/9c/8d8a9c17c9cc95b28930f8fd10aa0de72b6cf30569a54e44ac937087d3e2cd61.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-235",
-    "name": "Smeargle",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 235,
-    "number": "235",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/83/5d/ce/835dceae025b1a9c7285d44b21de6ec2fffb203dfe054e8f3155155b4cbbee17.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-236",
-    "name": "Tyrogue",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 236,
-    "number": "236",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/3c/82/5c/3c825c970157706df5b530928b6d758d451a3aef0e2cf0d3badd7da409c7b7fd.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-237",
-    "name": "Hitmontop",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 237,
-    "number": "237",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/62/47/e4/6247e43e7750de1646fdcc0946984afc9f55bece2c0146662ca4d46dadb01eeb.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-238",
-    "name": "Smoochum",
-    "set": "Awakening Legends",
-    "pokedexNumber": 238,
-    "number": "238",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/22/aa/47/22aa47e70eec7b8f72a15a074553e191fe06c1bed7a677e7b2e3b911efcc6047.jpg",
     "notes": ""
   },
   {
@@ -990,83 +1089,6 @@
     "notes": ""
   },
   {
-    "id": "dex-242",
-    "name": "Blissey",
-    "set": "Awakening Legends",
-    "pokedexNumber": 242,
-    "number": "242",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/23/a4/cd/23a4cd8999c0687fc12124938e287c64ee5102fd4d3eb7bd8879d007a6c04f48.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-243",
-    "name": "Raikou",
-    "set": "Awakening Legends",
-    "pokedexNumber": 243,
-    "number": "243",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/03/97/e3/0397e3bea6aba4982bee1f59016840cf3404d65c30abf12bf3b2359907c99b52.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-244",
-    "name": "Entei",
-    "set": "Awakening Legends",
-    "pokedexNumber": 244,
-    "number": "244",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/83/55/19/835519dd1a637b94285d3bbfdbc312be65fcd80afa730ae3677156cba66c3067.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-245",
-    "name": "Suicune",
-    "set": "Awakening Legends",
-    "pokedexNumber": 245,
-    "number": "245",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/75/4e/25/754e25e9efcedfcd49b5bac0b12cfa3e3b91bfa7d19849adae08fe756be76f3b.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-246",
-    "name": "Larvitar",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 246,
-    "number": "246",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/84/50/0f/84500f59df50f7ec471313b0c0e354a649d494b0b2a4a68ee428763843f7b982.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-247",
-    "name": "Pupitar",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 247,
-    "number": "247",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/d0/4b/08/d04b08effaa3ad15665f02581961cb975df014b79bfb9862b6888fb29923da00.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-248",
-    "name": "Tyranitar",
-    "set": "Crossing the Ruins...",
-    "pokedexNumber": 248,
-    "number": "248",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/f2/5c/11/f25c11dccf2bd7813721c5196439da5d65df81bb5de9f20f67d93d5604d9fdef.jpg",
-    "notes": ""
-  },
-  {
     "id": "dex-249",
     "name": "Lugia",
     "set": "Gold, Silver, to a New World...",
@@ -1075,28 +1097,6 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/cc/b7/24/ccb7249ac8532e2031860af93536e5b76e4bd21cc2afd94beb64597570a33ec8.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-250",
-    "name": "Ho-oh",
-    "set": "Awakening Legends",
-    "pokedexNumber": 250,
-    "number": "250",
-    "count": 0,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/5a/9a/9a/5a9a9ac0b1294cb580c32828c2ef2b0c8570a163163a48a2b8f54f8601973f9e.jpg",
-    "notes": ""
-  },
-  {
-    "id": "dex-251",
-    "name": "Celebi",
-    "set": "Awakening Legends",
-    "pokedexNumber": 251,
-    "number": "251",
-    "count": 1,
-    "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/1a/ab/05/1aab05e0185589874133af929d46514b99a23ada5094c0144b380e251dd5d2f9.jpg",
     "notes": ""
   }
 ]
