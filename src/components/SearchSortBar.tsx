@@ -49,6 +49,7 @@ export function SearchSortBar({
           value={sortKey}
           onChange={(event) => onSortChange(event.target.value as SortKey)}
         >
+          <option value="collectionOrder">Collection order</option>
           <option value="set">Set</option>
           <option value="name">Name</option>
           <option value="pokedex">Pokedex</option>

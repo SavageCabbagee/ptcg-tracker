@@ -159,9 +159,11 @@ export function App() {
   };
 
   const visibleCards = useMemo(() => {
-    return activeCards
-      .filter((card) => matchesCardQuery(card, query))
-      .sort((a, b) => compareBySortKey(a, b, sortKey));
+    const matchingCards = activeCards.filter((card) => matchesCardQuery(card, query));
+
+    return sortKey === 'collectionOrder'
+      ? matchingCards
+      : matchingCards.sort((a, b) => compareBySortKey(a, b, sortKey));
   }, [activeCards, query, sortKey]);
 
   const dexSuggestions = useMemo(

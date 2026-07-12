@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Pokemon Card"
+  short_description: "Research and add verified Pokemon card records"
+  default_prompt: "Use $add-pokemon-card to research a Pokemon card and prepare or add a verified collection record."
