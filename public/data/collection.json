@@ -77,6 +77,61 @@
       "id": "arceus",
       "name": "Arceus",
       "file": "collections/arceus.json"
+    },
+    {
+      "id": "connecting-art",
+      "name": "Connecting Art",
+      "file": "collections/connecting-art.json"
+    },
+    {
+      "id": "themes",
+      "name": "Themes",
+      "file": "collections/themes.json",
+      "subgroups": [
+        {
+          "id": "sleeping-nature",
+          "name": "Sleeping (Nature)"
+        },
+        {
+          "id": "sleeping-indoors",
+          "name": "Sleeping (Indoors)"
+        },
+        {
+          "id": "indoors",
+          "name": "Indoors"
+        },
+        {
+          "id": "insects",
+          "name": "Insects"
+        },
+        {
+          "id": "birds",
+          "name": "Birds"
+        },
+        {
+          "id": "working",
+          "name": "Working"
+        },
+        {
+          "id": "crowd",
+          "name": "Crowd"
+        }
+      ]
+    },
+    {
+      "id": "amazing-rare",
+      "name": "Amazing Rare",
+      "file": "collections/amazing-rare.json"
+    },
+    {
+      "id": "shining",
+      "name": "Shining",
+      "file": "collections/shining.json"
+    },
+    {
+      "id": "ancient-traits",
+      "name": "Ancient Traits",
+      "file": "collections/ancient-traits.json"
     }
   ]
 }

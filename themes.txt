@@ -1,0 +1,63 @@
+sleeping (nature)
+slakoth ar sv8
+swinub ar sv9
+Togedemaru ar m2
+Spewpa ar M3
+noibat ar sv9
+mew ar s12a
+Mesprit ar sv8
+pawmi ar sv4a
+Pawmot ar sv1v
+
+sleeping (indoors)
+Lechonk ar sv3
+raichu ar sv2d
+Skwovet ar sv1v
+Litten ar sv5m
+dunsparce ar s12a
+
+indoors
+rotom ar sv9a
+porygon-z ar sv4m
+lickitung ar sv5m
+riolu ar sv1s
+Stufful ar m1s
+yamper ar m2
+altaria ar s12a
+
+insects
+caterpie ar sv2a
+vivillion ar sv8
+ninjask ar m1s
+yanma ar sv9a
+Yanmega sar sv9a
+Shedinja ar m1s
+beautifly ar m2a
+dustox ar m2a
+Vibrava ar sv7a
+
+birds
+Starly ar sv1s
+pidgey ar sv3
+Squawkabilly sar sv2p
+chatot ar sv5k
+spearow ar m1l
+pidove ar sv11b
+Rookidee ar sv2p
+
+working
+magnezone ar s12a
+excadrill ar sv5m
+machoke ar sv2a
+lairon ar sv6
+steelix ar sv4m
+timburr ar sv6
+metagross ar sv5m
+Mudsdale ar SV5K 
+Heliolisk ar M2a
+
+crowd
+Cramorant ar sv5a
+Probopass ar sv5a
+Archaludon ar sv7
+

@@ -64,7 +64,7 @@ export function App() {
   const [listName, setListName] = useState('');
   const [isListMenuOpen, setIsListMenuOpen] = useState(false);
   const [query, setQuery] = useState('');
-  const [sortKey, setSortKey] = useState<SortKey>('pokedex');
+  const [sortKey, setSortKey] = useState<SortKey>('collectionOrder');
   const [activeSubgroupId, setActiveSubgroupId] = useState(ALL_SUBGROUPS_ID);
   const [dexEntries, setDexEntries] = useState<DexEntry[]>([]);
   const [status, setStatus] = useState('Loading collection data...');

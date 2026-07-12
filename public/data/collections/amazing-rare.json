@@ -1,0 +1,101 @@
+[
+  {
+    "id": "cs2bc-006-115-kyogre",
+    "name": "Kyogre",
+    "set": "Vivid Portrayals - Set B (CS2bC)",
+    "pokedexNumber": 382,
+    "number": "006/115",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2bc/48fa3aa9-621a-424e-9674-362ddd03f3fc.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2ac-093-115-rayquaza",
+    "name": "Rayquaza",
+    "set": "Vivid Portrayals - Set A (CS2aC)",
+    "pokedexNumber": 384,
+    "number": "093/115",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2ac/a9cd15dd-240e-44c8-a975-c60f3af9dd8f.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2ac-085-115-zamazenta",
+    "name": "Zamazenta",
+    "set": "Vivid Portrayals - Set A (CS2aC)",
+    "pokedexNumber": 889,
+    "number": "085/115",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2ac/eae6dac2-611a-4fff-a643-38ed23692b61.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2-5c-029-059-yveltal",
+    "name": "Yveltal",
+    "set": "Brilliant Counterattack (CS2.5C)",
+    "pokedexNumber": 717,
+    "number": "029/059",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2.5c/490eb557-f17e-468e-8cd2-2d61e261be89.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2-5c-030-059-jirachi",
+    "name": "Jirachi",
+    "set": "Brilliant Counterattack (CS2.5C)",
+    "pokedexNumber": 385,
+    "number": "030/059",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2.5c/f18a3ede-0711-4146-a076-ee7049ca2214.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2bc-028-115-raikou",
+    "name": "Raikou",
+    "set": "Vivid Portrayals - Set B (CS2bC)",
+    "pokedexNumber": 243,
+    "number": "028/115",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2bc/38f2cd76-045b-429b-8cac-dab014849b1d.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2bc-071-115-zacian",
+    "name": "Zacian",
+    "set": "Vivid Portrayals - Set B (CS2bC)",
+    "pokedexNumber": 888,
+    "number": "071/115",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2bc/f6acd160-3fd0-4b46-b440-ac7e2b2fca77.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2-5c-001-059-celebi",
+    "name": "Celebi",
+    "set": "Brilliant Counterattack (CS2.5C)",
+    "pokedexNumber": 251,
+    "number": "001/059",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2.5c/68283cc2-96bd-435e-bff5-5c62ba9aabf9.webp",
+    "notes": ""
+  },
+  {
+    "id": "cs2ac-037-115-reshiram",
+    "name": "Reshiram",
+    "set": "Vivid Portrayals - Set A (CS2aC)",
+    "pokedexNumber": 643,
+    "number": "037/115",
+    "count": 1,
+    "language": "CN",
+    "imageUrl": "https://images.pikaqian.com/cs2ac/a575fe19-0ba8-4eb9-ae0b-36645763c4ea.webp",
+    "notes": ""
+  }
+]
