@@ -121,13 +121,7 @@ export function App() {
   const fallbackListId = lists[0]?.id ?? 'main';
   const activeList = navLists.find((list) => list.id === activeListId) ?? navLists[0];
   const activeCollection = lists.find((list) => list.id === activeListId);
-  const activeSubgroups = useMemo(
-    () =>
-      [...(activeCollection?.subgroups ?? [])].sort((a, b) =>
-        a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }),
-      ),
-    [activeCollection],
-  );
+  const activeSubgroups = useMemo(() => activeCollection?.subgroups ?? [], [activeCollection]);
   const baseActiveCards = useMemo(() => {
     if (activeListId === ALL_VIEW_ID) {
       return cards;

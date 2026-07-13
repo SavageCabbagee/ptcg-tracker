@@ -66,14 +66,14 @@ export function SearchSortBar({
             onChange={(event) => onSubgroupChange(event.target.value)}
           >
             <option value={ALL_SUBGROUPS_ID}>All sub-groups ({subgroupCounts.get(ALL_SUBGROUPS_ID) ?? 0})</option>
-            <option value={UNGROUPED_SUBGROUP_ID}>
-              Ungrouped ({subgroupCounts.get(UNGROUPED_SUBGROUP_ID) ?? 0})
-            </option>
             {subgroups.map((subgroup) => (
               <option key={subgroup.id} value={subgroup.id}>
                 {subgroup.name} ({subgroupCounts.get(subgroup.id) ?? 0})
               </option>
             ))}
+            <option value={UNGROUPED_SUBGROUP_ID}>
+              Ungrouped ({subgroupCounts.get(UNGROUPED_SUBGROUP_ID) ?? 0})
+            </option>
           </select>
         </label>
       )}

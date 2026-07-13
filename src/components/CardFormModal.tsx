@@ -35,13 +35,7 @@ export function CardFormModal({
     () => sortedLists.find((list) => list.id === draft.listId) ?? sortedLists[0],
     [draft.listId, sortedLists],
   );
-  const subgroups = useMemo(
-    () =>
-      [...(selectedList?.subgroups ?? [])].sort((a, b) =>
-        a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }),
-      ),
-    [selectedList],
-  );
+  const subgroups = selectedList?.subgroups ?? [];
 
   function handleAddSubgroup() {
     if (!selectedList || !subgroupName.trim()) {
@@ -108,12 +102,12 @@ export function CardFormModal({
                   value={draft.subgroupId ?? ''}
                   onChange={(event) => onDraftChange({ ...draft, subgroupId: event.target.value })}
                 >
-                  <option value="">Ungrouped</option>
                   {subgroups.map((subgroup) => (
                     <option key={subgroup.id} value={subgroup.id}>
                       {subgroup.name}
                     </option>
                   ))}
+                  <option value="">Ungrouped</option>
                 </select>
               </label>
               <div className="grid grid-cols-[1fr_auto] gap-2">

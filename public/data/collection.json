@@ -115,6 +115,30 @@
         {
           "id": "crowd",
           "name": "Crowd"
+        },
+        {
+          "id": "paradox",
+          "name": "Paradox"
+        },
+        {
+          "id": "scarlet-violet-legendaries",
+          "name": "Scarlet/Violet Legendaries"
+        },
+        {
+          "id": "sea",
+          "name": "Sea"
+        },
+        {
+          "id": "ice",
+          "name": "Ice"
+        },
+        {
+          "id": "fight",
+          "name": "Fight"
+        },
+        {
+          "id": "legendary-birds",
+          "name": "Legendary Birds"
         }
       ]
     },
