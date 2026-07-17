@@ -71,7 +71,7 @@
     "set": "Magma vs Aqua: Two Ambitions",
     "pokedexNumber": 258,
     "number": "028/080",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-028.png?signature=51c873967653b0d7f25468b031eba976fb958b593b899a4ac3900d46fc51cd52",
     "notes": ""
@@ -82,7 +82,7 @@
     "set": "Magma vs Aqua: Two Ambitions",
     "pokedexNumber": 259,
     "number": "029/080",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-029.png?signature=6221bd3b4935f32281f9f590f89428c854e91f053883f6fec83353265eff8372",
     "notes": ""
@@ -93,31 +93,31 @@
     "set": "Magma vs Aqua: Two Ambitions",
     "pokedexNumber": 260,
     "number": "050/080",
-    "count": 0,
+    "count": 2,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/b1/24/2d/b1242d89ceae8a0a9ad82d86c6b86d28f07fe7f7e219257febeb30800683d6ed.jpg",
     "notes": ""
   },
   {
-    "id": "adv1_jp-047",
+    "id": "tcgcollector-52160",
     "name": "Poochyena",
-    "set": "ADV Expansion Pack",
+    "set": "Mew • Lucario Gift Box (Mightyena)",
     "pokedexNumber": 261,
-    "number": "047/055",
-    "count": 1,
+    "number": "004/015",
+    "count": 0,
     "language": "JP",
-    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-047.png?signature=a09f1b1a2690eec84185bec1bb4e2dd0e40cf35e233c029f89c3d69e563084cf",
+    "imageUrl": "https://www.serebii.net/card/giftboxmewlucariover-mightyena/4.jpg",
     "notes": ""
   },
   {
-    "id": "adv1_jp-048",
-    "name": "Mightyena",
-    "set": "ADV Expansion Pack",
+    "id": "tcgcollector-52165",
+    "name": "Mightyena ex",
+    "set": "Mew • Lucario Gift Box (Mightyena)",
     "pokedexNumber": 262,
-    "number": "048/055",
-    "count": 1,
+    "number": "005/015",
+    "count": 0,
     "language": "JP",
-    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-048.png?signature=785b19b2149271485ab965c3db67f50e7717651e2e4e1e4c212c64b7f033532d",
+    "imageUrl": "https://www.serebii.net/card/giftboxmewlucariover-mightyena/5.jpg",
     "notes": ""
   },
   {
@@ -423,7 +423,7 @@
     "set": "Rulers of the Heavens",
     "pokedexNumber": 290,
     "number": "004/054",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-004.png?signature=c6bb25b14a2f7f496d92b956f2ce3cfaf2c9fe380af2d092a00036388c9e4ea2",
     "notes": ""
@@ -434,7 +434,7 @@
     "set": "Rulers of the Heavens",
     "pokedexNumber": 291,
     "number": "005/054",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-005.png?signature=98ad6c9b2239b7174cda4d2d4566a01ac161ad89b944203fd49bbb36829b2ddc",
     "notes": ""
@@ -445,7 +445,7 @@
     "set": "Rulers of the Heavens",
     "pokedexNumber": 292,
     "number": "006/054",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-006.png?signature=576192029f6a6bf129897e2b810e162e961edb7a2edbfa60ec770ad9b0c47a0f",
     "notes": ""
@@ -577,7 +577,7 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 304,
     "number": "049/055",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-049.png?signature=66f7ede20eb3300dbb59258ea73b0fd3c52e8f299fed3e48428dacc3513779c0",
     "notes": ""
@@ -588,7 +588,7 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 305,
     "number": "050/055",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-050.png?signature=600ccc761731df3349737946bbcfa38fc1721e8a3260948430a2f64a3ecad6d6",
     "notes": ""
@@ -599,7 +599,7 @@
     "set": "Miracle of the Desert",
     "pokedexNumber": 306,
     "number": "046/053",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/83/65/a8/8365a835b3488f385986975058151e4f7c98dad88bbe816b2a0e1895c8290942.jpg",
     "notes": ""
@@ -1067,14 +1067,14 @@
     "notes": ""
   },
   {
-    "id": "adv5_jp-024",
+    "id": "tcgcollector-41187",
     "name": "Feebas",
-    "set": "Undone Seal",
+    "set": "Water Quick Construction Pack",
     "pokedexNumber": 349,
-    "number": "024/083",
-    "count": 0,
+    "number": "003/015",
+    "count": 1,
     "language": "JP",
-    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-024.png?signature=c01d0b6082a7096110d95c65bcc25fc5877bcce6dbc4ce6277bb079ba9a5e99f",
+    "imageUrl": "https://static.tcgcollector.com/content/images/92/46/fd/9246fdeea91e47b6889db0b2611d0a7f96f6747eccb0d87b308431016c75f823.jpg",
     "notes": ""
   },
   {
@@ -1083,7 +1083,7 @@
     "set": "Water Quick Construction Pack",
     "pokedexNumber": 350,
     "number": "004/015",
-    "count": 0,
+    "count": 2,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/4a/82/52/4a8252963f0bc8518952f18a33fc0f242b64407fb20267e8245b28fe08cfa5af.jpg",
     "notes": ""

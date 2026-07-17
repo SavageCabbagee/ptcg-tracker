@@ -1426,5 +1426,53 @@
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/S8b/041070_P_GARARUFUAIYAV.jpg",
     "notes": "",
     "subgroupId": "legendary-birds"
+  },
+  {
+    "id": "s-p-337-s-p-bulbasaur",
+    "name": "Bulbasaur",
+    "set": "S-P Promotional cards (S-P)",
+    "pokedexNumber": 1,
+    "number": "337/S-P",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/042258_P_FUSHIGIDANE.jpg",
+    "notes": "",
+    "subgroupId": "illustration-contest-2022"
+  },
+  {
+    "id": "s-p-338-s-p-arcanine",
+    "name": "Arcanine",
+    "set": "S-P Promotional cards (S-P)",
+    "pokedexNumber": 59,
+    "number": "338/S-P",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/042259_P_UINDEI.jpg",
+    "notes": "",
+    "subgroupId": "illustration-contest-2022"
+  },
+  {
+    "id": "s-p-339-s-p-greninja",
+    "name": "Greninja",
+    "set": "S-P Promotional cards (S-P)",
+    "pokedexNumber": 658,
+    "number": "339/S-P",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/042260_P_GEKKOUGA.jpg",
+    "notes": "",
+    "subgroupId": "illustration-contest-2022"
+  },
+  {
+    "id": "cp5-014-036-keldeo",
+    "name": "Keldeo",
+    "set": "Mythical & Legendary Dream Shine Collection (CP5)",
+    "pokedexNumber": 647,
+    "number": "014/036",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/CP5/032168_P_KERUDEIO.jpg",
+    "notes": "",
+    "subgroupId": "cp5"
   }
 ]

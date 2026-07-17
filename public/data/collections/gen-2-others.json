@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "gen2-others-tcgrepublic-2000194331",
+    "name": "Chinchou",
+    "set": "Undone Seal (ADV4)",
+    "pokedexNumber": 170,
+    "number": "042/083",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://tcgrepublic.com/media/binary/000/193/789/193789.jpg",
+    "notes": ""
+  },
+  {
+    "id": "gen2-others-tcgrepublic-2000205997",
+    "name": "Lanturn",
+    "set": "Undone Seal (ADV4)",
+    "pokedexNumber": 171,
+    "number": "043/083",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://tcgrepublic.com/media/binary/000/206/149/206149.jpg",
+    "notes": ""
+  },
+  {
+    "id": "gen2-others-tcgrepublic-2000238828",
+    "name": "Chinchou",
+    "set": "Feraligatr Constructed Starter Deck (PCG-F)",
+    "pokedexNumber": 170,
+    "number": "004/016",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://tcgrepublic.com/media/binary/000/239/910/239910.jpg",
+    "notes": ""
+  },
+  {
+    "id": "gen2-others-tcgrepublic-2000238364",
+    "name": "Lanturn",
+    "set": "Feraligatr Constructed Starter Deck (PCG-F)",
+    "pokedexNumber": 171,
+    "number": "005/016",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://tcgrepublic.com/media/binary/000/239/391/239391.jpg",
+    "notes": ""
+  },
+  {
+    "id": "gen2-others-official-25041",
+    "name": "Feraligatr",
+    "set": "HeartGold Collection (L1-Bhg)",
+    "pokedexNumber": 160,
+    "number": "024/070",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/L1-Bhg/025041_P_ODAIRU.jpg",
+    "notes": ""
+  },
+  {
+    "id": "gen2-others-official-25219",
+    "name": "Sudowoodo",
+    "set": "SoulSilver Collection (L1-Bss)",
+    "pokedexNumber": 185,
+    "number": "047/070",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/L1-Bss/025219_P_USOKKI.jpg",
+    "notes": ""
+  }
+]

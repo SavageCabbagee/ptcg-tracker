@@ -240,6 +240,54 @@
     "subgroupId": "pcg-promos"
   },
   {
+    "id": "adv1_jp-047",
+    "name": "Poochyena",
+    "set": "ADV Expansion Pack",
+    "pokedexNumber": 261,
+    "number": "047/055",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-047.png?signature=a09f1b1a2690eec84185bec1bb4e2dd0e40cf35e233c029f89c3d69e563084cf",
+    "notes": "",
+    "subgroupId": "main-set"
+  },
+  {
+    "id": "tcgcollector-28378",
+    "name": "Poochyena",
+    "set": "Clash of the Blue Sky",
+    "pokedexNumber": 261,
+    "number": "068/082",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.artofpkm.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeUFwQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--f96c18d56a1feb6bc6cdf3b4d6cc0a60c3b0bac1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2wzWldKd09oUnlaWE5wZW1WZmRHOWZiR2x0YVhSYkIya0MwQWRwQXRBSE9neHhkV0ZzYVhSNWFXUT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ%3D%3D--ed2d6d11a2959980a13c5ee4344539bfee99a0a7/pcg2068.png",
+    "notes": "",
+    "subgroupId": "main-set"
+  },
+  {
+    "id": "adv1_jp-048",
+    "name": "Mightyena",
+    "set": "ADV Expansion Pack",
+    "pokedexNumber": 262,
+    "number": "048/055",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-048.png?signature=785b19b2149271485ab965c3db67f50e7717651e2e4e1e4c212c64b7f033532d",
+    "notes": "",
+    "subgroupId": "main-set"
+  },
+  {
+    "id": "tcgcollector-28379",
+    "name": "Mightyena",
+    "set": "Clash of the Blue Sky",
+    "pokedexNumber": 262,
+    "number": "069/082",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.artofpkm.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeUlwQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--aa181a03b35c37c4ced60159d383b47a1b04df6a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2wzWldKd09oUnlaWE5wZW1WZmRHOWZiR2x0YVhSYkIya0MwQWRwQXRBSE9neHhkV0ZzYVhSNWFXUT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ%3D%3D--ed2d6d11a2959980a13c5ee4344539bfee99a0a7/pcg2069.png",
+    "notes": "",
+    "subgroupId": "main-set"
+  },
+  {
     "id": "pcg-promos-tcgcollector-32434",
     "name": "Beautifly",
     "set": "PCG Promos",
@@ -694,6 +742,18 @@
     "imageUrl": "https://static.tcgcollector.com/content/images/2d/8f/7a/2d8f7a6c734a8ead2db059d6b75c0f05014b19ebd803ab08fc9aa79c09766cd1.jpg",
     "notes": "",
     "subgroupId": "adv-promos"
+  },
+  {
+    "id": "adv5_jp-024",
+    "name": "Feebas",
+    "set": "Undone Seal",
+    "pokedexNumber": 349,
+    "number": "024/083",
+    "count": 0,
+    "language": "JP",
+    "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-024.png?signature=c01d0b6082a7096110d95c65bcc25fc5877bcce6dbc4ce6277bb079ba9a5e99f",
+    "notes": "",
+    "subgroupId": "main-set"
   },
   {
     "id": "adv5_jp-025",

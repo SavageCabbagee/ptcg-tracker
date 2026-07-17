@@ -1,5 +1,27 @@
 [
   {
+    "id": "pokemon-card-17115",
+    "name": "Rhyperior LV.X",
+    "set": "Cry from the Mysterious (DP5)",
+    "pokedexNumber": 464,
+    "number": "049",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP5/017115_P_DOSAIDON.gif",
+    "notes": ""
+  },
+  {
+    "id": "pokemon-card-2052",
+    "name": "Electivire LV.X",
+    "set": "Secret of the Lakes (DP2)",
+    "pokedexNumber": 466,
+    "number": "004",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP2/002052_P_EREKIBURU.gif",
+    "notes": ""
+  },
+  {
     "id": "tcgcollector-26921",
     "name": "Uxie LV.X",
     "set": "Cry from the Mysterious",
@@ -8,6 +30,28 @@
     "count": 1,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/48/6a/ea/486aea4858dc294e1fd142aca6d515bab6b1c9680e48bc30809eb6446a401b90.webp",
+    "notes": ""
+  },
+  {
+    "id": "pokemon-card-17099",
+    "name": "Mesprit LV.X",
+    "set": "Cry from the Mysterious (DP5)",
+    "pokedexNumber": 481,
+    "number": "033",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP5/017099_P_EMURITTO.gif",
+    "notes": ""
+  },
+  {
+    "id": "pokemon-card-17100",
+    "name": "Azelf LV.X",
+    "set": "Temple of Anger (DP5)",
+    "pokedexNumber": 482,
+    "number": "034",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP5/017100_P_AGUNOMU.gif",
     "notes": ""
   },
   {
