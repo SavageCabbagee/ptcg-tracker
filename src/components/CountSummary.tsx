@@ -1,14 +1,16 @@
 type CountSummaryProps = {
   tracked: number;
   owned: number;
+  arriving: number;
   wishlisted: number;
   compact?: boolean;
 };
 
-export function CountSummary({ tracked, owned, wishlisted, compact = false }: CountSummaryProps) {
+export function CountSummary({ tracked, owned, arriving, wishlisted, compact = false }: CountSummaryProps) {
   const stats = [
     { label: 'tracked', value: tracked },
     { label: 'owned', value: owned },
+    { label: 'arriving', value: arriving },
     { label: 'wishlisted', value: wishlisted },
   ];
 

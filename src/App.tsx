@@ -28,12 +28,14 @@ import type {
 } from './types';
 
 const ALL_VIEW_ID = 'all';
+const ARRIVING_VIEW_ID = 'arriving';
 const WISHLIST_VIEW_ID = 'wishlist';
 const activeListStorageKey = 'ptcg-tracker.active-list';
 const githubConfigStorageKey = 'ptcg-tracker.github.config';
 const githubTokenStorageKey = 'ptcg-tracker.github.token';
 
 const allCardsList: CardList = { id: ALL_VIEW_ID, name: 'All Cards' };
+const arrivingList: CardList = { id: ARRIVING_VIEW_ID, name: 'Arriving' };
 const wishlistList: CardList = { id: WISHLIST_VIEW_ID, name: 'Wishlist' };
 const defaultGitHubConfig: GitHubStorageConfig = {
   owner: '',
@@ -54,6 +56,7 @@ export function App() {
     addSubgroup,
     addCard,
     updateCard,
+    receiveCard,
     deleteCard,
   } = useCollectionStore();
   const [draft, setDraft] = useState<CardDraft>(() => createEmptyDraft());
@@ -117,7 +120,7 @@ export function App() {
     }
   }, [activeListId, isLoaded]);
 
-  const navLists = useMemo(() => [allCardsList, ...lists, wishlistList], [lists]);
+  const navLists = useMemo(() => [allCardsList, ...lists, arrivingList, wishlistList], [lists]);
   const fallbackListId = lists[0]?.id ?? 'main';
   const activeList = navLists.find((list) => list.id === activeListId) ?? navLists[0];
   const activeCollection = lists.find((list) => list.id === activeListId);
@@ -127,8 +130,12 @@ export function App() {
       return cards;
     }
 
+    if (activeListId === ARRIVING_VIEW_ID) {
+      return cards.filter((card) => card.arrivingCount > 0);
+    }
+
     if (activeListId === WISHLIST_VIEW_ID) {
-      return cards.filter((card) => card.count === 0);
+      return cards.filter((card) => card.count === 0 && card.arrivingCount === 0);
     }
 
     return cards.filter((card) => card.listId === activeListId);
@@ -145,10 +152,12 @@ export function App() {
     return baseActiveCards.filter((card) => card.subgroupId === activeSubgroupId);
   }, [activeCollection, activeSubgroupId, baseActiveCards]);
   const totalOwned = activeCards.reduce((sum, card) => sum + card.count, 0);
-  const totalWishlisted = activeCards.filter((card) => card.count === 0).length;
+  const totalArriving = activeCards.reduce((sum, card) => sum + card.arrivingCount, 0);
+  const totalWishlisted = activeCards.filter((card) => card.count === 0 && card.arrivingCount === 0).length;
   const activeListSummary = {
     tracked: activeCards.length,
     owned: totalOwned,
+    arriving: totalArriving,
     wishlisted: totalWishlisted,
   };
 
@@ -176,8 +185,12 @@ export function App() {
           return [list.id, cards.length];
         }
 
+        if (list.id === ARRIVING_VIEW_ID) {
+          return [list.id, cards.filter((card) => card.arrivingCount > 0).length];
+        }
+
         if (list.id === WISHLIST_VIEW_ID) {
-          return [list.id, cards.filter((card) => card.count === 0).length];
+          return [list.id, cards.filter((card) => card.count === 0 && card.arrivingCount === 0).length];
         }
 
         return [list.id, cards.filter((card) => card.listId === list.id).length];
@@ -402,6 +415,12 @@ export function App() {
     setDeletingCard(card);
   }
 
+  function handleReceive(card: CollectionCard) {
+    receiveCard(card.id);
+    setIsDirty(true);
+    setStatus(`Marked ${card.arrivingCount} ${card.name} as arrived`);
+  }
+
   function closeDeleteConfirm() {
     setDeletingCard(null);
   }
@@ -490,6 +509,7 @@ export function App() {
             isLoaded={isLoaded}
             error={error}
             onEdit={startEditing}
+            onReceive={handleReceive}
             onDelete={requestDelete}
           />
         </section>

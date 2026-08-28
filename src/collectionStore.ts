@@ -17,6 +17,7 @@ type CollectionState = {
   addSubgroup: (listId: string, name: string) => CardSubgroup | null;
   addCard: (draft: CardDraft) => void;
   updateCard: (id: string, draft: CardDraft) => void;
+  receiveCard: (id: string) => void;
   deleteCard: (id: string) => void;
 };
 
@@ -28,7 +29,7 @@ const normalizeList = (list: Partial<CardList>): CardList => ({
 });
 
 const sortLists = (lists: CardList[]) =>
-  [...lists].filter((list) => list.id !== 'wishlist');
+  [...lists].filter((list) => list.id !== 'arriving' && list.id !== 'wishlist');
 
 const createListId = (name: string, lists: CardList[]) => {
   const baseId =
@@ -37,7 +38,7 @@ const createListId = (name: string, lists: CardList[]) => {
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-|-$/g, '') || 'list';
-  const reservedIds = new Set(['all', 'wishlist', ...lists.map((list) => list.id)]);
+  const reservedIds = new Set(['all', 'arriving', 'wishlist', ...lists.map((list) => list.id)]);
 
   let id = baseId;
   let index = 2;
@@ -64,6 +65,7 @@ const normalizeCard = (draft: CardDraft, fallbackListId: string, lists: CardList
       draft.pokedexNumber === null ? null : Math.max(1, Math.floor(Number(draft.pokedexNumber) || 0)) || null,
     number: draft.number.trim(),
     count: Math.max(0, Math.floor(Number(draft.count) || 0)),
+    arrivingCount: Math.max(0, Math.floor(Number(draft.arrivingCount) || 0)),
     language: draft.language.trim().toUpperCase(),
     imageUrl: draft.imageUrl.trim(),
     notes: draft.notes.trim(),
@@ -156,6 +158,14 @@ export const useCollectionStore = create<CollectionState>((set) => ({
         card.id === id ? normalizeCard({ ...draft, id }, state.activeListId, state.lists) : card,
       ),
     })),
+  receiveCard: (id) =>
+    set((state) => ({
+      cards: state.cards.map((card) =>
+        card.id === id
+          ? { ...card, count: card.count + card.arrivingCount, arrivingCount: 0 }
+          : card,
+      ),
+    })),
   deleteCard: (id) =>
     set((state) => ({
       cards: state.cards.filter((card) => card.id !== id),
@@ -163,7 +173,7 @@ export const useCollectionStore = create<CollectionState>((set) => ({
 }));
 
 const isAllowedActiveList = (listId: string, lists: CardList[]) =>
-  listId === 'all' || listId === 'wishlist' || lists.some((list) => list.id === listId);
+  listId === 'all' || listId === 'arriving' || listId === 'wishlist' || lists.some((list) => list.id === listId);
 
 const normalizeSubgroups = (subgroups: CardList['subgroups']) => {
   const seen = new Set<string>();

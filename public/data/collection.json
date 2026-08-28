@@ -8,7 +8,13 @@
     {
       "id": "gen-1-others",
       "name": "Gen 1 (Others)",
-      "file": "collections/gen-1-others.json"
+      "file": "collections/gen-1-others.json",
+      "subgroups": [
+        {
+          "id": "gym-leaders",
+          "name": "Gym Leaders"
+        }
+      ]
     },
     {
       "id": "gen2",
@@ -164,6 +170,11 @@
       "id": "ancient-traits",
       "name": "Ancient Traits",
       "file": "collections/ancient-traits.json"
+    },
+    {
+      "id": "others",
+      "name": "Others",
+      "file": "collections/others.json"
     }
   ]
 }

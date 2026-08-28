@@ -372,7 +372,7 @@
     "subgroupId": "birds"
   },
   {
-    "id": "sv3-118-108-pidgey",
+    "id": "themes-sv3-118-108-pidgey",
     "name": "Pidgey",
     "set": "Ruler of the Black Flame (SV3)",
     "pokedexNumber": 16,
@@ -1445,7 +1445,7 @@
     "set": "S-P Promotional cards (S-P)",
     "pokedexNumber": 59,
     "number": "338/S-P",
-    "count": 0,
+    "count": 1,
     "language": "JP",
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/S-P/042259_P_UINDEI.jpg",
     "notes": "",
@@ -1474,5 +1474,29 @@
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/CP5/032168_P_KERUDEIO.jpg",
     "notes": "",
     "subgroupId": "cp5"
+  },
+  {
+    "id": "50d25fc2-1e78-496b-b8d7-821c4afd47a7",
+    "name": "Zeraora",
+    "set": "Abyss Eye (M5)",
+    "pokedexNumber": 807,
+    "number": "",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/63/d9/d2/63d9d22a815a83f39f3ecbde4acec436da509a13a53fdd67e8faa46000930964.webp",
+    "notes": "",
+    "subgroupId": "fight"
+  },
+  {
+    "id": "148edb94-b5ef-4fa7-b9ab-1480e72f018e",
+    "name": "Steven's Metagross ex",
+    "set": "MEGA Dream ex (M2a)",
+    "pokedexNumber": 376,
+    "number": "245/193",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/09/92/79/099279a4f9692f58c49c37ac677f362882ebe08e9879df25cdf20f63fc8a7837.webp",
+    "notes": "",
+    "subgroupId": "fight"
   }
 ]

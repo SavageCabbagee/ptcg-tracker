@@ -13,7 +13,7 @@ type SidebarProps = {
 };
 
 export function Sidebar({ lists, activeListId, cards, listCounts, onChooseList, onAddList }: SidebarProps) {
-  const totalWishlisted = cards.filter((card) => card.count === 0).length;
+  const totalWishlisted = cards.filter((card) => card.count === 0 && card.arrivingCount === 0).length;
 
   return (
     <aside className="sticky top-0 hidden h-screen overflow-y-auto border-r border-zinc-800 bg-zinc-950 px-4 py-4 lg:block">
@@ -38,6 +38,7 @@ export function Sidebar({ lists, activeListId, cards, listCounts, onChooseList, 
         <CountSummary
           tracked={cards.length}
           owned={cards.reduce((sum, card) => sum + card.count, 0)}
+          arriving={cards.reduce((sum, card) => sum + card.arrivingCount, 0)}
           wishlisted={totalWishlisted}
         />
       </div>

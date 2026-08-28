@@ -6,6 +6,7 @@ import type { CardList } from '../types';
 type Summary = {
   tracked: number;
   owned: number;
+  arriving: number;
   wishlisted: number;
 };
 

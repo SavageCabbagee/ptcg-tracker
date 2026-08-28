@@ -23,6 +23,7 @@ export type CollectionCard = {
   pokedexNumber: number | null;
   number: string;
   count: number;
+  arrivingCount: number;
   language: string;
   imageUrl: string;
   notes: string;

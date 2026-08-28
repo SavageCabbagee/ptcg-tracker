@@ -1,4 +1,4 @@
-import { Edit3, ImageOff, Trash2 } from 'lucide-react';
+import { Check, Edit3, ImageOff, Trash2 } from 'lucide-react';
 import type { CollectionCard } from '../types';
 
 type CardGridProps = {
@@ -6,10 +6,11 @@ type CardGridProps = {
   isLoaded: boolean;
   error: string;
   onEdit: (card: CollectionCard) => void;
+  onReceive: (card: CollectionCard) => void;
   onDelete: (card: CollectionCard) => void;
 };
 
-export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridProps) {
+export function CardGrid({ cards, isLoaded, error, onEdit, onReceive, onDelete }: CardGridProps) {
   if (!isLoaded && !error) {
     return <p className="rounded-lg border border-zinc-800 bg-zinc-900 p-6 text-zinc-400">Loading cards...</p>;
   }
@@ -26,7 +27,7 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridP
     <div className="grid grid-cols-[repeat(auto-fill,minmax(96px,1fr))] gap-3 sm:grid-cols-[repeat(auto-fill,minmax(128px,1fr))] md:gap-4 xl:grid-cols-[repeat(auto-fill,minmax(160px,1fr))]">
       {cards.map((card) => (
         <article
-          className={`card-tile group cursor-pointer ${card.count === 0 ? 'opacity-60 hover:opacity-85' : ''}`}
+          className={`card-tile group cursor-pointer ${card.count === 0 && card.arrivingCount === 0 ? 'opacity-60 hover:opacity-85' : ''}`}
           key={card.id}
           role="button"
           tabIndex={0}
@@ -52,10 +53,31 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onDelete }: CardGridP
                 <span className="text-xs font-medium">No image</span>
               </div>
             )}
-            <div className="absolute right-1.5 top-1.5 rounded-md bg-black/70 px-1.5 py-0.5 text-[11px] font-semibold text-white sm:right-2 sm:top-2 sm:px-2 sm:py-1 sm:text-xs">
-              {card.count === 0 ? 'Wanted' : `x${card.count}`}
+            <div className="absolute right-1.5 top-1.5 flex flex-col items-end gap-1 text-[11px] font-semibold sm:right-2 sm:top-2 sm:text-xs">
+              {card.count > 0 && <span className="rounded-md bg-black/70 px-1.5 py-0.5 sm:px-2 sm:py-1">x{card.count}</span>}
+              {card.arrivingCount > 0 && (
+                <span className="rounded-md bg-amber-500/90 px-1.5 py-0.5 text-black sm:px-2 sm:py-1">
+                  +{card.arrivingCount} arriving
+                </span>
+              )}
+              {card.count === 0 && card.arrivingCount === 0 && (
+                <span className="rounded-md bg-black/70 px-1.5 py-0.5 sm:px-2 sm:py-1">Wanted</span>
+              )}
             </div>
             <div className="absolute inset-x-0 bottom-0 flex justify-end gap-1 bg-gradient-to-t from-black/75 to-transparent p-1.5 opacity-100 sm:p-2 sm:opacity-0 sm:transition sm:group-hover:opacity-100">
+              {card.arrivingCount > 0 && (
+                <button
+                  className="image-action"
+                  type="button"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onReceive(card);
+                  }}
+                  title={`Mark ${card.arrivingCount} ${card.name} as arrived`}
+                >
+                  <Check size={16} />
+                </button>
+              )}
               <button
                 className="image-action"
                 type="button"

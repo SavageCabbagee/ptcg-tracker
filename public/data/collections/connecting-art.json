@@ -1153,5 +1153,27 @@
     "language": "JP",
     "imageUrl": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpc/SV2D/SV2D_92_R_JP_LG.png",
     "notes": ""
+  },
+  {
+    "id": "1f084b3d-3961-4ee1-a00e-6110a2af77a6",
+    "name": "Silvally",
+    "set": "Abyss Eye (M5)",
+    "pokedexNumber": 773,
+    "number": "",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/2b/37/a3/2b37a3aca3b0119ebc6aeed123b9147803ad76f207a330b44fdc0c27ee2baeec.webp",
+    "notes": ""
+  },
+  {
+    "id": "229b048d-914e-4956-90c9-dae26b7c0cce",
+    "name": "Gladion's Decisive Battle",
+    "set": "Abyss Eye (M5)",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/36/93/f6/3693f6d4366f5f265e76bfde5db2ee0140b0241260e2e8a441ad367120b3f5a9.webp",
+    "notes": ""
   }
 ]

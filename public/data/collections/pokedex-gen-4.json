@@ -86,5 +86,28 @@
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/28/be/0f/28be0f160f5d1a87a943a94aa53a9f70bbc25a9cc33741153ef815cbf45bef61.jpg",
     "notes": ""
+  },
+  {
+    "id": "2e6bbf81-4d6d-4bde-af5c-893e4345b554",
+    "name": "Cresselia LV.X",
+    "set": "Moonlit Pursuit & Dawn Dash (DP4)",
+    "pokedexNumber": 488,
+    "number": "069",
+    "count": 1,
+    "language": "JP",
+    "imageUrl": "https://static.tcgcollector.com/content/images/8f/60/7b/8f607bf975d4de831829f45824781d98139566fab824640f51b14daa5dcc0940.webp",
+    "notes": ""
+  },
+  {
+    "id": "tcgrepublic-171487",
+    "name": "Heatran LV.X",
+    "set": "Intense Fight in the Destroyed Sky (DPs-B)",
+    "pokedexNumber": 485,
+    "number": "015/092",
+    "count": 0,
+    "arrivingCount": 1,
+    "language": "JP",
+    "imageUrl": "https://tcgrepublic.com/media/binary/000/171/487/171487.jpg",
+    "notes": ""
   }
 ]

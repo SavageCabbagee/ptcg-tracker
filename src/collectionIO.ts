@@ -48,7 +48,7 @@ export function parseCollection(input: unknown): CollectionFile {
 
   const rawLists = (input as Partial<CollectionFile>).lists;
   const parsedLists = Array.isArray(rawLists) ? rawLists.map(parseList) : [legacyDefaultList];
-  const lists = parsedLists.filter((list) => list.id !== 'wishlist');
+  const lists = parsedLists.filter((list) => list.id !== 'arriving' && list.id !== 'wishlist');
   const fallbackListId = lists[0]?.id || legacyDefaultList.id;
 
   return {
@@ -119,7 +119,7 @@ export function exportCollection(collection: CollectionFile) {
 
 export function serializeSplitCollection(collection: CollectionFile, dataRoot = ''): SerializedCollection {
   const cleanDataRoot = normalizePath(dataRoot);
-  const lists = collection.lists.filter((list) => list.id !== 'wishlist');
+  const lists = collection.lists.filter((list) => list.id !== 'arriving' && list.id !== 'wishlist');
   const manifest: CollectionManifestFile = {
     collections: lists.map((list) => ({
       id: list.id,
@@ -246,6 +246,7 @@ function parseCard(input: unknown, fallbackListId: string, lists: CardList[]): C
     pokedexNumber: numberValue(card.pokedexNumber),
     number: stringValue(card.number),
     count: Math.max(0, Math.floor(Number(card.count) || 0)),
+    arrivingCount: Math.max(0, Math.floor(Number(card.arrivingCount) || 0)),
     language: stringValue(card.language).toUpperCase() || DEFAULT_LANGUAGE,
     imageUrl: stringValue(card.imageUrl),
     notes: stringValue(card.notes),

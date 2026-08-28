@@ -168,7 +168,7 @@ export function CardFormModal({
             value={draft.imageUrl}
             onChange={(imageUrl) => onDraftChange({ ...draft, imageUrl })}
           />
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-3 gap-3">
             <label className="field-label">
               Pokedex No.
               <input
@@ -193,13 +193,23 @@ export function CardFormModal({
               onChange={(language) => onDraftChange({ ...draft, language })}
             />
             <label className="field-label">
-              Count
+              Owned
               <input
                 className="field-input"
                 min={0}
                 type="number"
                 value={draft.count}
                 onChange={(event) => onDraftChange({ ...draft, count: Number(event.target.value) })}
+              />
+            </label>
+            <label className="field-label">
+              Arriving
+              <input
+                className="field-input"
+                min={0}
+                type="number"
+                value={draft.arrivingCount}
+                onChange={(event) => onDraftChange({ ...draft, arrivingCount: Number(event.target.value) })}
               />
             </label>
           </div>
