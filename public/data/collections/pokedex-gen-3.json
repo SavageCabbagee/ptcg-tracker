@@ -6,6 +6,7 @@
     "pokedexNumber": 252,
     "number": "004/080",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-004.png?signature=442e3a570b69e50ba9fbbb35c6a36d0c3bd51f00a4f362b68f43b72ec24e4bd8",
     "notes": ""
@@ -17,6 +18,7 @@
     "pokedexNumber": 253,
     "number": "005/080",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-005.png?signature=4a25c6b8d9e8178a8876cac6e97e0d8d92a31aa069bdd139a8873b4889138431",
     "notes": ""
@@ -27,10 +29,10 @@
     "set": "Magma vs Aqua: Two Ambitions",
     "pokedexNumber": 254,
     "number": "006/080",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/88/aa/dd/88aadd25b07755302c4a61ecbbf3d593efaf19fcc1b0974fdfa4bdb8e033f985.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv4%2F6.png",
     "notes": ""
   },
   {
@@ -40,6 +42,7 @@
     "pokedexNumber": 255,
     "number": "016/080",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-016.png?signature=c52bfa8cbd08791346aaedc0e7313b230448141017f94434cdc37505634f57fc",
     "notes": ""
@@ -51,6 +54,7 @@
     "pokedexNumber": 256,
     "number": "017/080",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-017.png?signature=2d63d91e17a25044f9aea418dbb17a813366747d8b402902386ac4f175218aad",
     "notes": ""
@@ -62,8 +66,9 @@
     "pokedexNumber": 257,
     "number": "018/080",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/c1/e5/fd/c1e5fd553ca71398b1487c643fe9bc3d8964735dc5ad07c83290240a77ad97ae.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv4%2F18.png",
     "notes": ""
   },
   {
@@ -73,6 +78,7 @@
     "pokedexNumber": 258,
     "number": "028/080",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-028.png?signature=51c873967653b0d7f25468b031eba976fb958b593b899a4ac3900d46fc51cd52",
     "notes": ""
@@ -84,6 +90,7 @@
     "pokedexNumber": 259,
     "number": "029/080",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-029.png?signature=6221bd3b4935f32281f9f590f89428c854e91f053883f6fec83353265eff8372",
     "notes": ""
@@ -95,8 +102,9 @@
     "pokedexNumber": 260,
     "number": "050/080",
     "count": 2,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/b1/24/2d/b1242d89ceae8a0a9ad82d86c6b86d28f07fe7f7e219257febeb30800683d6ed.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv4%2F50.png",
     "notes": ""
   },
   {
@@ -106,6 +114,7 @@
     "pokedexNumber": 261,
     "number": "004/015",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.serebii.net/card/giftboxmewlucariover-mightyena/4.jpg",
     "notes": ""
@@ -116,7 +125,8 @@
     "set": "Mew • Lucario Gift Box (Mightyena)",
     "pokedexNumber": 262,
     "number": "005/015",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.serebii.net/card/giftboxmewlucariover-mightyena/5.jpg",
     "notes": ""
@@ -127,7 +137,8 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 263,
     "number": "037/055",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-037.png?signature=eb65f4a5c3424f32d96dcf35aaf5ae890059208640aeabe48197aa2a11863a36",
     "notes": ""
@@ -138,7 +149,8 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 264,
     "number": "038/055",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-038.png?signature=1f9831df307eab7d7c6292fbdcd32f37a03ea29d4fef0c5633ee04685fa3ba87",
     "notes": ""
@@ -150,6 +162,7 @@
     "pokedexNumber": 265,
     "number": "004/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-004.png?signature=a59d2f2ab8306d303cde46fd806e6f28de12bb338638b1e4831ae9ff25f342d2",
     "notes": ""
@@ -161,6 +174,7 @@
     "pokedexNumber": 266,
     "number": "005/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-005.png?signature=540b8417c023e363714a36356b3860c10c08e1df197e2f948f16febf486642a6",
     "notes": ""
@@ -172,6 +186,7 @@
     "pokedexNumber": 267,
     "number": "006/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-006.png?signature=6ca9df49ca7c197e3d30b11ea9377fc9117e0a7abcdfc488c34e064f3b52a4d9",
     "notes": ""
@@ -183,6 +198,7 @@
     "pokedexNumber": 268,
     "number": "007/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-007.png?signature=b88273889305f33aa9abd769c40410a2b70394f4a49cb3a0ccf0c009377b1599",
     "notes": ""
@@ -193,9 +209,10 @@
     "set": "Mirage Forest",
     "pokedexNumber": 269,
     "number": "010/086",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/60/bb/a9/60bba931f2106653c176d64daddc38260afc68a9c3314408b2dcbb8da4526c54.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F10.png",
     "notes": ""
   },
   {
@@ -204,7 +221,8 @@
     "set": "Miracle of the Desert",
     "pokedexNumber": 270,
     "number": "018/053",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-018.png?signature=5212b7f2eb526d7e4941d5892ecb9cdbf2b54193cbd872bafb4ec0dcede3febd",
     "notes": ""
@@ -216,6 +234,7 @@
     "pokedexNumber": 271,
     "number": "019/053",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-019.png?signature=ee0b50d05b96afc5e6705d461f2380b89e0e5b2050dcd4db9f73bdc058bbf61a",
     "notes": ""
@@ -227,6 +246,7 @@
     "pokedexNumber": 272,
     "number": "020/053",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-020.png?signature=5234a3a0ba4148cd1fbc71c96fc9237488971e5d0321735c36f11c64217bed3b",
     "notes": ""
@@ -238,8 +258,9 @@
     "pokedexNumber": 273,
     "number": "007/075",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/38/e5/cc/38e5cc558cd5c5476d2799da195e58ce6b97579de6e90e22b576c11b9ac7ce8c.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F7.png",
     "notes": ""
   },
   {
@@ -249,8 +270,9 @@
     "pokedexNumber": 274,
     "number": "060/075",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/cb/f7/39/cbf7396fcc384447cb0bc4c96980e1cbefdbd2e38602374a04df5a6e0eb5131d.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F60.png",
     "notes": ""
   },
   {
@@ -259,9 +281,10 @@
     "set": "Miracle Crystal",
     "pokedexNumber": 275,
     "number": "061/075",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8e/97/10/8e9710e7cd42dc37da6358a5e720f833b4d4af9e21742f5938e129e1c3f6d484.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F61.png",
     "notes": ""
   },
   {
@@ -270,7 +293,8 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 276,
     "number": "039/055",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-039.png?signature=ba88879e3458cddba422f2ba9a5cdb535d8c69a19853178449aa78277a8f1956",
     "notes": ""
@@ -281,7 +305,8 @@
     "set": "Magma vs Aqua: Two Ambitions",
     "pokedexNumber": 277,
     "number": "058/080",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv4_jp/adv4_jp-058.png?signature=dc17a7aa02413f504c0e86f30ffefcc6046ae3100a69fc6135dc5622b020ee97",
     "notes": ""
@@ -293,6 +318,7 @@
     "pokedexNumber": 278,
     "number": "017/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-017.png?signature=94a2c5bd80ad8fe2b78b5fcb84c6ddfc480935a2abbf89513cfeceaca89907e9",
     "notes": ""
@@ -304,6 +330,7 @@
     "pokedexNumber": 279,
     "number": "018/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-018.png?signature=527709d7820cf60be84c224eee09207c48df8511b8cdff5093acf4fadf798787",
     "notes": ""
@@ -315,6 +342,7 @@
     "pokedexNumber": 280,
     "number": "027/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-027.png?signature=150d3e03361685dd769ca58d62fb69b85e13e0f4de01adb9ef627f3eff4bdde5",
     "notes": ""
@@ -326,6 +354,7 @@
     "pokedexNumber": 281,
     "number": "028/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-028.png?signature=33cb0436de212abd2e3b83725ef8fa4cc0e05b00e8ac0b99e36adeea3175c735",
     "notes": ""
@@ -336,10 +365,10 @@
     "set": "Miracle of the Desert",
     "pokedexNumber": 282,
     "number": "028/053",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 2,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/55/d3/f5/55d3f577c2c968d229dfcd6b018a5dfe416e1fab014802a0c22580025fc0398a.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv2%2F28.png",
     "notes": ""
   },
   {
@@ -349,6 +378,7 @@
     "pokedexNumber": 283,
     "number": "011/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-011.png?signature=3fd5dff8e3e7ff5deda47718241091b017a7c447d3434e59673552401044561b",
     "notes": ""
@@ -360,6 +390,7 @@
     "pokedexNumber": 284,
     "number": "012/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-012.png?signature=4e9032b107744e9c4930962b9c06179195030c2ea7bbf997c410ff9e768b53a4",
     "notes": ""
@@ -371,6 +402,7 @@
     "pokedexNumber": 285,
     "number": "009/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-009.png?signature=b39c4529b90453c16dc1b0cbe1c8aa2efbb041da064c8aaa9062a03e37f2332c",
     "notes": ""
@@ -382,6 +414,7 @@
     "pokedexNumber": 286,
     "number": "010/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-010.png?signature=d21ec8b822293ea1c29b73dcc77961e76dc097c507d874e46bf056eaa089a016",
     "notes": ""
@@ -392,8 +425,8 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 287,
     "number": "041/055",
-    "count": 1,
-    "arrivingCount": 1,
+    "count": 2,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-041.png?signature=916f73527f3322b14a0f7fc1bf1160a2b3b3844c134e79cf0147b0f73ef1ead3",
     "notes": ""
@@ -404,8 +437,8 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 288,
     "number": "042/055",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-042.png?signature=c524cb33e84713d9462a8d87e6c4eef6e45ae1d8da77906fa5d3ac6be7e94f2e",
     "notes": ""
@@ -416,8 +449,8 @@
     "set": "ADV Expansion Pack",
     "pokedexNumber": 289,
     "number": "043/055",
-    "count": 1,
-    "arrivingCount": 1,
+    "count": 2,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-043.png?signature=849262b57572b0d3cf8ac7bb35c3134687323eeb6feaa92cb06794f4d772e37b",
     "notes": ""
@@ -429,6 +462,7 @@
     "pokedexNumber": 290,
     "number": "004/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-004.png?signature=c6bb25b14a2f7f496d92b956f2ce3cfaf2c9fe380af2d092a00036388c9e4ea2",
     "notes": ""
@@ -440,6 +474,7 @@
     "pokedexNumber": 291,
     "number": "005/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-005.png?signature=98ad6c9b2239b7174cda4d2d4566a01ac161ad89b944203fd49bbb36829b2ddc",
     "notes": ""
@@ -451,6 +486,7 @@
     "pokedexNumber": 292,
     "number": "006/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-006.png?signature=576192029f6a6bf129897e2b810e162e961edb7a2edbfa60ec770ad9b0c47a0f",
     "notes": ""
@@ -461,9 +497,10 @@
     "set": "Miracle Crystal",
     "pokedexNumber": 293,
     "number": "055/075",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/b2/f8/c8/b2f8c815437f8c75080fe5928a204bb9aeac362bf51032e5301e4b1922ccd7fc.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F55.png",
     "notes": ""
   },
   {
@@ -473,8 +510,9 @@
     "pokedexNumber": 294,
     "number": "056/075",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/eb/db/d1/ebdbd1b7144eb4a8bb06722e6d8db77643000fbca9bf7ab1e8b3b6e723a60cbb.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F56.png",
     "notes": ""
   },
   {
@@ -483,9 +521,10 @@
     "set": "Miracle Crystal",
     "pokedexNumber": 295,
     "number": "057/075",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/bf/fb/e9/bffbe9909c063da61ae401b42e58bcbb19cb52049d4b3875a53a658ab970235e.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F57.png",
     "notes": ""
   },
   {
@@ -495,6 +534,7 @@
     "pokedexNumber": 296,
     "number": "033/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-033.png?signature=4bfe03154193bda82cbbe1dd1ecb3da1c9915d5fab2ea7674dfa79bf8c0c5e71",
     "notes": ""
@@ -506,8 +546,9 @@
     "pokedexNumber": 297,
     "number": "049/082",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ca/43/ef/ca43ef9aa2d06faebc0aecd5ffc2d520ca0b4b6b6cecb66c23ca33dde958b430.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg2%2F49.png",
     "notes": ""
   },
   {
@@ -517,6 +558,7 @@
     "pokedexNumber": 298,
     "number": "041/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-041.png?signature=e9a32d6cfdf5486cede35e373e9bedc23571d77b7e9c6b63fbc74891a449d55b",
     "notes": ""
@@ -528,6 +570,7 @@
     "pokedexNumber": 299,
     "number": "035/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-035.png?signature=5c1842464b2bdc30916e1b1ad9cd6367765dcbe90f63add7ba7d6bf6523f8388",
     "notes": ""
@@ -538,9 +581,10 @@
     "set": "Miracle Crystal",
     "pokedexNumber": 300,
     "number": "058/075",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/f8/fb/63/f8fb63aa9c5e73a98f7267f2c894ea4de0e194487a0eb2046839ea60600bf134.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F58.png",
     "notes": ""
   },
   {
@@ -550,8 +594,9 @@
     "pokedexNumber": 301,
     "number": "059/075",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ab/c3/67/abc367aaf22aa26e1269caffe1a5cba4967708728bd9c49b919326d5638e0dc3.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg8%2F59.png",
     "notes": ""
   },
   {
@@ -561,6 +606,7 @@
     "pokedexNumber": 302,
     "number": "044/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-044.png?signature=4fe9093764d82d39835995a5180f4641dac157ef155264a6dd1accdaaa8c4b35",
     "notes": ""
@@ -572,6 +618,7 @@
     "pokedexNumber": 303,
     "number": "045/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-045.png?signature=bc01cd5db4959e40438626bf2456447c2a24add0e8815317a13c266e25dbd61f",
     "notes": ""
@@ -583,6 +630,7 @@
     "pokedexNumber": 304,
     "number": "049/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-049.png?signature=66f7ede20eb3300dbb59258ea73b0fd3c52e8f299fed3e48428dacc3513779c0",
     "notes": ""
@@ -594,6 +642,7 @@
     "pokedexNumber": 305,
     "number": "050/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-050.png?signature=600ccc761731df3349737946bbcfa38fc1721e8a3260948430a2f64a3ecad6d6",
     "notes": ""
@@ -605,8 +654,9 @@
     "pokedexNumber": 306,
     "number": "046/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/83/65/a8/8365a835b3488f385986975058151e4f7c98dad88bbe816b2a0e1895c8290942.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv2%2F46.png",
     "notes": ""
   },
   {
@@ -615,7 +665,8 @@
     "set": "Rulers of the Heavens",
     "pokedexNumber": 307,
     "number": "035/054",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-035.png?signature=ec61a8dd172719e36e8c8ea63673cb902621764e268122ac13e7ca30e18540e4",
     "notes": ""
@@ -626,10 +677,10 @@
     "set": "Fighting Quick Construction Pack",
     "pokedexNumber": 308,
     "number": "007/015",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/2c/9f/b5/2c9fb5957c415aef4232601b7dd2eacf5e214cf4e25ff5b26f0ab6f5aa30e326.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpf%2F7.png",
     "notes": ""
   },
   {
@@ -639,6 +690,7 @@
     "pokedexNumber": 309,
     "number": "024/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-024.png?signature=6c0e7d4e659e68be36b4b229eac3098c0e684efc948e99fba11595546368f0af",
     "notes": ""
@@ -649,9 +701,10 @@
     "set": "Clash of the Blue Sky",
     "pokedexNumber": 310,
     "number": "033/082",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ca/a1/ef/caa1ef839d0c7b73b061ce2d724cebdbb514ce5381eb05befe257541542e8271.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg2%2F33.png",
     "notes": ""
   },
   {
@@ -661,6 +714,7 @@
     "pokedexNumber": 311,
     "number": "026/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-026.png?signature=813ad8889aa8f814e4e751fd83005b62eadd83e77a8941543312a6762caf2ada",
     "notes": ""
@@ -672,6 +726,7 @@
     "pokedexNumber": 312,
     "number": "027/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-027.png?signature=3531f416a612fdd8137714aca1a372bc97548200880c677c35cb19bb90bfd8b0",
     "notes": ""
@@ -683,6 +738,7 @@
     "pokedexNumber": 313,
     "number": "004/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-004.png?signature=9d64bfdf8dd9bfc2e1a32d02bd3113deaef92a7213d71ca92567729ec657e04b",
     "notes": ""
@@ -694,6 +750,7 @@
     "pokedexNumber": 314,
     "number": "005/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-005.png?signature=1667abecfb324c412150ca8409deb29b7fd5267b2c9f84d02a9d43fadc5a3e84",
     "notes": ""
@@ -705,6 +762,7 @@
     "pokedexNumber": 315,
     "number": "007/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-007.png?signature=32575407997d9b566e976892be302b01da9ed154da9af874a3d0c3e0e449f88e",
     "notes": ""
@@ -716,6 +774,7 @@
     "pokedexNumber": 316,
     "number": "013/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-013.png?signature=8ae8c4c3b0db7db82cb5864ce9f81dbc1ee0dcf1c34de3f7de329912d730a4a2",
     "notes": ""
@@ -727,6 +786,7 @@
     "pokedexNumber": 317,
     "number": "014/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-014.png?signature=a5131823226ffa1ee57682943398a803878e062b7e079e9d1e67c51fef130d3e",
     "notes": ""
@@ -738,8 +798,9 @@
     "pokedexNumber": 318,
     "number": "071/082",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8c/b3/e2/8cb3e29581dcae51b2c5e62f83ee7320ae6a1bf514b8fa0a71bc3cc7a192c0b9.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg2%2F71.png",
     "notes": ""
   },
   {
@@ -749,8 +810,9 @@
     "pokedexNumber": 319,
     "number": "072/082",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/c9/ab/2b/c9ab2b1bd2d7753e76410190ac0565e5025e48c23f3478ab9c53decccd8c8b85.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg2%2F72.png",
     "notes": ""
   },
   {
@@ -760,6 +822,7 @@
     "pokedexNumber": 320,
     "number": "021/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-021.png?signature=105b0a1e0e0cd4610d9c6073caf81b0250f6f52202396b5dae19805eeb8e6f73",
     "notes": ""
@@ -770,10 +833,10 @@
     "set": "Miracle of the Desert",
     "pokedexNumber": 321,
     "number": "021/053",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/01/43/54/014354794200b0ea84012ad3834886458387e951495b5a58dab8d731aba3112a.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv2%2F21.png",
     "notes": ""
   },
   {
@@ -783,6 +846,7 @@
     "pokedexNumber": 322,
     "number": "012/055",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv1_jp/adv1_jp-012.png?signature=a589e73a8d610ff3bcfd80ef098ee4348ad6faac455ef24fb66d133e22449484",
     "notes": ""
@@ -794,8 +858,9 @@
     "pokedexNumber": 323,
     "number": "006/015",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/36/33/f2/3633f2228b2b00e7d38596181e655825ba697bc1223f5c638c8cf53598f6b29d.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpr%2F6.png",
     "notes": ""
   },
   {
@@ -805,6 +870,7 @@
     "pokedexNumber": 324,
     "number": "010/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-010.png?signature=b4f7d27b13ce787dc7227382fd74063fb666c60b75aed11590ed244c0ecb0bc7",
     "notes": ""
@@ -816,6 +882,7 @@
     "pokedexNumber": 325,
     "number": "029/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-029.png?signature=cdddef0d0972368e9d6de11d7fe0e6a09f669cbf00672ebb858d08f9b3d1e538",
     "notes": ""
@@ -827,6 +894,7 @@
     "pokedexNumber": 326,
     "number": "030/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-030.png?signature=a907b7dc9616e40ee3b69cedf4f7467c2972ca95140b2210b0c5a43de412b605",
     "notes": ""
@@ -837,7 +905,8 @@
     "set": "Undone Seal",
     "pokedexNumber": 327,
     "number": "065/083",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-065.png?signature=7d77c843334a8424ef47074991002d68654e7f43afc74f35fc479689fa7908c8",
     "notes": ""
@@ -849,6 +918,7 @@
     "pokedexNumber": 328,
     "number": "035/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-035.png?signature=28166481afd05c1510882447c6773ea3ea741f9a8a51201ac94a64881b4521b5",
     "notes": ""
@@ -860,6 +930,7 @@
     "pokedexNumber": 329,
     "number": "040/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-040.png?signature=4afa437473563b431c3c1f96a063a723f59211e89e41b576ec03e19e23dc9a37",
     "notes": ""
@@ -870,10 +941,10 @@
     "set": "Mirage Forest",
     "pokedexNumber": 330,
     "number": "066/086",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/ee/60/50/ee6050b38450aff9006eddf476fda68177c6febd87ef12f8be044ea4460d7107.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F66.png",
     "notes": ""
   },
   {
@@ -882,10 +953,10 @@
     "set": "Grass Quick Construction Pack",
     "pokedexNumber": 331,
     "number": "005/015",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e5/04/60/e504606a5d723043c83ea5d6407627256b7f2a26418846272df77892d40499f1.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpg%2F5.png",
     "notes": ""
   },
   {
@@ -894,10 +965,10 @@
     "set": "Grass Quick Construction Pack",
     "pokedexNumber": 332,
     "number": "006/015",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a1/a8/fe/a1a8fe3ad9f07da365df1ae591a12fbc05b669f2bd224bd7f35200de37fe4f9a.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpg%2F6.png",
     "notes": ""
   },
   {
@@ -906,9 +977,10 @@
     "set": "Mirage Forest",
     "pokedexNumber": 333,
     "number": "067/086",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/d2/9e/9d/d29e9d8b7ba789d7cd82392ce8317fd046d735b0b541e293d1df4f8532f302ea.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F67.png",
     "notes": ""
   },
   {
@@ -918,8 +990,9 @@
     "pokedexNumber": 334,
     "number": "068/086",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/c9/2a/cc/c92accfa01b7db2ddd161c502db4733ad112ed69605ad3a70dc19f5a0238534b.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F68.png",
     "notes": ""
   },
   {
@@ -929,6 +1002,7 @@
     "pokedexNumber": 335,
     "number": "042/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-042.png?signature=bead44938f6be28d0c42374933304b87c010974a58d0307eb3e8aa7e90cff9e2",
     "notes": ""
@@ -940,6 +1014,7 @@
     "pokedexNumber": 336,
     "number": "008/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-008.png?signature=7df5634385ac1460169ad8fc6a0f4e4a955c126bb915603dd299dec709fb2cd8",
     "notes": ""
@@ -951,6 +1026,7 @@
     "pokedexNumber": 337,
     "number": "029/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-029.png?signature=bef2196a4a4e0a110c1d7338115467c913bd8ae215c8d738a635365e1dc48cb2",
     "notes": ""
@@ -962,6 +1038,7 @@
     "pokedexNumber": 338,
     "number": "036/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-036.png?signature=614b59e7710722a5ef5188b6e57a1c9c5d9e2257c7a6ee46de4f29b3e4589240",
     "notes": ""
@@ -973,6 +1050,7 @@
     "pokedexNumber": 339,
     "number": "016/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-016.png?signature=c0e8f01dcf5da40215c233b1fc521ad2b00a5a0d213966558b4d4b4d81f8947d",
     "notes": ""
@@ -984,6 +1062,7 @@
     "pokedexNumber": 340,
     "number": "017/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-017.png?signature=b418da09661533c622b51afeca818369032d25ec7ff5078a5f5176153a5a8bba",
     "notes": ""
@@ -995,8 +1074,9 @@
     "pokedexNumber": 341,
     "number": "004/015",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/db/a5/79/dba579a40dda0a068e413e2fc2d5e0aac2eee0abbfc3dce695c5969425b9c023.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_gbcqd%2F4.png",
     "notes": ""
   },
   {
@@ -1005,10 +1085,10 @@
     "set": "Mew O Lucario Gift Box: Crawdaunt",
     "pokedexNumber": 342,
     "number": "005/015",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/00/d9/b7/00d9b7fd85e31ff865e71d1daa0ef19b1403944670c1a2aa11accfde2295486e.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_gbcqd%2F5.png",
     "notes": ""
   },
   {
@@ -1017,7 +1097,8 @@
     "set": "Miracle of the Desert",
     "pokedexNumber": 343,
     "number": "037/053",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-037.png?signature=ce9c1d26a67df21fbdc6d27da3ff252e5e1742499d1c14aa9f0a172fc26fca39",
     "notes": ""
@@ -1029,8 +1110,9 @@
     "pokedexNumber": 344,
     "number": "037/108",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/f6/5a/d7/f65ad7e738051f30e09e396c82def03bab4c6ab64a3fc8859d258132b7094d73.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg10%2F37.png",
     "notes": ""
   },
   {
@@ -1039,9 +1121,10 @@
     "set": "Magma vs Aqua: Two Ambitions",
     "pokedexNumber": 345,
     "number": "008/080",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/94/56/c9/9456c93be7e2794b6aebd32f7c02b2a31a0b3bceb0401156abc6cf155e6f3146.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv4%2F8.png",
     "notes": ""
   },
   {
@@ -1051,8 +1134,9 @@
     "pokedexNumber": 346,
     "number": "009/080",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/31/a5/99/31a599e53ac1855ada61c27a87d02354c7677d53b91f296cf7a3e24451ddcabe.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_adv4%2F9.png",
     "notes": ""
   },
   {
@@ -1061,9 +1145,10 @@
     "set": "Mirage Forest",
     "pokedexNumber": 347,
     "number": "057/086",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/70/3b/84/703b8420fc1980a4a43b39c62a60b150669bdf165f5622841823669316574515.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F57.png",
     "notes": ""
   },
   {
@@ -1072,10 +1157,10 @@
     "set": "Mirage Forest",
     "pokedexNumber": 348,
     "number": "058/086",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/27/45/6d/27456d7f2fca7cb897a293f7f885d6c78baaa5d9294ad084ab6132719c35d1fc.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F58.png",
     "notes": ""
   },
   {
@@ -1085,8 +1170,9 @@
     "pokedexNumber": 349,
     "number": "003/015",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/92/46/fd/9246fdeea91e47b6889db0b2611d0a7f96f6747eccb0d87b308431016c75f823.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpw%2F3.png",
     "notes": ""
   },
   {
@@ -1095,9 +1181,10 @@
     "set": "Water Quick Construction Pack",
     "pokedexNumber": 350,
     "number": "004/015",
-    "count": 2,
+    "count": 3,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/4a/82/52/4a8252963f0bc8518952f18a33fc0f242b64407fb20267e8245b28fe08cfa5af.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpw%2F4.png",
     "notes": ""
   },
   {
@@ -1107,6 +1194,7 @@
     "pokedexNumber": 351,
     "number": "066/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-066.png?signature=509d01107079e9604ea31f879ceb97fd116868d2754b07b2bf14dbe8f34dbe77",
     "notes": ""
@@ -1117,7 +1205,8 @@
     "set": "Miracle of the Desert",
     "pokedexNumber": 352,
     "number": "043/053",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-043.png?signature=24ee30d215e5e106d03df2957f294e1c06ba4fd34deb37e736da5406b43fa8ab",
     "notes": ""
@@ -1129,6 +1218,7 @@
     "pokedexNumber": 353,
     "number": "031/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-031.png?signature=bce0edf8679eefe23740c8ac36a2d782dd7a9bb1d6fb9980d09b2537b2653473",
     "notes": ""
@@ -1140,6 +1230,7 @@
     "pokedexNumber": 354,
     "number": "047/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-047.png?signature=f61289608d87204a7c4d9ad95a42b22cb4e24fe91a7d8dc2bc4d51c843ade3e0",
     "notes": ""
@@ -1151,8 +1242,9 @@
     "pokedexNumber": 355,
     "number": "005/015",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/87/fb/d5/87fbd5020693182c84e82f7bd2a4436191adc2c7ad37cfa443a415aa6379ebef.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpp%2F5.png",
     "notes": ""
   },
   {
@@ -1162,8 +1254,9 @@
     "pokedexNumber": 356,
     "number": "006/015",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/20/85/01/20850118196256158a0628b02790ed8bd6107d6915c6e25ee372bd751dbb08de.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_qcpp%2F6.png",
     "notes": ""
   },
   {
@@ -1172,7 +1265,8 @@
     "set": "Undone Seal",
     "pokedexNumber": 357,
     "number": "015/083",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-015.png?signature=073b42b24326cd3b16dbdf3414d289ea249bde3afd9a98e2adbb31967c9e5c1f",
     "notes": ""
@@ -1184,6 +1278,7 @@
     "pokedexNumber": 358,
     "number": "048/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-048.png?signature=d25f5e71749d53ad622f34b9932822d83cdb770012abc69fce47c106cc36c497",
     "notes": ""
@@ -1195,8 +1290,9 @@
     "pokedexNumber": 359,
     "number": "060/108",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/11/8a/4a/118a4ab1179c6f6479d6841fcf94206b116e0e20ed2d99d269fe437d2d5d8f4b.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg10%2F60.png",
     "notes": ""
   },
   {
@@ -1206,6 +1302,7 @@
     "pokedexNumber": 360,
     "number": "032/053",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv2_jp/adv2_jp-032.png?signature=0040a65070fa63fb44a67edf57a36f783f836cb79e41bc79a2c13672a3f204f4",
     "notes": ""
@@ -1217,6 +1314,7 @@
     "pokedexNumber": 361,
     "number": "020/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-020.png?signature=900704106e2e122ae5ff3a6c48a73a380b145ae972fabe5500e5a8656126e2bb",
     "notes": ""
@@ -1227,7 +1325,8 @@
     "set": "Undone Seal",
     "pokedexNumber": 362,
     "number": "029/083",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-029.png?signature=d43b833cd01f57dfd3fda46a8f00495571e5994a1b0fc676c1e9b18d5c15587e",
     "notes": ""
@@ -1239,8 +1338,9 @@
     "pokedexNumber": 363,
     "number": "027/086",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e3/70/26/e37026957e5c7ff3b975fb1573dc93a347656fadce3489a1b016bc380e175fa5.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F27.png",
     "notes": ""
   },
   {
@@ -1250,8 +1350,9 @@
     "pokedexNumber": 364,
     "number": "028/086",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/7e/61/70/7e61703f253f27e33357144ab4e579210d113c541553b23773d398d357d00f60.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F28.png",
     "notes": ""
   },
   {
@@ -1260,10 +1361,10 @@
     "set": "Mirage Forest",
     "pokedexNumber": 365,
     "number": "029/086",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/7f/a7/c9/7fa7c925bc94f7a2585235ffdcf26c5d3bf1d880204b24c1c2e7804851afa4f0.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg5%2F29.png",
     "notes": ""
   },
   {
@@ -1272,7 +1373,8 @@
     "set": "Undone Seal",
     "pokedexNumber": 366,
     "number": "033/083",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-033.png?signature=924cd5ab251191f238090a26c199716720df94666e148ea7ac29c621d06323f2",
     "notes": ""
@@ -1284,6 +1386,7 @@
     "pokedexNumber": 367,
     "number": "034/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-034.png?signature=c4c00cbc1dcdd1942b79f8a2fe154bcfe749ddbdf4a680f1d35f9bdffb9bb772",
     "notes": ""
@@ -1295,6 +1398,7 @@
     "pokedexNumber": 368,
     "number": "035/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-035.png?signature=03f1756b0911667ce9c98b3764b020b4e853e1b246447f6048ce45b4d150ef42",
     "notes": ""
@@ -1306,6 +1410,7 @@
     "pokedexNumber": 369,
     "number": "036/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-036.png?signature=f78619b5d643114bb05d0a801a5745581ff84747544b5ea4c31438063be41a20",
     "notes": ""
@@ -1317,6 +1422,7 @@
     "pokedexNumber": 370,
     "number": "037/083",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-037.png?signature=606011d496ea86e2b0e2f56915ac68226b0d10c66ecd8497ac12c61db1a8fcf6",
     "notes": ""
@@ -1327,9 +1433,10 @@
     "set": "Clash of the Blue Sky",
     "pokedexNumber": 371,
     "number": "062/082",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/b3/65/66/b36566509133629944f8e3e25bf82915bc5f214ecbc5a8aea727c340f15991a5.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg2%2F62.png",
     "notes": ""
   },
   {
@@ -1338,9 +1445,10 @@
     "set": "Clash of the Blue Sky",
     "pokedexNumber": 372,
     "number": "063/082",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/e1/29/67/e12967641169ebd71b16cbea9c7e93d8c2d326b1ccc71606853ffc8bea4379d0.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg2%2F63.png",
     "notes": ""
   },
   {
@@ -1350,8 +1458,9 @@
     "pokedexNumber": 373,
     "number": "064/082",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/9e/97/92/9e9792f3ac731016f0bdaa50476a9a2aae38373624946cc7a92fbab8734ee2a7.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcg2%2F64.png",
     "notes": ""
   },
   {
@@ -1360,7 +1469,8 @@
     "set": "Undone Seal",
     "pokedexNumber": 374,
     "number": "069/083",
-    "count": 0,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-069.png?signature=a7b85f453c63f53fcdeb8f645a861fb89c4fd39720ac1ff59d9b5b4e8bd59315",
     "notes": ""
@@ -1372,6 +1482,7 @@
     "pokedexNumber": 375,
     "number": "070/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-070.png?signature=95efa9993611417b6e85f88ecba0b5de0dab9b5d3988c3f1fe47c14272614bbb",
     "notes": ""
@@ -1382,7 +1493,8 @@
     "set": "Undone Seal",
     "pokedexNumber": 376,
     "number": "071/083",
-    "count": 0,
+    "count": 2,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-071.png?signature=90017257e3921147e6af9144f78f93fa5d83d2d4f9562d6c7b32837a0872696d",
     "notes": ""
@@ -1394,6 +1506,7 @@
     "pokedexNumber": 377,
     "number": "055/083",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-055.png?signature=4b40536e7c91b5665c6c2028251750d3c1f568bfc1c82a7ea79b6e3f1bdc9fab",
     "notes": ""
@@ -1405,6 +1518,7 @@
     "pokedexNumber": 378,
     "number": "038/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-038.png?signature=2880a9bbda85b0acc42d501c6c7825fab90f1cdf71dd45a844bb8ee3c3779501",
     "notes": ""
@@ -1416,6 +1530,7 @@
     "pokedexNumber": 379,
     "number": "072/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-072.png?signature=8a878e40d9e67a26f504de3427d8637d49f0f0b01c37408f27e620239b35dd0c",
     "notes": ""
@@ -1427,8 +1542,9 @@
     "pokedexNumber": 380,
     "number": "011/018",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/62/d3/4d/62d34ddb5efb825183e9830d63e3c5c1ea8445d01a608b288c3cf67c9749a073.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_gblaxhd%2F11.png",
     "notes": ""
   },
   {
@@ -1438,8 +1554,9 @@
     "pokedexNumber": 381,
     "number": "011/018",
     "count": 0,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/35/3a/1d/353a1da1666940ddd316c4460c84c02f594076085dc7d374edb2c3a74e6ab39c.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_gbloxhd%2F11.png",
     "notes": ""
   },
   {
@@ -1449,6 +1566,7 @@
     "pokedexNumber": 382,
     "number": "039/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-039.png?signature=9dc7b8330228a9afe6a05075d7cae27e14e9366724854e2333aff0c2abb977ac",
     "notes": ""
@@ -1460,6 +1578,7 @@
     "pokedexNumber": 383,
     "number": "056/083",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv5_jp/adv5_jp-056.png?signature=27cbc7131de47b7a1d87dfff429fb1d7d0fdd1425c7153de55c1cf95f49f868b",
     "notes": ""
@@ -1471,6 +1590,7 @@
     "pokedexNumber": 384,
     "number": "047/054",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://assets.pkmn.gg/fit-in/600x836/filters:format(webp)/images/cards/adv3_jp/adv3_jp-047.png?signature=b2cf98f70831c7dbd79073b76b45ba4d27eb0dfbaff7aac556ac0c038c3da753",
     "notes": ""
@@ -1482,8 +1602,9 @@
     "pokedexNumber": 385,
     "number": "006/019",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/47/1d/f8/471df8ea65b13d23d0c5d25e79b99246bef07a94fad5d0b278282f8c5237492e.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_mecsd%2F6.png",
     "notes": ""
   },
   {
@@ -1493,8 +1614,9 @@
     "pokedexNumber": 386,
     "number": "006/015",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/c4/36/3e/c4363ead458697399f70ced5cf3464806be958286af4f1317bbae65eaad97e33.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dcsd%2F6.png",
     "notes": ""
   }
 ]

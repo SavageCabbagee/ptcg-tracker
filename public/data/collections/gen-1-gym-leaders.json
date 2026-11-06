@@ -1,0 +1,110 @@
+[
+  {
+    "id": "gen1-gym-leaders-jp-brock",
+    "name": "Brock",
+    "set": "Nivi City Gym",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-decks/pk_590c0f2e92053daa43e6a14f871ae79c0a570d8c98151328cc0674e445b32b00cde01f83ebcd5203bbbe.jpg",
+    "notes": "Holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-misty",
+    "name": "Misty",
+    "set": "Hanada City Gym",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 0,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-decks/pk_4e9596b77177fd49733ea60244ca04db2d3a3ddf021f9a82606098f8720deb4d42a4f8c983673646c929.jpg",
+    "notes": "Holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-lt-surge",
+    "name": "Lt. Surge",
+    "set": "Kuchiba City Gym",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-decks/pk_dcba9d637aee1ed330c50422e14c36fd29cde5ba6bc0e65a949b79c895ba713fdf682b94508f17c296ff.jpg",
+    "notes": "Holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-erika",
+    "name": "Erika",
+    "set": "Tamamushi City Gym",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-decks/pk_defdd2665d12d321c171f6a81d19201a61e6e0a11cddfd8d2f1e7fa5ff466825c447f3fbdc68302a52c8.jpg",
+    "notes": "Holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-koga",
+    "name": "Koga",
+    "set": "Challenge from the Darkness (Gym 2)",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-challenge/pk_bcb281720c837f9549ba60afbb1dab69f999cf480fa88bd09ddcee8748fd04a34a4097a7d3af632377b7.jpg",
+    "notes": "Non-holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-sabrina",
+    "name": "Sabrina",
+    "set": "Yamabuki City Gym",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-decks/pk_c540de6c75d9a89e2e35aca846bfeb38edac9bcfb413771de264626da899d7dd52df23427b9b23e4f726.jpg",
+    "notes": "Holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-blaine",
+    "name": "Blaine",
+    "set": "Guren Town Gym",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-decks/pk_267f69cbdff9009b0776c985e86d38554509e5042afd12b5455f715b37ad35802f63d7698b03426eb06d.jpg",
+    "notes": "Holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-giovanni",
+    "name": "Giovanni",
+    "set": "Challenge from the Darkness (Gym 2)",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://aplnyshrkrgbselitojs.supabase.co/storage/v1/object/public/card-images/gym-challenge/pk_90624a16bf8c278eb434fe454225309fb768efe1bc44132b1ad2fb870380d5ef908fa5c83c445e373bb4.jpg",
+    "notes": "Holo."
+  },
+  {
+    "id": "gen1-gym-leaders-jp-professor-oak",
+    "name": "Professor Oak",
+    "set": "Expansion Pack (PMCG1)",
+    "pokedexNumber": null,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_b01%2F77.png",
+    "notes": "Non-holo."
+  }
+]

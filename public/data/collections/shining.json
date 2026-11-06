@@ -6,6 +6,7 @@
     "pokedexNumber": 251,
     "number": "001/010",
     "count": 0,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/cb2580a3-ae82-4e42-bcc9-8efa1963a209.webp",
     "notes": ""
@@ -17,6 +18,7 @@
     "pokedexNumber": 649,
     "number": "002/010",
     "count": 0,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/fd29627d-efb2-491e-8c4c-52fd0ae66719.webp",
     "notes": ""
@@ -28,6 +30,7 @@
     "pokedexNumber": 250,
     "number": "003/010",
     "count": 1,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/49cc5ac3-b0d2-46a9-b69f-d91d15358ce4.webp",
     "notes": ""
@@ -39,6 +42,7 @@
     "pokedexNumber": 721,
     "number": "004/010",
     "count": 1,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/1b1e8cea-7e40-4fb9-9761-29e8aef2c74a.webp",
     "notes": ""
@@ -50,6 +54,7 @@
     "pokedexNumber": 151,
     "number": "005/010",
     "count": 1,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/3e89a73c-ffb2-4bad-af9c-4c8ccf60daff.webp",
     "notes": ""
@@ -61,6 +66,7 @@
     "pokedexNumber": 385,
     "number": "006/010",
     "count": 1,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/379a6047-e32f-4dd2-b65a-9d365fc18b25.webp",
     "notes": ""
@@ -72,6 +78,7 @@
     "pokedexNumber": 384,
     "number": "007/010",
     "count": 0,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/ed87f40b-fb49-4dfd-9ba6-6914a6f84d81.webp",
     "notes": ""
@@ -83,6 +90,7 @@
     "pokedexNumber": 249,
     "number": "008/010",
     "count": 0,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/6f291e77-c544-4955-be7e-dc0c0a954546.webp",
     "notes": ""
@@ -94,6 +102,7 @@
     "pokedexNumber": 493,
     "number": "009/010",
     "count": 1,
+    "arrivingCount": 0,
     "language": "CN",
     "imageUrl": "https://images.pikaqian.com/csmjc/1c99ae6b-3ad9-4c04-aed5-ea11b1d00c96.webp",
     "notes": ""

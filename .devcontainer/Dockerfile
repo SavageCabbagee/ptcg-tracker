@@ -1,7 +1,9 @@
-FROM mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm
+FROM mcr.microsoft.com/devcontainers/javascript-node:5-24-trixie
+
+RUN dpkg --compare-versions "$(node --print process.versions.node)" ge 24.22.1
 
 # System tools useful for Vite, GitHub auth, and Codex CLI
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends \
     git \
     curl \
     jq \

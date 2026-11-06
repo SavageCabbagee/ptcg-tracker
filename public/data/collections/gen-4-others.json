@@ -6,8 +6,33 @@
     "pokedexNumber": 389,
     "number": "076/DP-P",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DPP/016001_P_DODAITOSU.gif",
+    "notes": ""
+  },
+  {
+    "id": "cherrim-dp-p-035",
+    "name": "Cherrim",
+    "set": "Diamond & Pearl Promos (DP-P)",
+    "pokedexNumber": 421,
+    "number": "035/DP-P",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dpp%2F35.png",
+    "notes": ""
+  },
+  {
+    "id": "yanmega-dp-p-082",
+    "name": "Yanmega",
+    "set": "Diamond & Pearl Promos (DP-P)",
+    "pokedexNumber": 469,
+    "number": "082/DP-P",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dpp%2F82.png",
     "notes": ""
   },
   {
@@ -17,6 +42,7 @@
     "pokedexNumber": 487,
     "number": "109/DP-P",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.cardtrader.com/uploads/blueprints/image/279124/show_real-world-s-giratina-lv-62-109-dp-p-dp-promos.jpg",
     "notes": ""
@@ -28,8 +54,9 @@
     "pokedexNumber": 405,
     "number": "039/090",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/c0/6d/bd/c06dbdea411c6e600e2a7aa8830d134254b3c6cae6f6a617f75b5b1aa157f2aa.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pt4%2F39.png",
     "notes": ""
   },
   {
@@ -38,7 +65,8 @@
     "set": "Diamond & Pearl Promos (DP-P)",
     "pokedexNumber": 491,
     "number": "046/DP-P",
-    "count": 1,
+    "count": 2,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/ce/f9/cd/cef9cdf24e1e1b0ac5dab3119120801698379a25f38bb41841498bb38f0d4054.jpg",
     "notes": ""
@@ -50,6 +78,7 @@
     "pokedexNumber": 491,
     "number": "023/036",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/40/17/1b/40171b37cd182ea2440a74b832487470ada074f25894592e4857a9eaf7c1b5df.jpg",
     "notes": ""
@@ -61,6 +90,7 @@
     "pokedexNumber": 492,
     "number": "326/S-P",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/fa/c8/0e/fac80e3bdbb423c8c9135498956adbf4bdde6cea686e6456b86bad3b6fbe82ef.jpg",
     "notes": ""
@@ -72,8 +102,9 @@
     "pokedexNumber": 488,
     "number": "068",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/00/33/e4/0033e45b104428dcf85ace5943bc67af7d11c82a810d8ee20b88538ba6eb930d.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dp4a%2F38.png",
     "notes": ""
   },
   {
@@ -83,8 +114,9 @@
     "pokedexNumber": 395,
     "number": "33",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/a0/be/4f/a0be4f1fb41597463dd001b25d1c57b070dca2dc76e403a19fa9d7fa311d954b.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dp1%2F33.png",
     "notes": ""
   },
   {
@@ -93,8 +125,8 @@
     "set": "Shaymin LV.X Collection Pack (PtS)",
     "pokedexNumber": 484,
     "number": "006/012",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://tcgrepublic.com/media/binary/000/171/561/171561.jpg",
     "notes": ""
@@ -105,8 +137,8 @@
     "set": "Mewtwo LV.X Collection Pack (PtM)",
     "pokedexNumber": 483,
     "number": "010/012",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://tcgrepublic.com/media/binary/000/187/581/187581.jpg",
     "notes": ""
@@ -117,8 +149,8 @@
     "set": "Diamond & Pearl Promos (DP-P)",
     "pokedexNumber": 485,
     "number": "092/DP-P",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://images.scrydex.com/pokemon/dpp_ja-92/large",
     "notes": ""
@@ -129,8 +161,8 @@
     "set": "Galactic's Conquest (DPt1)",
     "pokedexNumber": 492,
     "number": "015/096",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://tcgrepublic.com/media/binary/000/171/707/171707.jpg",
     "notes": ""
@@ -141,22 +173,10 @@
     "set": "Sun & Moon Promos (SM-P)",
     "pokedexNumber": 488,
     "number": "166/SM-P",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://tcgrepublic.com/media/binary/000/076/019/76019.jpg",
-    "notes": ""
-  },
-  {
-    "id": "tcgrepublic-170226",
-    "name": "Lucario",
-    "set": "Lost Link (LL)",
-    "pokedexNumber": 448,
-    "number": "026/040",
-    "count": 0,
-    "arrivingCount": 1,
-    "language": "JP",
-    "imageUrl": "https://tcgrepublic.com/media/binary/000/170/226/170226.jpg",
     "notes": ""
   },
   {
@@ -165,22 +185,10 @@
     "set": "Temple of Anger (DP5)",
     "pokedexNumber": 462,
     "number": "No. 060",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://tcgrepublic.com/media/binary/000/192/183/192183.jpg",
-    "notes": ""
-  },
-  {
-    "id": "scrydex-l2-ja-32",
-    "name": "Gliscor",
-    "set": "Reviving Legends (L2)",
-    "pokedexNumber": 472,
-    "number": "032/080",
-    "count": 0,
-    "arrivingCount": 1,
-    "language": "JP",
-    "imageUrl": "https://images.scrydex.com/pokemon/l2_ja-32/large",
     "notes": ""
   },
   {
@@ -189,8 +197,8 @@
     "set": "Advent of Arceus (DPt4)",
     "pokedexNumber": 478,
     "number": "028/090",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://tcgrepublic.com/media/binary/000/186/066/186066.jpg",
     "notes": ""

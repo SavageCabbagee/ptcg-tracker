@@ -17,6 +17,11 @@
       ]
     },
     {
+      "id": "gen-1-gym-leaders",
+      "name": "Gen 1 Gym Leaders",
+      "file": "collections/gen-1-gym-leaders.json"
+    },
+    {
       "id": "gen2",
       "name": "Pokedex Gen 2",
       "file": "collections/pokedex-gen-2.json"
@@ -85,9 +90,25 @@
       "file": "collections/arceus.json"
     },
     {
+      "id": "legend",
+      "name": "Legend",
+      "file": "collections/legend.json"
+    },
+    {
       "id": "connecting-art",
-      "name": "Connecting Art",
-      "file": "collections/connecting-art.json"
+      "name": "Connecting Art: ARs",
+      "file": "collections/connecting-art.json",
+      "subgroups": [
+        {
+          "id": "30th-anniversary-starters",
+          "name": "30th Anniversary Starters"
+        }
+      ]
+    },
+    {
+      "id": "connecting-art-classic",
+      "name": "Connecting Art: Classic",
+      "file": "collections/connecting-art-classic.json"
     },
     {
       "id": "themes",
@@ -153,6 +174,41 @@
         {
           "id": "cp5",
           "name": "CP5"
+        },
+        {
+          "id": "city",
+          "name": "City"
+        },
+        {
+          "id": "fire",
+          "name": "Fire"
+        },
+        {
+          "id": "group-fight",
+          "name": "Group - Fight"
+        },
+        {
+          "id": "group-chill",
+          "name": "Group - Chill"
+        },
+        {
+          "id": "30th-anniversary-pikachu",
+          "name": "30th Anniversary Pikachu"
+        }
+      ]
+    },
+    {
+      "id": "eeveelutions",
+      "name": "Eeveelutions",
+      "file": "collections/eeveelutions.json",
+      "subgroups": [
+        {
+          "id": "yu-nagaba",
+          "name": "Yu Nagaba"
+        },
+        {
+          "id": "terastal",
+          "name": "Terastal"
         }
       ]
     },
@@ -174,7 +230,17 @@
     {
       "id": "others",
       "name": "Others",
-      "file": "collections/others.json"
+      "file": "collections/others.json",
+      "subgroups": [
+        {
+          "id": "v-sr",
+          "name": "V SR"
+        },
+        {
+          "id": "ar",
+          "name": "AR"
+        }
+      ]
     }
   ]
 }

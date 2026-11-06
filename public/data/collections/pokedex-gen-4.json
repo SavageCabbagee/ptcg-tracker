@@ -6,6 +6,7 @@
     "pokedexNumber": 464,
     "number": "049",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP5/017115_P_DOSAIDON.gif",
     "notes": ""
@@ -17,8 +18,33 @@
     "pokedexNumber": 466,
     "number": "004",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP2/002052_P_EREKIBURU.gif",
+    "notes": ""
+  },
+  {
+    "id": "gliscor-lv-x-dp5-heatran",
+    "name": "Gliscor LV.X",
+    "set": "Heatran Half Deck (DP5)",
+    "pokedexNumber": 472,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP5/017018_P_GURAION.gif",
+    "notes": ""
+  },
+  {
+    "id": "porygon-z-lv-x-dp5",
+    "name": "Porygon-Z LV.X",
+    "set": "Temple of Anger (DP5)",
+    "pokedexNumber": 474,
+    "number": "",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dp5a%2F52.png",
     "notes": ""
   },
   {
@@ -28,8 +54,9 @@
     "pokedexNumber": 480,
     "number": "042",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/48/6a/ea/486aea4858dc294e1fd142aca6d515bab6b1c9680e48bc30809eb6446a401b90.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dp5b%2F42.png",
     "notes": ""
   },
   {
@@ -39,6 +66,7 @@
     "pokedexNumber": 481,
     "number": "033",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP5/017099_P_EMURITTO.gif",
     "notes": ""
@@ -50,6 +78,7 @@
     "pokedexNumber": 482,
     "number": "034",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/DP5/017100_P_AGUNOMU.gif",
     "notes": ""
@@ -61,8 +90,9 @@
     "pokedexNumber": 483,
     "number": "007",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/19/98/1b/19981bb2eb3944e19cf4177cc3d94558d14f4a195ad46a4038c26868cba99e70.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dicsd%2F7.png",
     "notes": ""
   },
   {
@@ -72,8 +102,9 @@
     "pokedexNumber": 484,
     "number": "013",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/79/0e/41/790e4142b3b4faf9d9cc0934ad9c1251700cf88623ffb1f7bb4d66b091d19983.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pcsd%2F4.png",
     "notes": ""
   },
   {
@@ -83,8 +114,9 @@
     "pokedexNumber": 486,
     "number": "011/012",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/28/be/0f/28be0f160f5d1a87a943a94aa53a9f70bbc25a9cc33741153ef815cbf45bef61.jpg",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_pte%2F11.png",
     "notes": ""
   },
   {
@@ -94,8 +126,9 @@
     "pokedexNumber": 488,
     "number": "069",
     "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.tcgcollector.com/content/images/8f/60/7b/8f607bf975d4de831829f45824781d98139566fab824640f51b14daa5dcc0940.webp",
+    "imageUrl": "https://static.dextcg.com/cards/jpn_dp4a%2F39.png",
     "notes": ""
   },
   {
@@ -104,8 +137,8 @@
     "set": "Intense Fight in the Destroyed Sky (DPs-B)",
     "pokedexNumber": 485,
     "number": "015/092",
-    "count": 0,
-    "arrivingCount": 1,
+    "count": 1,
+    "arrivingCount": 0,
     "language": "JP",
     "imageUrl": "https://tcgrepublic.com/media/binary/000/171/487/171487.jpg",
     "notes": ""
