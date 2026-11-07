@@ -68,6 +68,7 @@ export function CardFormModal({
             <img
               className="mx-auto max-h-[64vh] w-full max-w-sm rounded-md object-contain sm:max-h-[68vh]"
               src={draft.imageUrl}
+              referrerPolicy="no-referrer"
               alt={draft.name ? `${draft.name} card` : 'Card preview'}
             />
           ) : (
