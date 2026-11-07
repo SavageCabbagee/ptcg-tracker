@@ -44,7 +44,6 @@ export function CardGrid({ cards, isLoaded, error, onEdit, onReceive, onDelete }
               <img
                 className="h-full w-full object-cover"
                 src={card.imageUrl}
-                referrerPolicy="no-referrer"
                 alt={`${card.name} card`}
                 loading="lazy"
               />

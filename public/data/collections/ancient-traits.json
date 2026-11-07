@@ -322,5 +322,65 @@
     "language": "JP",
     "imageUrl": "https://static.tcgcollector.com/content/images/1d/db/75/1ddb759455c0753fd7a9969d30b590b9b3c16239c19a9f7eaf673d1adb25673b.jpg",
     "notes": ""
+  },
+  {
+    "id": "xy6-b-043-078-dragonite",
+    "name": "Dragonite",
+    "set": "Emerald Break (XY6-B)",
+    "pokedexNumber": 149,
+    "number": "043/078",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/XY6-B/030898_P_KAIRYU.jpg",
+    "notes": ""
+  },
+  {
+    "id": "cp4-085-131-togekiss",
+    "name": "Togekiss",
+    "set": "Premium Champion Pack (CP4)",
+    "pokedexNumber": 468,
+    "number": "085/131",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/CP4/031950_P_TOGEKISSU.jpg",
+    "notes": ""
+  },
+  {
+    "id": "xy7-b-067-081-porygon-z",
+    "name": "Porygon-Z",
+    "set": "Bandit Ring (XY7-B)",
+    "pokedexNumber": 474,
+    "number": "067/081",
+    "count": 2,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/XY7-B/031040_P_PORIGONZ.jpg",
+    "notes": ""
+  },
+  {
+    "id": "m-p-056-bunnelby",
+    "name": "Bunnelby",
+    "set": "M-P Promos (M-P)",
+    "pokedexNumber": 659,
+    "number": "056/M-P",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/XY/049623_P_HORUBI.jpg",
+    "notes": ""
+  },
+  {
+    "id": "m-p-064-parallel-city",
+    "name": "Parallel City",
+    "set": "M-P Promos (M-P)",
+    "pokedexNumber": null,
+    "number": "064/M-P",
+    "count": 1,
+    "arrivingCount": 0,
+    "language": "JP",
+    "imageUrl": "https://www.pokemon-card.com/assets/images/card_images/large/XY/049631_T_PARARERUSHITEI.jpg",
+    "notes": ""
   }
 ]

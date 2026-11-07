@@ -45,7 +45,7 @@
     "count": 1,
     "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.dextcg.com/cards/jpn_s12%2F106.png",
+    "imageUrl": "https://images.scrydex.com/pokemon/swsh12_ja-106/large",
     "notes": "",
     "subgroupId": "v-sr"
   },
@@ -58,7 +58,7 @@
     "count": 1,
     "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.dextcg.com/cards/jpn_s12a%2F231.png",
+    "imageUrl": "https://images.scrydex.com/pokemon/swsh12a_ja-231/large",
     "notes": "",
     "subgroupId": "v-sr"
   },
@@ -71,7 +71,7 @@
     "count": 1,
     "arrivingCount": 0,
     "language": "JP",
-    "imageUrl": "https://static.dextcg.com/cards/jpn_m3%2F89.png",
+    "imageUrl": "https://images.scrydex.com/pokemon/m3_ja-89/large",
     "notes": "",
     "subgroupId": "ar"
   },
